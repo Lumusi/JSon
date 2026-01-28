@@ -1,0 +1,497 @@
+{
+  "summary": {
+    "total_deprecated": 61,
+    "with_replacement": 15,
+    "for_removal": 23
+  },
+  "items": [
+    {
+      "type": "class",
+      "name": "net.runelite.client.plugins.microbot.util.gameobject.Rs2GameObject",
+      "replacement": "",
+      "since": "2.1.0 - Use Rs2TileObjectQueryable instead",
+      "forRemoval": true,
+      "reason": ""
+    },
+    {
+      "type": "class",
+      "name": "net.runelite.client.plugins.microbot.util.grounditem.Rs2GroundItem",
+      "replacement": "",
+      "since": "2.1.0 - Use Rs2TileItemCache/Rs2TileItemQuery instead",
+      "forRemoval": true,
+      "reason": ""
+    },
+    {
+      "type": "class",
+      "name": "net.runelite.client.plugins.microbot.util.models.RS2Item",
+      "replacement": "",
+      "since": "use inventory.rs2item",
+      "forRemoval": false,
+      "reason": ""
+    },
+    {
+      "type": "class",
+      "name": "net.runelite.client.plugins.microbot.util.npc.Rs2Npc",
+      "replacement": "",
+      "since": "2.1.0 - Use Rs2NpcCache/Rs2NpcQuery instead",
+      "forRemoval": true,
+      "reason": ""
+    },
+    {
+      "type": "class",
+      "name": "net.runelite.client.plugins.microbot.util.security.Login",
+      "replacement": "",
+      "since": "",
+      "forRemoval": false,
+      "reason": ""
+    },
+    {
+      "type": "method",
+      "name": "net.runelite.client.plugins.microbot.api.npc.Rs2NpcCache#getNpcsStream()",
+      "replacement": "Microbot#getRs2NpcCache().getStream()",
+      "since": "2.1.8",
+      "forRemoval": true,
+      "reason": ""
+    },
+    {
+      "type": "method",
+      "name": "net.runelite.client.plugins.microbot.api.player.Rs2PlayerCache#getPlayersStream()",
+      "replacement": "Microbot#getRs2PlayerCache().getStream()",
+      "since": "2.1.8",
+      "forRemoval": true,
+      "reason": ""
+    },
+    {
+      "type": "method",
+      "name": "net.runelite.client.plugins.microbot.api.tileitem.Rs2TileItemCache#getTileItemsStream()",
+      "replacement": "Microbot#getRs2TileItemCache().getStream()",
+      "since": "2.1.8",
+      "forRemoval": true,
+      "reason": ""
+    },
+    {
+      "type": "method",
+      "name": "net.runelite.client.plugins.microbot.api.tileobject.Rs2TileObjectCache#getObjectsStream()",
+      "replacement": "Microbot#getRs2TileObjectCache().getStream()",
+      "since": "2.1.8",
+      "forRemoval": true,
+      "reason": ""
+    },
+    {
+      "type": "method",
+      "name": "net.runelite.client.plugins.microbot.shortestpath.pathfinder.PathfinderConfig#setRestrictedTiles(Restriction[])",
+      "replacement": "",
+      "since": "1.6.2 - Add Restrictions to restrictions.tsv",
+      "forRemoval": true,
+      "reason": ""
+    },
+    {
+      "type": "method",
+      "name": "net.runelite.client.plugins.microbot.util.bank.Rs2BankData#getAsList()",
+      "replacement": "getBankItems()",
+      "since": "",
+      "forRemoval": false,
+      "reason": ""
+    },
+    {
+      "type": "method",
+      "name": "net.runelite.client.plugins.microbot.util.combat.Rs2Combat#enableAutoRetialiate()",
+      "replacement": "",
+      "since": "use setAutoRetaliate",
+      "forRemoval": false,
+      "reason": ""
+    },
+    {
+      "type": "method",
+      "name": "net.runelite.client.plugins.microbot.util.gameobject.Rs2GameObject#convertGameObjectToObjectComposition(TileObject)",
+      "replacement": "",
+      "since": "",
+      "forRemoval": false,
+      "reason": ""
+    },
+    {
+      "type": "method",
+      "name": "net.runelite.client.plugins.microbot.util.gameobject.Rs2GameObject#convertGameObjectToObjectComposition(int)",
+      "replacement": "",
+      "since": "",
+      "forRemoval": false,
+      "reason": ""
+    },
+    {
+      "type": "method",
+      "name": "net.runelite.client.plugins.microbot.util.gameobject.Rs2GameObject#findGroundObjectByLocation(WorldPoint)",
+      "replacement": "Tile#getGameObjects()",
+      "since": "",
+      "forRemoval": false,
+      "reason": ""
+    },
+    {
+      "type": "method",
+      "name": "net.runelite.client.plugins.microbot.util.gameobject.Rs2GameObject#findObject(Integer[])",
+      "replacement": "",
+      "since": "",
+      "forRemoval": false,
+      "reason": ""
+    },
+    {
+      "type": "method",
+      "name": "net.runelite.client.plugins.microbot.util.gameobject.Rs2GameObject#findObject(String, boolean, int, boolean, WorldPoint)",
+      "replacement": "",
+      "since": "",
+      "forRemoval": false,
+      "reason": ""
+    },
+    {
+      "type": "method",
+      "name": "net.runelite.client.plugins.microbot.util.gameobject.Rs2GameObject#findObject(int, WorldPoint)",
+      "replacement": "",
+      "since": "",
+      "forRemoval": false,
+      "reason": ""
+    },
+    {
+      "type": "method",
+      "name": "net.runelite.client.plugins.microbot.util.gameobject.Rs2GameObject#findObjectById(int, int)",
+      "replacement": "",
+      "since": "",
+      "forRemoval": false,
+      "reason": ""
+    },
+    {
+      "type": "method",
+      "name": "net.runelite.client.plugins.microbot.util.gameobject.Rs2GameObject#findObjectByIdAndDistance(int, int)",
+      "replacement": "",
+      "since": "",
+      "forRemoval": false,
+      "reason": ""
+    },
+    {
+      "type": "method",
+      "name": "net.runelite.client.plugins.microbot.util.gameobject.Rs2GameObject#findObjectByImposter(int, String)",
+      "replacement": "",
+      "since": "",
+      "forRemoval": false,
+      "reason": ""
+    },
+    {
+      "type": "method",
+      "name": "net.runelite.client.plugins.microbot.util.gameobject.Rs2GameObject#findObjectByImposter(int, String, boolean)",
+      "replacement": "",
+      "since": "",
+      "forRemoval": false,
+      "reason": ""
+    },
+    {
+      "type": "method",
+      "name": "net.runelite.client.plugins.microbot.util.gameobject.Rs2GameObject#findObjectComposition(int)",
+      "replacement": "",
+      "since": "",
+      "forRemoval": false,
+      "reason": ""
+    },
+    {
+      "type": "method",
+      "name": "net.runelite.client.plugins.microbot.util.gameobject.Rs2GameObject#findReachableObject(String, boolean, int, WorldPoint)",
+      "replacement": "",
+      "since": "",
+      "forRemoval": false,
+      "reason": ""
+    },
+    {
+      "type": "method",
+      "name": "net.runelite.client.plugins.microbot.util.gameobject.Rs2GameObject#findReachableObject(String, boolean, int, WorldPoint, boolean, String)",
+      "replacement": "",
+      "since": "",
+      "forRemoval": false,
+      "reason": ""
+    },
+    {
+      "type": "method",
+      "name": "net.runelite.client.plugins.microbot.util.gameobject.Rs2GameObject#get(String)",
+      "replacement": "",
+      "since": "",
+      "forRemoval": false,
+      "reason": ""
+    },
+    {
+      "type": "method",
+      "name": "net.runelite.client.plugins.microbot.util.gameobject.Rs2GameObject#get(String, boolean)",
+      "replacement": "",
+      "since": "",
+      "forRemoval": false,
+      "reason": ""
+    },
+    {
+      "type": "method",
+      "name": "net.runelite.client.plugins.microbot.util.gameobject.Rs2GameObject#getObjectComposition(int)",
+      "replacement": "",
+      "since": "",
+      "forRemoval": false,
+      "reason": ""
+    },
+    {
+      "type": "method",
+      "name": "net.runelite.client.plugins.microbot.util.inventory.Rs2Inventory#dropEmptyVials()",
+      "replacement": "",
+      "since": "Use dropAll",
+      "forRemoval": false,
+      "reason": ""
+    },
+    {
+      "type": "method",
+      "name": "net.runelite.client.plugins.microbot.util.inventory.Rs2Inventory#equip(String[])",
+      "replacement": "",
+      "since": "Use wield",
+      "forRemoval": false,
+      "reason": ""
+    },
+    {
+      "type": "method",
+      "name": "net.runelite.client.plugins.microbot.util.inventory.Rs2Inventory#getEmptySlots()",
+      "replacement": "",
+      "since": "Use emptySlotCount",
+      "forRemoval": false,
+      "reason": ""
+    },
+    {
+      "type": "method",
+      "name": "net.runelite.client.plugins.microbot.util.inventory.Rs2Inventory#useItemOnNpc(int, NPC)",
+      "replacement": "",
+      "since": "1.8.6",
+      "forRemoval": true,
+      "reason": "since 1.8.6, forRemoval = true #useItemOnNpc(int, Rs2NpcModel)"
+    },
+    {
+      "type": "method",
+      "name": "net.runelite.client.plugins.microbot.util.magic.Rs2Magic#getRequiredRunes(Spell, int, boolean)",
+      "replacement": "",
+      "since": "Use getMissingRunes",
+      "forRemoval": false,
+      "reason": ""
+    },
+    {
+      "type": "method",
+      "name": "net.runelite.client.plugins.microbot.util.npc.Rs2Npc#attack(NPC)",
+      "replacement": "#attack(Rs2NpcModel)",
+      "since": "1.7.2",
+      "forRemoval": true,
+      "reason": ""
+    },
+    {
+      "type": "method",
+      "name": "net.runelite.client.plugins.microbot.util.npc.Rs2Npc#canWalkTo(NPC, int)",
+      "replacement": "#canWalkTo(Rs2NpcModel",
+      "since": "1.7.2",
+      "forRemoval": true,
+      "reason": ""
+    },
+    {
+      "type": "method",
+      "name": "net.runelite.client.plugins.microbot.util.npc.Rs2Npc#getNpcsAttackingPlayer(Player)",
+      "replacement": "#getNpcsForPlayer(Predicate)",
+      "since": "1.7.2",
+      "forRemoval": true,
+      "reason": ""
+    },
+    {
+      "type": "method",
+      "name": "net.runelite.client.plugins.microbot.util.npc.Rs2Npc#getWorldLocation(NPC)",
+      "replacement": "Rs2NpcModel#getWorldLocation()",
+      "since": "1.7.2",
+      "forRemoval": true,
+      "reason": ""
+    },
+    {
+      "type": "method",
+      "name": "net.runelite.client.plugins.microbot.util.npc.Rs2Npc#getWorldLocation(Rs2NpcModel)",
+      "replacement": "Rs2NpcModel#getWorldLocation()",
+      "since": "1.7.2",
+      "forRemoval": true,
+      "reason": ""
+    },
+    {
+      "type": "method",
+      "name": "net.runelite.client.plugins.microbot.util.npc.Rs2Npc#hasLineOfSight(NPC)",
+      "replacement": "#hasLineOfSight(Rs2NpcModel)",
+      "since": "1.7.2",
+      "forRemoval": true,
+      "reason": ""
+    },
+    {
+      "type": "method",
+      "name": "net.runelite.client.plugins.microbot.util.npc.Rs2Npc#interact(NPC)",
+      "replacement": "#interact(Rs2NpcModel)",
+      "since": "1.7.2",
+      "forRemoval": true,
+      "reason": ""
+    },
+    {
+      "type": "method",
+      "name": "net.runelite.client.plugins.microbot.util.npc.Rs2Npc#interact(NPC, String)",
+      "replacement": "#interact(Rs2NpcModel",
+      "since": "1.7.2",
+      "forRemoval": true,
+      "reason": ""
+    },
+    {
+      "type": "method",
+      "name": "net.runelite.client.plugins.microbot.util.npc.Rs2Npc#validateInteractable(NPC)",
+      "replacement": "#validateInteractable(Rs2NpcModel)",
+      "since": "1.7.2",
+      "forRemoval": true,
+      "reason": ""
+    },
+    {
+      "type": "method",
+      "name": "net.runelite.client.plugins.microbot.util.player.Rs2Player#getPlayer(String)",
+      "replacement": "",
+      "since": "2.1.0 - Use Rs2PlayerCache/Rs2PlayerQueryable",
+      "forRemoval": true,
+      "reason": ""
+    },
+    {
+      "type": "method",
+      "name": "net.runelite.client.plugins.microbot.util.player.Rs2Player#getPlayer(String, boolean)",
+      "replacement": "",
+      "since": "2.1.0 - Use Rs2PlayerCache/Rs2PlayerQueryable",
+      "forRemoval": true,
+      "reason": ""
+    },
+    {
+      "type": "method",
+      "name": "net.runelite.client.plugins.microbot.util.player.Rs2Player#getPlayers(Predicate<Rs2PlayerModel>)",
+      "replacement": "",
+      "since": "2.1.0 - Use Rs2PlayerCache/Rs2PlayerQueryable",
+      "forRemoval": true,
+      "reason": ""
+    },
+    {
+      "type": "method",
+      "name": "net.runelite.client.plugins.microbot.util.player.Rs2Player#getPlayers(Predicate<Rs2PlayerModel>, boolean)",
+      "replacement": "",
+      "since": "2.1.0 - Use Rs2PlayerCache/Rs2PlayerQueryable",
+      "forRemoval": true,
+      "reason": ""
+    },
+    {
+      "type": "method",
+      "name": "net.runelite.client.plugins.microbot.util.player.Rs2Player#getPlayersInCombat()",
+      "replacement": "",
+      "since": "2.1.0 - Use Rs2PlayerCache/Rs2PlayerQueryable",
+      "forRemoval": true,
+      "reason": ""
+    },
+    {
+      "type": "method",
+      "name": "net.runelite.client.plugins.microbot.util.tabs.Rs2Tab#switchToAccountManagementTab()",
+      "replacement": "",
+      "since": "Use switchTo",
+      "forRemoval": false,
+      "reason": ""
+    },
+    {
+      "type": "method",
+      "name": "net.runelite.client.plugins.microbot.util.tabs.Rs2Tab#switchToCombatOptionsTab()",
+      "replacement": "",
+      "since": "Use switchTo",
+      "forRemoval": false,
+      "reason": ""
+    },
+    {
+      "type": "method",
+      "name": "net.runelite.client.plugins.microbot.util.tabs.Rs2Tab#switchToEmotesTab()",
+      "replacement": "",
+      "since": "Use switchTo",
+      "forRemoval": false,
+      "reason": ""
+    },
+    {
+      "type": "method",
+      "name": "net.runelite.client.plugins.microbot.util.tabs.Rs2Tab#switchToEquipmentTab()",
+      "replacement": "",
+      "since": "Use switchTo",
+      "forRemoval": false,
+      "reason": ""
+    },
+    {
+      "type": "method",
+      "name": "net.runelite.client.plugins.microbot.util.tabs.Rs2Tab#switchToFriendsTab()",
+      "replacement": "",
+      "since": "Use switchTo",
+      "forRemoval": false,
+      "reason": ""
+    },
+    {
+      "type": "method",
+      "name": "net.runelite.client.plugins.microbot.util.tabs.Rs2Tab#switchToGroupingTab()",
+      "replacement": "",
+      "since": "Use switchTo",
+      "forRemoval": false,
+      "reason": ""
+    },
+    {
+      "type": "method",
+      "name": "net.runelite.client.plugins.microbot.util.tabs.Rs2Tab#switchToInventoryTab()",
+      "replacement": "",
+      "since": "Use switchTo",
+      "forRemoval": false,
+      "reason": ""
+    },
+    {
+      "type": "method",
+      "name": "net.runelite.client.plugins.microbot.util.tabs.Rs2Tab#switchToLogout()",
+      "replacement": "",
+      "since": "Use switchTo",
+      "forRemoval": false,
+      "reason": ""
+    },
+    {
+      "type": "method",
+      "name": "net.runelite.client.plugins.microbot.util.tabs.Rs2Tab#switchToMagicTab()",
+      "replacement": "",
+      "since": "Use switchTo",
+      "forRemoval": false,
+      "reason": ""
+    },
+    {
+      "type": "method",
+      "name": "net.runelite.client.plugins.microbot.util.tabs.Rs2Tab#switchToMusicTab()",
+      "replacement": "",
+      "since": "Use switchTo",
+      "forRemoval": false,
+      "reason": ""
+    },
+    {
+      "type": "method",
+      "name": "net.runelite.client.plugins.microbot.util.tabs.Rs2Tab#switchToPrayerTab()",
+      "replacement": "",
+      "since": "Use switchTo",
+      "forRemoval": false,
+      "reason": ""
+    },
+    {
+      "type": "method",
+      "name": "net.runelite.client.plugins.microbot.util.tabs.Rs2Tab#switchToQuestTab()",
+      "replacement": "",
+      "since": "Use switchTo",
+      "forRemoval": false,
+      "reason": ""
+    },
+    {
+      "type": "method",
+      "name": "net.runelite.client.plugins.microbot.util.tabs.Rs2Tab#switchToSettingsTab()",
+      "replacement": "",
+      "since": "Use switchTo",
+      "forRemoval": false,
+      "reason": ""
+    },
+    {
+      "type": "method",
+      "name": "net.runelite.client.plugins.microbot.util.tabs.Rs2Tab#switchToSkillsTab()",
+      "replacement": "",
+      "since": "Use switchTo",
+      "forRemoval": false,
+      "reason": ""
+    }
+  ]
+}
