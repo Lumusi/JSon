@@ -1,0 +1,769 @@
+{
+  "summary": {
+    "total_deprecated": 95,
+    "with_replacement": 44,
+    "for_removal": 0
+  },
+  "items": [
+    {
+      "type": "class",
+      "name": "net.runelite.api.AnimationID",
+      "replacement": "",
+      "since": "",
+      "forRemoval": false,
+      "reason": ""
+    },
+    {
+      "type": "class",
+      "name": "net.runelite.api.GraphicID",
+      "replacement": "net.runelite.api.gameval.SpotanimID",
+      "since": "",
+      "forRemoval": false,
+      "reason": ""
+    },
+    {
+      "type": "class",
+      "name": "net.runelite.api.InventoryID",
+      "replacement": "",
+      "since": "",
+      "forRemoval": false,
+      "reason": ""
+    },
+    {
+      "type": "class",
+      "name": "net.runelite.api.RenderOverview",
+      "replacement": "WorldMap",
+      "since": "",
+      "forRemoval": false,
+      "reason": ""
+    },
+    {
+      "type": "class",
+      "name": "net.runelite.api.VarClientInt",
+      "replacement": "net.runelite.api.gameval.VarClientID",
+      "since": "",
+      "forRemoval": false,
+      "reason": ""
+    },
+    {
+      "type": "class",
+      "name": "net.runelite.api.VarClientStr",
+      "replacement": "net.runelite.api.gameval.VarClientID",
+      "since": "",
+      "forRemoval": false,
+      "reason": ""
+    },
+    {
+      "type": "class",
+      "name": "net.runelite.api.VarPlayer",
+      "replacement": "",
+      "since": "",
+      "forRemoval": false,
+      "reason": ""
+    },
+    {
+      "type": "class",
+      "name": "net.runelite.api.Varbits",
+      "replacement": "net.runelite.api.gameval.VarPlayerID",
+      "since": "",
+      "forRemoval": false,
+      "reason": ""
+    },
+    {
+      "type": "class",
+      "name": "net.runelite.api.WorldMapData",
+      "replacement": "",
+      "since": "",
+      "forRemoval": false,
+      "reason": ""
+    },
+    {
+      "type": "class",
+      "name": "net.runelite.api.vars.AccountType",
+      "replacement": "",
+      "since": "",
+      "forRemoval": false,
+      "reason": ""
+    },
+    {
+      "type": "class",
+      "name": "net.runelite.api.widgets.WidgetID",
+      "replacement": "",
+      "since": "",
+      "forRemoval": false,
+      "reason": ""
+    },
+    {
+      "type": "class",
+      "name": "net.runelite.api.widgets.WidgetInfo",
+      "replacement": "",
+      "since": "",
+      "forRemoval": false,
+      "reason": ""
+    },
+    {
+      "type": "field",
+      "name": "net.runelite.api.MenuAction#PLAYER_EIGTH_OPTION",
+      "replacement": "",
+      "since": "",
+      "forRemoval": false,
+      "reason": ""
+    },
+    {
+      "type": "field",
+      "name": "net.runelite.api.ScriptID#NULL",
+      "replacement": "",
+      "since": "",
+      "forRemoval": false,
+      "reason": ""
+    },
+    {
+      "type": "field",
+      "name": "net.runelite.api.Skill#OVERALL",
+      "replacement": "",
+      "since": "",
+      "forRemoval": false,
+      "reason": ""
+    },
+    {
+      "type": "field",
+      "name": "net.runelite.api.widgets.WidgetConfig#USE_ITEM",
+      "replacement": "",
+      "since": "",
+      "forRemoval": false,
+      "reason": ""
+    },
+    {
+      "type": "method",
+      "name": "net.runelite.api.Actor#getGraphic()",
+      "replacement": "#hasSpotAnim(int)",
+      "since": "",
+      "forRemoval": false,
+      "reason": ""
+    },
+    {
+      "type": "method",
+      "name": "net.runelite.api.Actor#getGraphicHeight()",
+      "replacement": "ActorSpotAnim#getHeight()",
+      "since": "",
+      "forRemoval": false,
+      "reason": ""
+    },
+    {
+      "type": "method",
+      "name": "net.runelite.api.Actor#getSpotAnimFrame()",
+      "replacement": "ActorSpotAnim#getFrame()",
+      "since": "",
+      "forRemoval": false,
+      "reason": ""
+    },
+    {
+      "type": "method",
+      "name": "net.runelite.api.Actor#setActionFrame(int)",
+      "replacement": "setAnimationFrame",
+      "since": "",
+      "forRemoval": false,
+      "reason": ""
+    },
+    {
+      "type": "method",
+      "name": "net.runelite.api.Actor#setGraphic(int)",
+      "replacement": "#createSpotAnim(int",
+      "since": "",
+      "forRemoval": false,
+      "reason": ""
+    },
+    {
+      "type": "method",
+      "name": "net.runelite.api.Actor#setGraphicHeight(int)",
+      "replacement": "ActorSpotAnim#setHeight(int)",
+      "since": "",
+      "forRemoval": false,
+      "reason": ""
+    },
+    {
+      "type": "method",
+      "name": "net.runelite.api.Actor#setSpotAnimFrame(int)",
+      "replacement": "ActorSpotAnim#setFrame(int)",
+      "since": "",
+      "forRemoval": false,
+      "reason": ""
+    },
+    {
+      "type": "method",
+      "name": "net.runelite.api.Client#createMenuEntry(int)",
+      "replacement": "#getMenu()",
+      "since": "",
+      "forRemoval": false,
+      "reason": ""
+    },
+    {
+      "type": "method",
+      "name": "net.runelite.api.Client#createProjectile(int, int, int, int, int, int, int, int, int, int, Actor, int, int)",
+      "replacement": "",
+      "since": "",
+      "forRemoval": false,
+      "reason": ""
+    },
+    {
+      "type": "method",
+      "name": "net.runelite.api.Client#getAccountType()",
+      "replacement": "Varbits#ACCOUNT_TYPE",
+      "since": "",
+      "forRemoval": false,
+      "reason": ""
+    },
+    {
+      "type": "method",
+      "name": "net.runelite.api.Client#getAmbientSoundEffects()",
+      "replacement": "net.runelite.api.clan.ClanID",
+      "since": "",
+      "forRemoval": false,
+      "reason": ""
+    },
+    {
+      "type": "method",
+      "name": "net.runelite.api.Client#getBaseX()",
+      "replacement": "WorldView#getBaseX()",
+      "since": "",
+      "forRemoval": false,
+      "reason": ""
+    },
+    {
+      "type": "method",
+      "name": "net.runelite.api.Client#getBaseY()",
+      "replacement": "WorldView#getBaseY()",
+      "since": "",
+      "forRemoval": false,
+      "reason": ""
+    },
+    {
+      "type": "method",
+      "name": "net.runelite.api.Client#getCollisionMaps()",
+      "replacement": "WorldView#getCollisionMaps()",
+      "since": "",
+      "forRemoval": false,
+      "reason": ""
+    },
+    {
+      "type": "method",
+      "name": "net.runelite.api.Client#getGraphicsObjects()",
+      "replacement": "WorldView#getGraphicsObjects()",
+      "since": "",
+      "forRemoval": false,
+      "reason": ""
+    },
+    {
+      "type": "method",
+      "name": "net.runelite.api.Client#getInstanceTemplateChunks()",
+      "replacement": "Constants#CHUNK_SIZE",
+      "since": "",
+      "forRemoval": false,
+      "reason": ""
+    },
+    {
+      "type": "method",
+      "name": "net.runelite.api.Client#getMapAngle()",
+      "replacement": "#getCameraYawTarget()",
+      "since": "",
+      "forRemoval": false,
+      "reason": ""
+    },
+    {
+      "type": "method",
+      "name": "net.runelite.api.Client#getMapRegions()",
+      "replacement": "",
+      "since": "",
+      "forRemoval": false,
+      "reason": ""
+    },
+    {
+      "type": "method",
+      "name": "net.runelite.api.Client#getMenuEntries()",
+      "replacement": "#getMenu()",
+      "since": "",
+      "forRemoval": false,
+      "reason": ""
+    },
+    {
+      "type": "method",
+      "name": "net.runelite.api.Client#getMenuHeight()",
+      "replacement": "Menu#getMenuHeight()",
+      "since": "",
+      "forRemoval": false,
+      "reason": ""
+    },
+    {
+      "type": "method",
+      "name": "net.runelite.api.Client#getMenuWidth()",
+      "replacement": "Menu#getMenuWidth()",
+      "since": "",
+      "forRemoval": false,
+      "reason": ""
+    },
+    {
+      "type": "method",
+      "name": "net.runelite.api.Client#getMenuX()",
+      "replacement": "Menu#getMenuX()",
+      "since": "",
+      "forRemoval": false,
+      "reason": ""
+    },
+    {
+      "type": "method",
+      "name": "net.runelite.api.Client#getMenuY()",
+      "replacement": "Menu#getMenuY()",
+      "since": "",
+      "forRemoval": false,
+      "reason": ""
+    },
+    {
+      "type": "method",
+      "name": "net.runelite.api.Client#getNpcs()",
+      "replacement": "WorldView#npcs()",
+      "since": "",
+      "forRemoval": false,
+      "reason": ""
+    },
+    {
+      "type": "method",
+      "name": "net.runelite.api.Client#getOculusOrbFocalPointX()",
+      "replacement": "",
+      "since": "",
+      "forRemoval": false,
+      "reason": ""
+    },
+    {
+      "type": "method",
+      "name": "net.runelite.api.Client#getOculusOrbFocalPointY()",
+      "replacement": "",
+      "since": "",
+      "forRemoval": false,
+      "reason": ""
+    },
+    {
+      "type": "method",
+      "name": "net.runelite.api.Client#getOculusOrbState()",
+      "replacement": "",
+      "since": "",
+      "forRemoval": false,
+      "reason": ""
+    },
+    {
+      "type": "method",
+      "name": "net.runelite.api.Client#getPlane()",
+      "replacement": "WorldView#getPlane()",
+      "since": "",
+      "forRemoval": false,
+      "reason": ""
+    },
+    {
+      "type": "method",
+      "name": "net.runelite.api.Client#getPlayers()",
+      "replacement": "WorldView#players()",
+      "since": "",
+      "forRemoval": false,
+      "reason": ""
+    },
+    {
+      "type": "method",
+      "name": "net.runelite.api.Client#getRenderOverview()",
+      "replacement": "#getWorldMap()",
+      "since": "",
+      "forRemoval": false,
+      "reason": ""
+    },
+    {
+      "type": "method",
+      "name": "net.runelite.api.Client#getScene()",
+      "replacement": "WorldView#getScene()",
+      "since": "",
+      "forRemoval": false,
+      "reason": ""
+    },
+    {
+      "type": "method",
+      "name": "net.runelite.api.Client#getSelectedSceneTile()",
+      "replacement": "WorldView#getSelectedSceneTile()",
+      "since": "",
+      "forRemoval": false,
+      "reason": ""
+    },
+    {
+      "type": "method",
+      "name": "net.runelite.api.Client#getTileHeights()",
+      "replacement": "WorldView#getTileHeights()",
+      "since": "",
+      "forRemoval": false,
+      "reason": ""
+    },
+    {
+      "type": "method",
+      "name": "net.runelite.api.Client#getTileSettings()",
+      "replacement": "WorldView#getTileSettings()",
+      "since": "",
+      "forRemoval": false,
+      "reason": ""
+    },
+    {
+      "type": "method",
+      "name": "net.runelite.api.Client#getUsername()",
+      "replacement": "OAuthApi#getAccountHash()",
+      "since": "",
+      "forRemoval": false,
+      "reason": ""
+    },
+    {
+      "type": "method",
+      "name": "net.runelite.api.Client#getVar(int)",
+      "replacement": "Client#getVarbitValue(int)",
+      "since": "",
+      "forRemoval": false,
+      "reason": ""
+    },
+    {
+      "type": "method",
+      "name": "net.runelite.api.Client#getWidget(WidgetInfo)",
+      "replacement": "",
+      "since": "",
+      "forRemoval": false,
+      "reason": ""
+    },
+    {
+      "type": "method",
+      "name": "net.runelite.api.Client#getXteaKeys()",
+      "replacement": "",
+      "since": "",
+      "forRemoval": false,
+      "reason": ""
+    },
+    {
+      "type": "method",
+      "name": "net.runelite.api.Client#isInInstancedRegion()",
+      "replacement": "WorldView#isInstance()",
+      "since": "",
+      "forRemoval": false,
+      "reason": ""
+    },
+    {
+      "type": "method",
+      "name": "net.runelite.api.Client#isPrayerActive(Prayer)",
+      "replacement": "",
+      "since": "",
+      "forRemoval": false,
+      "reason": "this method does not properly handle deadeye/eagle eye or mystic vigour/might"
+    },
+    {
+      "type": "method",
+      "name": "net.runelite.api.Client#setInventoryDragDelay(int)",
+      "replacement": "",
+      "since": "",
+      "forRemoval": false,
+      "reason": ""
+    },
+    {
+      "type": "method",
+      "name": "net.runelite.api.Client#setMenuEntries(MenuEntry[])",
+      "replacement": "#getMenu()",
+      "since": "",
+      "forRemoval": false,
+      "reason": ""
+    },
+    {
+      "type": "method",
+      "name": "net.runelite.api.Client#setOculusOrbNormalSpeed(int)",
+      "replacement": "",
+      "since": "",
+      "forRemoval": false,
+      "reason": ""
+    },
+    {
+      "type": "method",
+      "name": "net.runelite.api.Client#setOculusOrbState(int)",
+      "replacement": "",
+      "since": "",
+      "forRemoval": false,
+      "reason": ""
+    },
+    {
+      "type": "method",
+      "name": "net.runelite.api.MenuAction#UNKNOWN(-1)",
+      "replacement": "Client#getSelectedWidget()",
+      "since": "",
+      "forRemoval": false,
+      "reason": ""
+    },
+    {
+      "type": "method",
+      "name": "net.runelite.api.Model#calculateExtreme(int)",
+      "replacement": "#getAABB(int)",
+      "since": "",
+      "forRemoval": false,
+      "reason": ""
+    },
+    {
+      "type": "method",
+      "name": "net.runelite.api.Perspective#modelToCanvas(Client, int, int, int, int, int, float[], float[], float[], int[], int[])",
+      "replacement": "",
+      "since": "",
+      "forRemoval": false,
+      "reason": ""
+    },
+    {
+      "type": "method",
+      "name": "net.runelite.api.PlayerComposition#isFemale()",
+      "replacement": "getGender",
+      "since": "",
+      "forRemoval": false,
+      "reason": ""
+    },
+    {
+      "type": "method",
+      "name": "net.runelite.api.Projectile#getFloor()",
+      "replacement": "",
+      "since": "",
+      "forRemoval": false,
+      "reason": ""
+    },
+    {
+      "type": "method",
+      "name": "net.runelite.api.Projectile#getHeight()",
+      "replacement": "",
+      "since": "",
+      "forRemoval": false,
+      "reason": ""
+    },
+    {
+      "type": "method",
+      "name": "net.runelite.api.Projectile#getInteracting()",
+      "replacement": "",
+      "since": "",
+      "forRemoval": false,
+      "reason": ""
+    },
+    {
+      "type": "method",
+      "name": "net.runelite.api.Projectile#getTarget()",
+      "replacement": "",
+      "since": "",
+      "forRemoval": false,
+      "reason": ""
+    },
+    {
+      "type": "method",
+      "name": "net.runelite.api.Projectile#getX1()",
+      "replacement": "",
+      "since": "",
+      "forRemoval": false,
+      "reason": ""
+    },
+    {
+      "type": "method",
+      "name": "net.runelite.api.Projectile#getY1()",
+      "replacement": "",
+      "since": "",
+      "forRemoval": false,
+      "reason": ""
+    },
+    {
+      "type": "method",
+      "name": "net.runelite.api.RuneLiteObject#finished()",
+      "replacement": "",
+      "since": "",
+      "forRemoval": false,
+      "reason": "Use a custom AnimationController instead."
+    },
+    {
+      "type": "method",
+      "name": "net.runelite.api.RuneLiteObject#getAnimation()",
+      "replacement": "#getAnimationController",
+      "since": "",
+      "forRemoval": false,
+      "reason": ""
+    },
+    {
+      "type": "method",
+      "name": "net.runelite.api.RuneLiteObject#getAnimationFrame()",
+      "replacement": "#getAnimationController",
+      "since": "",
+      "forRemoval": false,
+      "reason": ""
+    },
+    {
+      "type": "method",
+      "name": "net.runelite.api.RuneLiteObject#setFinished(boolean)",
+      "replacement": "",
+      "since": "",
+      "forRemoval": false,
+      "reason": "Use a custom AnimationController instead to despawn the object when it completes its animation."
+    },
+    {
+      "type": "method",
+      "name": "net.runelite.api.RuneLiteObject#setShouldLoop(boolean)",
+      "replacement": "AnimationController#setOnFinished(Consumer)",
+      "since": "",
+      "forRemoval": false,
+      "reason": ""
+    },
+    {
+      "type": "method",
+      "name": "net.runelite.api.WorldView#createProjectile(int, int, int, int, int, int, int, int, int, int, Actor, int, int)",
+      "replacement": "",
+      "since": "",
+      "forRemoval": false,
+      "reason": ""
+    },
+    {
+      "type": "method",
+      "name": "net.runelite.api.coords.LocalPoint#fromScene(int, int)",
+      "replacement": "",
+      "since": "",
+      "forRemoval": false,
+      "reason": ""
+    },
+    {
+      "type": "method",
+      "name": "net.runelite.api.coords.LocalPoint#fromWorld(Client, int, int)",
+      "replacement": "",
+      "since": "",
+      "forRemoval": false,
+      "reason": ""
+    },
+    {
+      "type": "method",
+      "name": "net.runelite.api.coords.LocalPoint#fromWorld(WorldView, WorldPoint)",
+      "replacement": "",
+      "since": "",
+      "forRemoval": false,
+      "reason": "public LocalPoint(int x, int y) { this(x, y, -1); } @Nullable public static LocalPoint fromWorld(Cli"
+    },
+    {
+      "type": "method",
+      "name": "net.runelite.api.coords.LocalPoint#isInScene()",
+      "replacement": "",
+      "since": "",
+      "forRemoval": false,
+      "reason": ""
+    },
+    {
+      "type": "method",
+      "name": "net.runelite.api.coords.WorldPoint#fromLocal(Client, int, int, int)",
+      "replacement": "",
+      "since": "",
+      "forRemoval": false,
+      "reason": ""
+    },
+    {
+      "type": "method",
+      "name": "net.runelite.api.coords.WorldPoint#fromScene(Client, int, int, int)",
+      "replacement": "",
+      "since": "",
+      "forRemoval": false,
+      "reason": ""
+    },
+    {
+      "type": "method",
+      "name": "net.runelite.api.coords.WorldPoint#isInScene(Client)",
+      "replacement": "",
+      "since": "",
+      "forRemoval": false,
+      "reason": ""
+    },
+    {
+      "type": "method",
+      "name": "net.runelite.api.coords.WorldPoint#isInScene(Client, int, int)",
+      "replacement": "",
+      "since": "",
+      "forRemoval": false,
+      "reason": ""
+    },
+    {
+      "type": "method",
+      "name": "net.runelite.api.coords.WorldPoint#toLocalInstance(Client, WorldPoint)",
+      "replacement": "",
+      "since": "",
+      "forRemoval": false,
+      "reason": ""
+    },
+    {
+      "type": "method",
+      "name": "net.runelite.api.coords.WorldPoint#toLocalInstance(Scene, WorldPoint)",
+      "replacement": "",
+      "since": "",
+      "forRemoval": false,
+      "reason": ""
+    },
+    {
+      "type": "method",
+      "name": "net.runelite.api.events.MenuOptionClicked#getActionParam()",
+      "replacement": "",
+      "since": "",
+      "forRemoval": false,
+      "reason": ""
+    },
+    {
+      "type": "method",
+      "name": "net.runelite.api.events.MenuOptionClicked#getWidgetId()",
+      "replacement": "",
+      "since": "",
+      "forRemoval": false,
+      "reason": ""
+    },
+    {
+      "type": "method",
+      "name": "net.runelite.api.events.VarbitChanged#getIndex()",
+      "replacement": "",
+      "since": "",
+      "forRemoval": false,
+      "reason": ""
+    },
+    {
+      "type": "method",
+      "name": "net.runelite.api.model.Jarvis#convexHull(List<Point>)",
+      "replacement": "",
+      "since": "",
+      "forRemoval": false,
+      "reason": ""
+    },
+    {
+      "type": "method",
+      "name": "net.runelite.api.widgets.Widget#setHeight(int)",
+      "replacement": "",
+      "since": "",
+      "forRemoval": false,
+      "reason": ""
+    },
+    {
+      "type": "method",
+      "name": "net.runelite.api.widgets.Widget#setRelativeX(int)",
+      "replacement": "",
+      "since": "",
+      "forRemoval": false,
+      "reason": ""
+    },
+    {
+      "type": "method",
+      "name": "net.runelite.api.widgets.Widget#setRelativeY(int)",
+      "replacement": "",
+      "since": "",
+      "forRemoval": false,
+      "reason": ""
+    },
+    {
+      "type": "method",
+      "name": "net.runelite.api.widgets.Widget#setWidth(int)",
+      "replacement": "",
+      "since": "",
+      "forRemoval": false,
+      "reason": ""
+    },
+    {
+      "type": "method",
+      "name": "net.runelite.api.widgets.WidgetConfig#transmitAction(int)",
+      "replacement": "",
+      "since": "",
+      "forRemoval": false,
+      "reason": "public static final int USE_ITEM = 16 << 11; /** Can this widget be used on a widget with the WIDGET"
+    }
+  ]
+}
