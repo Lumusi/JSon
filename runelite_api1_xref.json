@@ -1,0 +1,2967 @@
+{
+  "returns_type": {
+    "WorldView": [
+      "net.runelite.api.Actor#getWorldView",
+      "net.runelite.api.CameraFocusableEntity#getWorldView",
+      "net.runelite.api.Client#getWorldView",
+      "net.runelite.api.Client#getTopLevelWorldView",
+      "net.runelite.api.Client#findWorldViewFromWorldPoint",
+      "net.runelite.api.GraphicsObject#getWorldView",
+      "net.runelite.api.TileObject#getWorldView",
+      "net.runelite.api.WorldEntity#getWorldView"
+    ],
+    "Actor": [
+      "net.runelite.api.Actor#getInteracting",
+      "net.runelite.api.MenuEntry#getActor",
+      "net.runelite.api.Projectile#getSourceActor",
+      "net.runelite.api.Projectile#getTargetActor",
+      "net.runelite.api.Projectile#getInteracting"
+    ],
+    "WorldPoint": [
+      "net.runelite.api.Actor#getWorldLocation",
+      "net.runelite.api.Client#getHintArrowPoint",
+      "net.runelite.api.Projectile#getSourcePoint",
+      "net.runelite.api.Projectile#getTargetPoint",
+      "net.runelite.api.Tile#getWorldLocation",
+      "net.runelite.api.TileObject#getWorldLocation",
+      "net.runelite.api.coords.WorldArea#toWorldPoint",
+      "net.runelite.api.coords.WorldPoint#dx",
+      "net.runelite.api.coords.WorldPoint#dy",
+      "net.runelite.api.coords.WorldPoint#dz",
+      "net.runelite.api.coords.WorldPoint#fromLocal",
+      "net.runelite.api.coords.WorldPoint#fromLocal",
+      "net.runelite.api.coords.WorldPoint#fromLocal",
+      "net.runelite.api.coords.WorldPoint#fromLocal",
+      "net.runelite.api.coords.WorldPoint#fromLocalInstance",
+      "net.runelite.api.coords.WorldPoint#fromLocalInstance",
+      "net.runelite.api.coords.WorldPoint#fromLocalInstance",
+      "net.runelite.api.coords.WorldPoint#fromScene",
+      "net.runelite.api.coords.WorldPoint#fromScene",
+      "net.runelite.api.coords.WorldPoint#fromScene",
+      "net.runelite.api.coords.WorldPoint#fromRegion",
+      "net.runelite.api.coords.WorldPoint#getMirrorPoint",
+      "net.runelite.api.coords.WorldPoint#fromCoord",
+      "net.runelite.api.worldmap.WorldMapIcon#getCoordinate"
+    ],
+    "LocalPoint": [
+      "net.runelite.api.Actor#getLocalLocation",
+      "net.runelite.api.AmbientSoundEffect#getMinPosition",
+      "net.runelite.api.AmbientSoundEffect#getMaxPosition",
+      "net.runelite.api.CameraFocusableEntity#getCameraFocus",
+      "net.runelite.api.Client#getLocalDestinationLocation",
+      "net.runelite.api.GraphicsObject#getLocation",
+      "net.runelite.api.Projectile#getTarget",
+      "net.runelite.api.Tile#getLocalLocation",
+      "net.runelite.api.TileObject#getLocalLocation",
+      "net.runelite.api.WorldEntity#getLocalLocation",
+      "net.runelite.api.WorldEntity#getTargetLocation",
+      "net.runelite.api.WorldEntity#transformToMainWorld",
+      "net.runelite.api.coords.LocalPoint#fromWorld",
+      "net.runelite.api.coords.LocalPoint#fromWorld",
+      "net.runelite.api.coords.LocalPoint#fromWorld",
+      "net.runelite.api.coords.LocalPoint#fromWorld",
+      "net.runelite.api.coords.LocalPoint#fromScene",
+      "net.runelite.api.coords.LocalPoint#fromScene",
+      "net.runelite.api.coords.LocalPoint#fromScene",
+      "net.runelite.api.events.ProjectileMoved#getPosition"
+    ],
+    "IterableHashTable": [
+      "net.runelite.api.Actor#getSpotAnims",
+      "net.runelite.api.Client#getMessages",
+      "net.runelite.api.ParamHolder#getParams"
+    ],
+    "Polygon": [
+      "net.runelite.api.Actor#getCanvasTilePoly",
+      "net.runelite.api.Perspective#getCanvasTilePoly",
+      "net.runelite.api.Perspective#getCanvasTilePoly",
+      "net.runelite.api.Perspective#getCanvasTileAreaPoly",
+      "net.runelite.api.Perspective#getCanvasTileAreaPoly",
+      "net.runelite.api.TileObject#getCanvasTilePoly"
+    ],
+    "Point": [
+      "net.runelite.api.Actor#getCanvasTextLocation",
+      "net.runelite.api.Actor#getCanvasImageLocation",
+      "net.runelite.api.Actor#getCanvasSpriteLocation",
+      "net.runelite.api.Actor#getMinimapLocation",
+      "net.runelite.api.Client#getMouseCanvasPosition",
+      "net.runelite.api.GameObject#getSceneMinLocation",
+      "net.runelite.api.GameObject#getSceneMaxLocation",
+      "net.runelite.api.Perspective#localToCanvas",
+      "net.runelite.api.Perspective#localToCanvas",
+      "net.runelite.api.Perspective#localToCanvas",
+      "net.runelite.api.Perspective#localToMinimap",
+      "net.runelite.api.Perspective#localToMinimap",
+      "net.runelite.api.Perspective#getCanvasTextLocation",
+      "net.runelite.api.Perspective#getCanvasImageLocation",
+      "net.runelite.api.Perspective#getMiniMapImageLocation",
+      "net.runelite.api.Perspective#getCanvasSpriteLocation",
+      "net.runelite.api.Perspective#getCanvasTextMiniMapLocation",
+      "net.runelite.api.Tile#getSceneLocation",
+      "net.runelite.api.TileObject#getCanvasLocation",
+      "net.runelite.api.TileObject#getCanvasLocation",
+      "net.runelite.api.TileObject#getCanvasTextLocation",
+      "net.runelite.api.TileObject#getMinimapLocation",
+      "net.runelite.api.widgets.Widget#getCanvasLocation",
+      "net.runelite.api.widgets.WidgetItem#getCanvasLocation",
+      "net.runelite.api.worldmap.WorldMap#getWorldMapPosition"
+    ],
+    "Shape": [
+      "net.runelite.api.Actor#getConvexHull",
+      "net.runelite.api.DecorativeObject#getConvexHull",
+      "net.runelite.api.DecorativeObject#getConvexHull2",
+      "net.runelite.api.GameObject#getConvexHull",
+      "net.runelite.api.GroundObject#getConvexHull",
+      "net.runelite.api.TileObject#getClickbox",
+      "net.runelite.api.WallObject#getConvexHull",
+      "net.runelite.api.WallObject#getConvexHull2"
+    ],
+    "WorldArea": [
+      "net.runelite.api.Actor#getWorldArea",
+      "net.runelite.api.coords.WorldPoint#toWorldArea"
+    ],
+    "int[]": [
+      "net.runelite.api.AmbientSoundEffect#getBackgroundSoundEffectIds",
+      "net.runelite.api.Animation#getFrameLengths",
+      "net.runelite.api.BufferProvider#getPixels",
+      "net.runelite.api.Client#getWidgetPositionsX",
+      "net.runelite.api.Client#getWidgetPositionsY",
+      "net.runelite.api.Client#getPlayerMenuTypes",
+      "net.runelite.api.Client#getVarps",
+      "net.runelite.api.Client#getServerVarps",
+      "net.runelite.api.Client#getIntStack",
+      "net.runelite.api.Client#getArray",
+      "net.runelite.api.Client#getBoostedSkillLevels",
+      "net.runelite.api.Client#getRealSkillLevels",
+      "net.runelite.api.Client#getSkillExperiences",
+      "net.runelite.api.Client#getMapRegions",
+      "net.runelite.api.EnumComposition#getKeys",
+      "net.runelite.api.EnumComposition#getIntVals",
+      "net.runelite.api.IndexDataBase#getFileIds",
+      "net.runelite.api.IndexedSprite#getPalette",
+      "net.runelite.api.Model#getFaceColors1",
+      "net.runelite.api.Model#getFaceColors2",
+      "net.runelite.api.Model#getFaceColors3",
+      "net.runelite.api.Model#getVertexNormalsX",
+      "net.runelite.api.Model#getVertexNormalsY",
+      "net.runelite.api.Model#getVertexNormalsZ",
+      "net.runelite.api.Model#getTexIndices1",
+      "net.runelite.api.Model#getTexIndices2",
+      "net.runelite.api.Model#getTexIndices3",
+      "net.runelite.api.NPC#getOverheadArchiveIds",
+      "net.runelite.api.NPCComposition#getModels",
+      "net.runelite.api.NPCComposition#getChatheadModels",
+      "net.runelite.api.NPCComposition#getConfigs",
+      "net.runelite.api.NPCComposition#getStats",
+      "net.runelite.api.NpcOverrides#getModelIds",
+      "net.runelite.api.ObjectComposition#getImpostorIds",
+      "net.runelite.api.PlayerComposition#getColors",
+      "net.runelite.api.PlayerComposition#getEquipmentIds",
+      "net.runelite.api.Rasterizer#getPixels",
+      "net.runelite.api.Scene#getMapRegions",
+      "net.runelite.api.SceneTileModel#getFaceX",
+      "net.runelite.api.SceneTileModel#getFaceY",
+      "net.runelite.api.SceneTileModel#getFaceZ",
+      "net.runelite.api.SceneTileModel#getVertexX",
+      "net.runelite.api.SceneTileModel#getVertexY",
+      "net.runelite.api.SceneTileModel#getVertexZ",
+      "net.runelite.api.SceneTileModel#getTriangleColorA",
+      "net.runelite.api.SceneTileModel#getTriangleColorB",
+      "net.runelite.api.SceneTileModel#getTriangleColorC",
+      "net.runelite.api.SceneTileModel#getTriangleTextureId",
+      "net.runelite.api.Script#getIntOperands",
+      "net.runelite.api.Script#getInstructions",
+      "net.runelite.api.SpritePixels#getPixels",
+      "net.runelite.api.Texture#getPixels",
+      "net.runelite.api.TextureProvider#load",
+      "net.runelite.api.WorldView#getMapRegions"
+    ],
+    "public void": [
+      "net.runelite.api.AnimationController#setAnimation",
+      "net.runelite.api.AnimationController#reset",
+      "net.runelite.api.AnimationController#loop",
+      "net.runelite.api.AnimationController#tick",
+      "net.runelite.api.events.AreaSoundEffectPlayed#consume",
+      "net.runelite.api.events.BeforeMenuRender#consume",
+      "net.runelite.api.events.SoundEffectPlayed#consume",
+      "net.runelite.api.geometry.SimplePolygon#pushLeft",
+      "net.runelite.api.geometry.SimplePolygon#popLeft",
+      "net.runelite.api.geometry.SimplePolygon#pushRight",
+      "net.runelite.api.geometry.SimplePolygon#popRight",
+      "net.runelite.api.geometry.SimplePolygon#copyTo",
+      "net.runelite.api.geometry.SimplePolygon#appendTo",
+      "net.runelite.api.geometry.SimplePolygon#reverse"
+    ],
+    "public Model": [
+      "net.runelite.api.AnimationController#animate",
+      "net.runelite.api.AnimationController#animate"
+    ],
+    "return": [
+      "net.runelite.api.AnimationController#animate",
+      "net.runelite.api.Perspective#localToCanvas",
+      "net.runelite.api.Perspective#getCanvasTileAreaPoly",
+      "net.runelite.api.Perspective#getCanvasTileAreaPoly",
+      "net.runelite.api.Perspective#getCanvasTileAreaPoly",
+      "net.runelite.api.Projectile#getTargetActor",
+      "net.runelite.api.coords.LocalPoint#fromScene",
+      "net.runelite.api.coords.LocalPoint#fromScene",
+      "net.runelite.api.coords.LocalPoint#plus",
+      "net.runelite.api.coords.LocalPoint#plus",
+      "net.runelite.api.coords.WorldArea#distanceTo2D",
+      "net.runelite.api.coords.WorldArea#canTravelInDirection",
+      "net.runelite.api.coords.WorldPoint#distanceTo2D",
+      "net.runelite.api.coords.WorldPoint#getRegionOffset",
+      "net.runelite.api.coords.WorldPoint#getRegionOffset",
+      "net.runelite.api.geometry.SimplePolygon#getPathIterator",
+      "net.runelite.api.kit.KitType#ordinal"
+    ],
+    "private int": [
+      "net.runelite.api.AnimationController#getPackedFrame",
+      "net.runelite.api.geometry.SimplePolygon#crossings"
+    ],
+    "MessageNode[]": [
+      "net.runelite.api.ChatLineBuffer#getLines"
+    ],
+    "ChatMessageType": [
+      "net.runelite.api.ChatMessageType#of",
+      "net.runelite.api.MessageNode#getType"
+    ],
+    "Callbacks": [
+      "net.runelite.api.Client#getCallbacks"
+    ],
+    "DrawCallbacks": [
+      "net.runelite.api.Client#getDrawCallbacks"
+    ],
+    "MessageNode": [
+      "net.runelite.api.Client#addChatMessage",
+      "net.runelite.api.Client#addChatMessage"
+    ],
+    "GameState": [
+      "net.runelite.api.Client#getGameState",
+      "net.runelite.api.GameState#of"
+    ],
+    "AccountType": [
+      "net.runelite.api.Client#getAccountType"
+    ],
+    "Canvas": [
+      "net.runelite.api.Client#getCanvas",
+      "net.runelite.api.GameEngine#getCanvas"
+    ],
+    "Player": [
+      "net.runelite.api.Client#getLocalPlayer",
+      "net.runelite.api.Client#getHintArrowPlayer",
+      "net.runelite.api.MenuEntry#getPlayer"
+    ],
+    "NPC": [
+      "net.runelite.api.Client#getFollower",
+      "net.runelite.api.Client#getHintArrowNpc",
+      "net.runelite.api.MenuEntry#getNpc"
+    ],
+    "ItemComposition": [
+      "net.runelite.api.Client#getItemDefinition"
+    ],
+    "NodeCache": [
+      "net.runelite.api.Client#getItemModelCache",
+      "net.runelite.api.Client#getItemSpriteCache",
+      "net.runelite.api.Client#getStructCompositionCache",
+      "net.runelite.api.Client#getWidgetSpriteCache",
+      "net.runelite.api.Client#getItemCompositionCache",
+      "net.runelite.api.Client#getObjectCompositionCache",
+      "net.runelite.api.Client#getAnimationCache"
+    ],
+    "SpritePixels[]": [
+      "net.runelite.api.Client#getSprites",
+      "net.runelite.api.Client#getMapDots",
+      "net.runelite.api.Client#getMapIcons",
+      "net.runelite.api.Client#getCrossSprites"
+    ],
+    "IndexDataBase": [
+      "net.runelite.api.Client#getIndexSprites",
+      "net.runelite.api.Client#getIndexScripts",
+      "net.runelite.api.Client#getIndexConfig",
+      "net.runelite.api.Client#getIndex"
+    ],
+    "Widget": [
+      "net.runelite.api.Client#getDraggedWidget",
+      "net.runelite.api.Client#getDraggedOnWidget",
+      "net.runelite.api.Client#getWidget",
+      "net.runelite.api.Client#getWidget",
+      "net.runelite.api.Client#getWidget",
+      "net.runelite.api.Client#getScriptActiveWidget",
+      "net.runelite.api.Client#getScriptDotWidget",
+      "net.runelite.api.Client#getSelectedWidget",
+      "net.runelite.api.Client#getFocusedInputFieldWidget",
+      "net.runelite.api.MenuEntry#getWidget",
+      "net.runelite.api.ScriptEvent#getSource",
+      "net.runelite.api.ScriptEvent#getTarget",
+      "net.runelite.api.events.MenuOptionClicked#getWidget",
+      "net.runelite.api.widgets.Widget#setContentType",
+      "net.runelite.api.widgets.Widget#getParent",
+      "net.runelite.api.widgets.Widget#getChild",
+      "net.runelite.api.widgets.Widget#setText",
+      "net.runelite.api.widgets.Widget#setTextColor",
+      "net.runelite.api.widgets.Widget#setOpacity",
+      "net.runelite.api.widgets.Widget#setName",
+      "net.runelite.api.widgets.Widget#setModelId",
+      "net.runelite.api.widgets.Widget#setAnimationId",
+      "net.runelite.api.widgets.Widget#setModelZoom",
+      "net.runelite.api.widgets.Widget#setSpriteTiling",
+      "net.runelite.api.widgets.Widget#setSpriteId",
+      "net.runelite.api.widgets.Widget#setHidden",
+      "net.runelite.api.widgets.Widget#setItemId",
+      "net.runelite.api.widgets.Widget#setItemQuantity",
+      "net.runelite.api.widgets.Widget#setScrollX",
+      "net.runelite.api.widgets.Widget#setScrollY",
+      "net.runelite.api.widgets.Widget#setScrollWidth",
+      "net.runelite.api.widgets.Widget#setScrollHeight"
+    ],
+    "Widget[]": [
+      "net.runelite.api.Client#getWidgetRoots",
+      "net.runelite.api.widgets.Widget#getChildren",
+      "net.runelite.api.widgets.Widget#getDynamicChildren",
+      "net.runelite.api.widgets.Widget#getStaticChildren",
+      "net.runelite.api.widgets.Widget#getNestedChildren"
+    ],
+    "String[]": [
+      "net.runelite.api.Client#getPlayerOptions",
+      "net.runelite.api.EnumComposition#getStringVals",
+      "net.runelite.api.ItemComposition#getInventoryActions",
+      "net.runelite.api.NPCComposition#getActions",
+      "net.runelite.api.ObjectComposition#getActions"
+    ],
+    "boolean[]": [
+      "net.runelite.api.Client#getPlayerOptionsPriorities"
+    ],
+    "World[]": [
+      "net.runelite.api.Client#getWorldList"
+    ],
+    "Menu": [
+      "net.runelite.api.Client#getMenu",
+      "net.runelite.api.MenuEntry#getSubMenu",
+      "net.runelite.api.MenuEntry#createSubMenu"
+    ],
+    "MenuEntry": [
+      "net.runelite.api.Client#createMenuEntry",
+      "net.runelite.api.Menu#createMenuEntry",
+      "net.runelite.api.MenuEntry#setOption",
+      "net.runelite.api.MenuEntry#setTarget",
+      "net.runelite.api.MenuEntry#setIdentifier",
+      "net.runelite.api.MenuEntry#setType",
+      "net.runelite.api.MenuEntry#setParam0",
+      "net.runelite.api.MenuEntry#setParam1",
+      "net.runelite.api.MenuEntry#setForceLeftClick",
+      "net.runelite.api.MenuEntry#setWorldViewId",
+      "net.runelite.api.MenuEntry#setDeprioritized",
+      "net.runelite.api.MenuEntry#onClick",
+      "net.runelite.api.MenuEntry#setItemId",
+      "net.runelite.api.events.MenuOpened#getFirstEntry"
+    ],
+    "MenuEntry[]": [
+      "net.runelite.api.Client#getMenuEntries",
+      "net.runelite.api.Menu#getMenuEntries"
+    ],
+    "Map": [
+      "net.runelite.api.Client#getVarcMap",
+      "net.runelite.api.Client#getChatLineMap",
+      "net.runelite.api.Client#getSpriteOverrides",
+      "net.runelite.api.Client#getWidgetSpriteOverrides"
+    ],
+    "VarbitComposition": [
+      "net.runelite.api.Client#getVarbit"
+    ],
+    "HashTable": [
+      "net.runelite.api.Client#getWidgetFlags",
+      "net.runelite.api.Client#getComponentTable",
+      "net.runelite.api.Client#getItemContainers"
+    ],
+    "WidgetConfigNode": [
+      "net.runelite.api.Client#getWidgetConfig"
+    ],
+    "GrandExchangeOffer[]": [
+      "net.runelite.api.Client#getGrandExchangeOffers"
+    ],
+    "ObjectComposition": [
+      "net.runelite.api.Client#getObjectDefinition",
+      "net.runelite.api.DynamicObject#getRecordedObjectComposition",
+      "net.runelite.api.ObjectComposition#getImpostor"
+    ],
+    "NPCComposition": [
+      "net.runelite.api.Client#getNpcDefinition",
+      "net.runelite.api.NPC#getComposition",
+      "net.runelite.api.NPC#getTransformedComposition",
+      "net.runelite.api.NPCComposition#transform"
+    ],
+    "StructComposition": [
+      "net.runelite.api.Client#getStructComposition"
+    ],
+    "Object[]": [
+      "net.runelite.api.Client#getDBTableField",
+      "net.runelite.api.Client#getObjectStack",
+      "net.runelite.api.ScriptEvent#getArguments"
+    ],
+    "DBRowConfig": [
+      "net.runelite.api.Client#getDBRowConfig"
+    ],
+    "List": [
+      "net.runelite.api.Client#getDBRowsByValue",
+      "net.runelite.api.Client#getDBTableRows",
+      "net.runelite.api.Client#getActiveMidiRequests",
+      "net.runelite.api.Client#getPlayers",
+      "net.runelite.api.Client#getNpcs",
+      "net.runelite.api.Tile#getGroundItems",
+      "net.runelite.api.clan.ClanChannel#getMembers",
+      "net.runelite.api.clan.ClanSettings#getMembers",
+      "net.runelite.api.coords.WorldArea#toWorldPointList",
+      "net.runelite.api.geometry.Geometry#intersectionPoints",
+      "net.runelite.api.model.Jarvis#convexHull"
+    ],
+    "MapElementConfig": [
+      "net.runelite.api.Client#getMapElementConfig"
+    ],
+    "IndexedSprite[]": [
+      "net.runelite.api.Client#getMapScene",
+      "net.runelite.api.Client#getModIcons"
+    ],
+    "IndexedSprite": [
+      "net.runelite.api.Client#createIndexedSprite"
+    ],
+    "SpritePixels": [
+      "net.runelite.api.Client#createSpritePixels",
+      "net.runelite.api.Client#drawInstanceMap",
+      "net.runelite.api.HealthBarConfig#getHealthBarFrontSprite",
+      "net.runelite.api.HealthBarConfig#getHealthBarBackSprite",
+      "net.runelite.api.worldmap.MapElementConfig#getMapIcon"
+    ],
+    "RuneLiteObject": [
+      "net.runelite.api.Client#createRuneLiteObject"
+    ],
+    "ModelData": [
+      "net.runelite.api.Client#loadModelData",
+      "net.runelite.api.Client#mergeModels",
+      "net.runelite.api.Client#mergeModels"
+    ],
+    "Model": [
+      "net.runelite.api.Client#mergeModels",
+      "net.runelite.api.Client#mergeModels",
+      "net.runelite.api.Client#loadModel",
+      "net.runelite.api.Client#loadModel",
+      "net.runelite.api.Client#applyTransformations",
+      "net.runelite.api.DynamicObject#getModelZbuf",
+      "net.runelite.api.Model#getUnskewedModel",
+      "net.runelite.api.ModelData#light",
+      "net.runelite.api.ModelData#light",
+      "net.runelite.api.Renderable#getModel",
+      "net.runelite.api.RuneLiteObject#getModel",
+      "net.runelite.api.RuneLiteObjectController#getModel"
+    ],
+    "Animation": [
+      "net.runelite.api.Client#loadAnimation",
+      "net.runelite.api.DynamicObject#getAnimation",
+      "net.runelite.api.GraphicsObject#getAnimation",
+      "net.runelite.api.Projectile#getAnimation",
+      "net.runelite.api.RuneLiteObject#getAnimation"
+    ],
+    "BufferProvider": [
+      "net.runelite.api.Client#getBufferProvider"
+    ],
+    "ItemContainer": [
+      "net.runelite.api.Client#getItemContainer",
+      "net.runelite.api.Client#getItemContainer"
+    ],
+    "FriendsChatManager": [
+      "net.runelite.api.Client#getFriendsChatManager"
+    ],
+    "FriendContainer": [
+      "net.runelite.api.Client#getFriendContainer"
+    ],
+    "NameableContainer": [
+      "net.runelite.api.Client#getIgnoreContainer"
+    ],
+    "Preferences": [
+      "net.runelite.api.Client#getPreferences"
+    ],
+    "RenderOverview": [
+      "net.runelite.api.Client#getRenderOverview"
+    ],
+    "WorldMap": [
+      "net.runelite.api.Client#getWorldMap"
+    ],
+    "Dimension": [
+      "net.runelite.api.Client#getStretchedDimensions",
+      "net.runelite.api.Client#getRealDimensions"
+    ],
+    "World": [
+      "net.runelite.api.Client#createWorld"
+    ],
+    "ScriptEvent": [
+      "net.runelite.api.Client#createScriptEvent",
+      "net.runelite.api.ScriptEvent#setSource",
+      "net.runelite.api.ScriptEvent#setTarget",
+      "net.runelite.api.ScriptEvent#setOp"
+    ],
+    "IntPredicate": [
+      "net.runelite.api.Client#getAnimationInterpolationFilter"
+    ],
+    "EnumSet": [
+      "net.runelite.api.Client#getWorldType",
+      "net.runelite.api.World#getTypes",
+      "net.runelite.api.WorldType#fromMask"
+    ],
+    "TextureProvider": [
+      "net.runelite.api.Client#getTextureProvider"
+    ],
+    "EnumComposition": [
+      "net.runelite.api.Client#getEnum"
+    ],
+    "long[]": [
+      "net.runelite.api.Client#getCrossWorldMessageIds"
+    ],
+    "ClanChannel": [
+      "net.runelite.api.Client#getClanChannel",
+      "net.runelite.api.Client#getGuestClanChannel"
+    ],
+    "ClanSettings": [
+      "net.runelite.api.Client#getClanSettings",
+      "net.runelite.api.Client#getGuestClanSettings"
+    ],
+    "Deque": [
+      "net.runelite.api.Client#getAmbientSoundEffects",
+      "net.runelite.api.Client#getProjectiles",
+      "net.runelite.api.Client#getGraphicsObjects",
+      "net.runelite.api.FriendContainer#getPendingLogins",
+      "net.runelite.api.WorldView#getGraphicsObjects"
+    ],
+    "Rasterizer": [
+      "net.runelite.api.Client#getRasterizer"
+    ],
+    "int[][][]": [
+      "net.runelite.api.Client#getInstanceTemplateChunks",
+      "net.runelite.api.Client#getTileHeights",
+      "net.runelite.api.Scene#getRoofs",
+      "net.runelite.api.Scene#getTileHeights",
+      "net.runelite.api.Scene#getInstanceTemplateChunks",
+      "net.runelite.api.WorldView#getTileHeights",
+      "net.runelite.api.WorldView#getInstanceTemplateChunks"
+    ],
+    "int[][]": [
+      "net.runelite.api.Client#getXteaKeys",
+      "net.runelite.api.CollisionData#getFlags",
+      "net.runelite.api.WorldView#getXteaKeys"
+    ],
+    "Scene": [
+      "net.runelite.api.Client#getScene",
+      "net.runelite.api.WorldView#getScene"
+    ],
+    "CollisionData[]": [
+      "net.runelite.api.Client#getCollisionMaps",
+      "net.runelite.api.WorldView#getCollisionMaps"
+    ],
+    "byte[][][]": [
+      "net.runelite.api.Client#getTileSettings",
+      "net.runelite.api.Scene#getExtendedTileSettings",
+      "net.runelite.api.Scene#getTileShapes",
+      "net.runelite.api.WorldView#getTileSettings"
+    ],
+    "Projectile": [
+      "net.runelite.api.Client#createProjectile",
+      "net.runelite.api.Client#createProjectile",
+      "net.runelite.api.WorldView#createProjectile",
+      "net.runelite.api.events.ProjectileMoved#getProjectile"
+    ],
+    "Tile": [
+      "net.runelite.api.Client#getSelectedSceneTile",
+      "net.runelite.api.Tile#getBridge",
+      "net.runelite.api.WorldView#getSelectedSceneTile"
+    ],
+    "SceneTilePaint": [
+      "net.runelite.api.Client#createSceneTilePaint",
+      "net.runelite.api.Tile#getSceneTilePaint"
+    ],
+    "CameraFocusableEntity": [
+      "net.runelite.api.Client#getCameraFocusEntity"
+    ],
+    "FileDescriptor": [
+      "net.runelite.api.Client#getSocketFD"
+    ],
+    "short[]": [
+      "net.runelite.api.ColorTextureOverride#getColorToReplaceWith",
+      "net.runelite.api.ColorTextureOverride#getTextureToReplaceWith",
+      "net.runelite.api.ItemComposition#getColorToReplace",
+      "net.runelite.api.ItemComposition#getColorToReplaceWith",
+      "net.runelite.api.ItemComposition#getTextureToReplace",
+      "net.runelite.api.ItemComposition#getTextureToReplaceWith",
+      "net.runelite.api.Model#getUnlitFaceColors",
+      "net.runelite.api.ModelData#getFaceColors",
+      "net.runelite.api.NPC#getOverheadSpriteIds",
+      "net.runelite.api.NPCComposition#getColorToReplace",
+      "net.runelite.api.NPCComposition#getColorToReplaceWith",
+      "net.runelite.api.NpcOverrides#getColorToReplaceWith",
+      "net.runelite.api.NpcOverrides#getTextureToReplaceWith"
+    ],
+    "new": [
+      "net.runelite.api.Constants#Dimension",
+      "net.runelite.api.Perspective#Polygon",
+      "net.runelite.api.geometry.Geometry#GeneralPath",
+      "net.runelite.api.geometry.Geometry#GeneralPath",
+      "net.runelite.api.geometry.Geometry#GeneralPath",
+      "net.runelite.api.geometry.Geometry#GeneralPath",
+      "net.runelite.api.geometry.RectangleUnion#Segments",
+      "net.runelite.api.geometry.RectangleUnion#ChangingState",
+      "net.runelite.api.geometry.RectangleUnion#Chunk",
+      "net.runelite.api.geometry.RectangleUnion#Segment",
+      "net.runelite.api.model.Jarvis#SimplePolygon"
+    ],
+    "Renderable": [
+      "net.runelite.api.DecorativeObject#getRenderable",
+      "net.runelite.api.DecorativeObject#getRenderable2",
+      "net.runelite.api.GameObject#getRenderable",
+      "net.runelite.api.GroundObject#getRenderable",
+      "net.runelite.api.ItemLayer#getBottom",
+      "net.runelite.api.ItemLayer#getMiddle",
+      "net.runelite.api.ItemLayer#getTop",
+      "net.runelite.api.WallObject#getRenderable1",
+      "net.runelite.api.WallObject#getRenderable2"
+    ],
+    ",": [
+      "net.runelite.api.EquipmentInventorySlot#AMMO",
+      "net.runelite.api.IconID#LEAGUE",
+      "net.runelite.api.InstanceTemplates#RAIDS_CRABS",
+      "net.runelite.api.vars.InputType#SEARCH"
+    ],
+    "throw new": [
+      "net.runelite.api.Experience#IllegalArgumentException",
+      "net.runelite.api.coords.Angle#IllegalStateException"
+    ],
+    "else": [
+      "net.runelite.api.Experience#if",
+      "net.runelite.api.RuneLiteObject#if",
+      "net.runelite.api.coords.WorldArea#if",
+      "net.runelite.api.coords.WorldArea#if",
+      "net.runelite.api.geometry.Geometry#if",
+      "net.runelite.api.geometry.Geometry#if",
+      "net.runelite.api.geometry.Geometry#if",
+      "net.runelite.api.geometry.Geometry#if",
+      "net.runelite.api.geometry.Geometry#if",
+      "net.runelite.api.geometry.Geometry#if",
+      "net.runelite.api.geometry.Geometry#if",
+      "net.runelite.api.geometry.Geometry#if",
+      "net.runelite.api.geometry.Geometry#if",
+      "net.runelite.api.geometry.RectangleUnion#if",
+      "net.runelite.api.geometry.RectangleUnion#if",
+      "net.runelite.api.geometry.SimplePolygon#if"
+    ],
+    "private static double": [
+      "net.runelite.api.Experience#getMeleeRangeOrMagicCombatLevelContribution"
+    ],
+    "float[]": [
+      "net.runelite.api.FloatProjection#getProjection",
+      "net.runelite.api.Projection#project",
+      "net.runelite.api.Projection#project"
+    ],
+    "FriendsChatRank": [
+      "net.runelite.api.FriendsChatManager#getMyRank",
+      "net.runelite.api.FriendsChatManager#getKickRank",
+      "net.runelite.api.FriendsChatMember#getRank",
+      "net.runelite.api.FriendsChatRank#valueOf"
+    ],
+    "Thread": [
+      "net.runelite.api.GameEngine#getClientThread"
+    ],
+    "GrandExchangeOfferState": [
+      "net.runelite.api.GrandExchangeOffer#getState"
+    ],
+    "T": [
+      "net.runelite.api.HashTable#get",
+      "net.runelite.api.IndexedObjectSet#byIndex",
+      "net.runelite.api.IterableHashTable#get",
+      "net.runelite.api.NameableContainer#findByName"
+    ],
+    "public boolean": [
+      "net.runelite.api.Hitsplat#isMine",
+      "net.runelite.api.Hitsplat#isOthers",
+      "net.runelite.api.geometry.Cuboid#contains"
+    ],
+    "byte[]": [
+      "net.runelite.api.IndexDataBase#loadData",
+      "net.runelite.api.IndexedSprite#getPixels",
+      "net.runelite.api.Model#getFaceRenderPriorities",
+      "net.runelite.api.Model#getFaceBias",
+      "net.runelite.api.Model#getTextureFaces"
+    ],
+    "default Stream": [
+      "net.runelite.api.IndexedObjectSet#stream"
+    ],
+    "Spliterator": [
+      "net.runelite.api.IndexedObjectSet#spliterator"
+    ],
+    "InstanceTemplates": [
+      "net.runelite.api.InstanceTemplates#findMatch"
+    ],
+    "String[][]": [
+      "net.runelite.api.ItemComposition#getSubops"
+    ],
+    "Item[]": [
+      "net.runelite.api.ItemContainer#getItems"
+    ],
+    "Item": [
+      "net.runelite.api.ItemContainer#getItem"
+    ],
+    "public static short": [
+      "net.runelite.api.JagexColor#packHSL",
+      "net.runelite.api.JagexColor#rgbToHSL"
+    ],
+    "public static int": [
+      "net.runelite.api.JagexColor#unpackHue",
+      "net.runelite.api.JagexColor#unpackSaturation",
+      "net.runelite.api.JagexColor#unpackLuminance",
+      "net.runelite.api.Perspective#getFootprintTileHeight"
+    ],
+    "public static String": [
+      "net.runelite.api.JagexColor#formatHSL"
+    ],
+    "Image": [
+      "net.runelite.api.MainBufferProvider#getImage"
+    ],
+    "public int": [
+      "net.runelite.api.MenuAction#getId",
+      "net.runelite.api.geometry.SimplePolygon#getX",
+      "net.runelite.api.geometry.SimplePolygon#getY",
+      "net.runelite.api.geometry.SimplePolygon#size"
+    ],
+    "public static MenuAction": [
+      "net.runelite.api.MenuAction#of"
+    ],
+    "MenuAction": [
+      "net.runelite.api.MenuEntry#getType"
+    ],
+    "Consumer": [
+      "net.runelite.api.MenuEntry#onClick"
+    ],
+    "AABB": [
+      "net.runelite.api.Model#getAABB"
+    ],
+    "byte": [
+      "net.runelite.api.Model#getOverrideAmount",
+      "net.runelite.api.Model#getOverrideHue",
+      "net.runelite.api.Model#getOverrideSaturation",
+      "net.runelite.api.Model#getOverrideLuminance",
+      "net.runelite.api.Scene#getOverrideAmount",
+      "net.runelite.api.Scene#getOverrideHue",
+      "net.runelite.api.Scene#getOverrideSaturation",
+      "net.runelite.api.Scene#getOverrideLuminance"
+    ],
+    "NpcOverrides": [
+      "net.runelite.api.NPC#getModelOverrides",
+      "net.runelite.api.NPC#getChatheadOverrides"
+    ],
+    "T[]": [
+      "net.runelite.api.NameableContainer#getMembers"
+    ],
+    "Node": [
+      "net.runelite.api.Node#getNext",
+      "net.runelite.api.Node#getPrevious"
+    ],
+    "short": [
+      "net.runelite.api.PendingLogin#getWorld"
+    ],
+    "public static Point": [
+      "net.runelite.api.Perspective#localToCanvas"
+    ],
+    "private static Point": [
+      "net.runelite.api.Perspective#localToCanvasCpu",
+      "net.runelite.api.Perspective#localToCanvasGpu"
+    ],
+    "private static void": [
+      "net.runelite.api.Perspective#modelToCanvasProjection",
+      "net.runelite.api.Perspective#modelToCanvasGpu",
+      "net.runelite.api.Perspective#modelToCanvasCpu"
+    ],
+    "return new": [
+      "net.runelite.api.Perspective#Point",
+      "net.runelite.api.Perspective#Point",
+      "net.runelite.api.Perspective#Point",
+      "net.runelite.api.Perspective#Point",
+      "net.runelite.api.Perspective#Point",
+      "net.runelite.api.RuneLiteObjectController#LocalPoint",
+      "net.runelite.api.coords.WorldArea#Point",
+      "net.runelite.api.coords.WorldArea#WorldPoint",
+      "net.runelite.api.coords.WorldPoint#WorldArea",
+      "net.runelite.api.geometry.Shapes#Rectangle",
+      "net.runelite.api.geometry.SimplePolygon#Rectangle",
+      "net.runelite.api.geometry.SimplePolygon#SimpleIterator",
+      "net.runelite.api.geometry.SimplePolygon#TransformIterator"
+    ],
+    "Internal public static Shape": [
+      "net.runelite.api.Perspective#getClickbox"
+    ],
+    "private static SimplePolygon": [
+      "net.runelite.api.Perspective#calculateAABB"
+    ],
+    "private static Shapes": [
+      "net.runelite.api.Perspective#calculate2DBounds"
+    ],
+    "PlayerComposition": [
+      "net.runelite.api.Player#getPlayerComposition"
+    ],
+    "HeadIcon": [
+      "net.runelite.api.Player#getOverheadIcon"
+    ],
+    "ColorTextureOverride[]": [
+      "net.runelite.api.PlayerComposition#getColorTextureOverrides"
+    ],
+    "public QuestState": [
+      "net.runelite.api.Quest#getState"
+    ],
+    "WorldMapData": [
+      "net.runelite.api.RenderOverview#getWorldMapData",
+      "net.runelite.api.worldmap.WorldMap#getWorldMapData"
+    ],
+    "private void": [
+      "net.runelite.api.RuneLiteObject#updateAnimationControllerLooping",
+      "net.runelite.api.geometry.RectangleUnion#move",
+      "net.runelite.api.geometry.RectangleUnion#push",
+      "net.runelite.api.geometry.Shapes#checkDone"
+    ],
+    "public LocalPoint": [
+      "net.runelite.api.RuneLiteObjectController#getLocation",
+      "net.runelite.api.coords.LocalPoint#dx",
+      "net.runelite.api.coords.LocalPoint#dy",
+      "net.runelite.api.coords.LocalPoint#plus"
+    ],
+    "Tile[][][]": [
+      "net.runelite.api.Scene#getTiles",
+      "net.runelite.api.Scene#getExtendedTiles"
+    ],
+    "short[][][]": [
+      "net.runelite.api.Scene#getUnderlayIds",
+      "net.runelite.api.Scene#getOverlayIds"
+    ],
+    "BufferedImage": [
+      "net.runelite.api.SpritePixels#toBufferedImage",
+      "net.runelite.api.SpritePixels#toBufferedOutline"
+    ],
+    "Texture[]": [
+      "net.runelite.api.TextureProvider#getTextures"
+    ],
+    "DecorativeObject": [
+      "net.runelite.api.Tile#getDecorativeObject"
+    ],
+    "GameObject[]": [
+      "net.runelite.api.Tile#getGameObjects"
+    ],
+    "ItemLayer": [
+      "net.runelite.api.Tile#getItemLayer"
+    ],
+    "GroundObject": [
+      "net.runelite.api.Tile#getGroundObject"
+    ],
+    "WallObject": [
+      "net.runelite.api.Tile#getWallObject"
+    ],
+    "SceneTileModel": [
+      "net.runelite.api.Tile#getSceneTileModel"
+    ],
+    "WorldEntityConfig": [
+      "net.runelite.api.WorldEntity#getConfig"
+    ],
+    "public static boolean": [
+      "net.runelite.api.WorldType#isDeadmanWorld",
+      "net.runelite.api.WorldType#isHighRiskWorld",
+      "net.runelite.api.WorldType#isAllHighRiskWorld",
+      "net.runelite.api.WorldType#isAllPvpWorld",
+      "net.runelite.api.WorldType#isAllPKWorld",
+      "net.runelite.api.overlay.OverlayIndex#hasOverlay"
+    ],
+    "IndexedObjectSet": [
+      "net.runelite.api.WorldView#players",
+      "net.runelite.api.WorldView#npcs",
+      "net.runelite.api.WorldView#worldEntities",
+      "net.runelite.api.WorldView#worldViews"
+    ],
+    "Projection": [
+      "net.runelite.api.WorldView#getMainWorldProjection",
+      "net.runelite.api.WorldView#getCanvasProjection"
+    ],
+    "ClanChannelMember": [
+      "net.runelite.api.clan.ClanChannel#findMember"
+    ],
+    "ClanRank": [
+      "net.runelite.api.clan.ClanChannelMember#getRank",
+      "net.runelite.api.clan.ClanMember#getRank"
+    ],
+    "LocalDate": [
+      "net.runelite.api.clan.ClanMember#getJoinDate"
+    ],
+    "ClanMember": [
+      "net.runelite.api.clan.ClanSettings#findMember"
+    ],
+    "ClanTitle": [
+      "net.runelite.api.clan.ClanSettings#titleForRank"
+    ],
+    "Direction": [
+      "net.runelite.api.coords.Angle#getNearestDirection"
+    ],
+    "private static boolean": [
+      "net.runelite.api.coords.WorldArea#hasLineOfSightTo"
+    ],
+    "private static WorldPoint": [
+      "net.runelite.api.coords.WorldPoint#fromLocalInstance"
+    ],
+    "Collection": [
+      "net.runelite.api.coords.WorldPoint#toLocalInstance",
+      "net.runelite.api.coords.WorldPoint#toLocalInstance",
+      "net.runelite.api.coords.WorldPoint#toLocalInstance",
+      "net.runelite.api.worldmap.WorldMapRegion#getMapIcons"
+    ],
+    "private static Collection": [
+      "net.runelite.api.coords.WorldPoint#toLocalInstance"
+    ],
+    "private static int": [
+      "net.runelite.api.coords.WorldPoint#getRegionOffset",
+      "net.runelite.api.model.Jarvis#square",
+      "net.runelite.api.model.Jarvis#findLeftMost"
+    ],
+    "Include public String": [
+      "net.runelite.api.events.MenuEntryAdded#getOption",
+      "net.runelite.api.events.MenuEntryAdded#getTarget"
+    ],
+    "Include public int": [
+      "net.runelite.api.events.MenuEntryAdded#getType",
+      "net.runelite.api.events.MenuEntryAdded#getIdentifier",
+      "net.runelite.api.events.MenuEntryAdded#getActionParam0",
+      "net.runelite.api.events.MenuEntryAdded#getActionParam1",
+      "net.runelite.api.events.MenuEntryAdded#getItemId"
+    ],
+    "public Actor": [
+      "net.runelite.api.events.NpcDespawned#getActor",
+      "net.runelite.api.events.NpcSpawned#getActor",
+      "net.runelite.api.events.PlayerDespawned#getActor",
+      "net.runelite.api.events.PlayerSpawned#getActor"
+    ],
+    "Float": [
+      "net.runelite.api.geometry.Geometry#lineIntersectionPoint"
+    ],
+    "GeneralPath": [
+      "net.runelite.api.geometry.Geometry#transformPath",
+      "net.runelite.api.geometry.Geometry#transformPath",
+      "net.runelite.api.geometry.Geometry#splitIntoSegments",
+      "net.runelite.api.geometry.Geometry#splitIntoSegments",
+      "net.runelite.api.geometry.Geometry#filterPath",
+      "net.runelite.api.geometry.Geometry#filterPath",
+      "net.runelite.api.geometry.Geometry#clipPath",
+      "net.runelite.api.geometry.Geometry#clipPath"
+    ],
+    "Shapes": [
+      "net.runelite.api.geometry.RectangleUnion#union"
+    ],
+    "Segment": [
+      "net.runelite.api.geometry.RectangleUnion#findLE",
+      "net.runelite.api.geometry.RectangleUnion#insertAfter"
+    ],
+    "Rectangle": [
+      "net.runelite.api.geometry.Shapes#getBounds",
+      "net.runelite.api.geometry.SimplePolygon#getBounds",
+      "net.runelite.api.widgets.Widget#getBounds",
+      "net.runelite.api.widgets.WidgetItem#getCanvasBounds",
+      "net.runelite.api.widgets.WidgetItem#getCanvasBounds"
+    ],
+    "Rectangle2D": [
+      "net.runelite.api.geometry.Shapes#getBounds2D",
+      "net.runelite.api.geometry.SimplePolygon#getBounds2D"
+    ],
+    "PathIterator": [
+      "net.runelite.api.geometry.Shapes#getPathIterator",
+      "net.runelite.api.geometry.Shapes#getPathIterator",
+      "net.runelite.api.geometry.SimplePolygon#getPathIterator",
+      "net.runelite.api.geometry.SimplePolygon#getPathIterator"
+    ],
+    "protected void": [
+      "net.runelite.api.geometry.SimplePolygon#expandLeft",
+      "net.runelite.api.geometry.SimplePolygon#expandRight"
+    ],
+    "public List": [
+      "net.runelite.api.geometry.SimplePolygon#toRuneLitePointList"
+    ],
+    "MouseEvent": [
+      "net.runelite.api.hooks.Callbacks#mousePressed",
+      "net.runelite.api.hooks.Callbacks#mouseReleased",
+      "net.runelite.api.hooks.Callbacks#mouseClicked",
+      "net.runelite.api.hooks.Callbacks#mouseEntered",
+      "net.runelite.api.hooks.Callbacks#mouseExited",
+      "net.runelite.api.hooks.Callbacks#mouseDragged",
+      "net.runelite.api.hooks.Callbacks#mouseMoved"
+    ],
+    "MouseWheelEvent": [
+      "net.runelite.api.hooks.Callbacks#mouseWheelMoved"
+    ],
+    "default void": [
+      "net.runelite.api.hooks.DrawCallbacks#animate",
+      "net.runelite.api.hooks.DrawCallbacks#loadScene",
+      "net.runelite.api.hooks.DrawCallbacks#loadScene",
+      "net.runelite.api.hooks.DrawCallbacks#despawnWorldView",
+      "net.runelite.api.hooks.DrawCallbacks#preSceneDraw",
+      "net.runelite.api.hooks.DrawCallbacks#postSceneDraw",
+      "net.runelite.api.hooks.DrawCallbacks#drawPass",
+      "net.runelite.api.hooks.DrawCallbacks#drawZoneOpaque",
+      "net.runelite.api.hooks.DrawCallbacks#drawZoneAlpha",
+      "net.runelite.api.hooks.DrawCallbacks#drawDynamic",
+      "net.runelite.api.hooks.DrawCallbacks#drawDynamic",
+      "net.runelite.api.hooks.DrawCallbacks#drawTemp",
+      "net.runelite.api.hooks.DrawCallbacks#invalidateZone"
+    ],
+    "default boolean": [
+      "net.runelite.api.hooks.DrawCallbacks#tileInFrustum",
+      "net.runelite.api.hooks.DrawCallbacks#zoneInFrustum"
+    ],
+    "SimplePolygon": [
+      "net.runelite.api.model.Jarvis#convexHull"
+    ],
+    "private static long": [
+      "net.runelite.api.model.Jarvis#crossProduct"
+    ],
+    "WorldMapRenderer": [
+      "net.runelite.api.worldmap.WorldMap#getWorldMapRenderer"
+    ],
+    "WorldMapRegion[][]": [
+      "net.runelite.api.worldmap.WorldMapRenderer#getMapRegions"
+    ]
+  },
+  "accepts_type": {
+    "Graphics2D": [
+      "net.runelite.api.Actor#getCanvasTextLocation",
+      "net.runelite.api.Perspective#getCanvasTextLocation",
+      "net.runelite.api.Perspective#getCanvasTextMiniMapLocation",
+      "net.runelite.api.TileObject#getCanvasTextLocation"
+    ],
+    "BufferedImage": [
+      "net.runelite.api.Actor#getCanvasImageLocation",
+      "net.runelite.api.Perspective#getCanvasImageLocation",
+      "net.runelite.api.Perspective#getMiniMapImageLocation",
+      "net.runelite.api.SpritePixels#toBufferedImage",
+      "net.runelite.api.SpritePixels#toBufferedOutline"
+    ],
+    "SpritePixels": [
+      "net.runelite.api.Actor#getCanvasSpriteLocation",
+      "net.runelite.api.Client#setCompass",
+      "net.runelite.api.Client#setLoginScreen",
+      "net.runelite.api.Perspective#getCanvasSpriteLocation"
+    ],
+    "animation": [
+      "net.runelite.api.AnimationController#setAnimation"
+    ],
+    "Animation": [
+      "net.runelite.api.AnimationController#setAnimation",
+      "net.runelite.api.Client#applyTransformations",
+      "net.runelite.api.Client#applyTransformations",
+      "net.runelite.api.RuneLiteObject#setAnimation"
+    ],
+    "animation ==": [
+      "net.runelite.api.AnimationController#if",
+      "net.runelite.api.AnimationController#if",
+      "net.runelite.api.AnimationController#if"
+    ],
+    "elapsedTicks >": [
+      "net.runelite.api.AnimationController#while"
+    ],
+    "frame >=": [
+      "net.runelite.api.AnimationController#if"
+    ],
+    "frame ": [
+      "net.runelite.api.AnimationController#if"
+    ],
+    "Model": [
+      "net.runelite.api.AnimationController#animate",
+      "net.runelite.api.AnimationController#animate",
+      "net.runelite.api.Client#checkClickbox",
+      "net.runelite.api.Client#applyTransformations",
+      "net.runelite.api.Perspective#getClickbox",
+      "net.runelite.api.Perspective#calculateAABB",
+      "net.runelite.api.Perspective#calculate2DBounds",
+      "net.runelite.api.RuneLiteObject#setModel",
+      "net.runelite.api.hooks.DrawCallbacks#drawDynamic",
+      "net.runelite.api.hooks.DrawCallbacks#drawDynamic",
+      "net.runelite.api.hooks.DrawCallbacks#drawTemp"
+    ],
+    "model": [
+      "net.runelite.api.AnimationController#animate"
+    ],
+    "null": [
+      "net.runelite.api.AnimationController#animate"
+    ],
+    "AnimationController": [
+      "net.runelite.api.AnimationController#animate",
+      "net.runelite.api.RuneLiteObject#setAnimationController"
+    ],
+    "other !=": [
+      "net.runelite.api.AnimationController#if"
+    ],
+    "MessageNode": [
+      "net.runelite.api.ChatLineBuffer#removeMessageNode"
+    ],
+    "-1": [
+      "net.runelite.api.ChatMessageType#UNKNOWN",
+      "net.runelite.api.MenuAction#UNKNOWN",
+      "net.runelite.api.Perspective#getCanvasTileAreaPoly",
+      "net.runelite.api.Perspective#getCanvasTileAreaPoly"
+    ],
+    "type !=": [
+      "net.runelite.api.ChatMessageType#if"
+    ],
+    "DrawCallbacks": [
+      "net.runelite.api.Client#setDrawCallbacks"
+    ],
+    "Skill": [
+      "net.runelite.api.Client#getBoostedSkillLevel",
+      "net.runelite.api.Client#getRealSkillLevel",
+      "net.runelite.api.Client#getSkillExperience",
+      "net.runelite.api.Client#queueChangedSkill"
+    ],
+    "ChatMessageType": [
+      "net.runelite.api.Client#addChatMessage",
+      "net.runelite.api.Client#addChatMessage"
+    ],
+    "GameState": [
+      "net.runelite.api.Client#setGameState"
+    ],
+    "IndexDataBase": [
+      "net.runelite.api.Client#getSprites"
+    ],
+    "Widget": [
+      "net.runelite.api.Client#setDraggedOnWidget",
+      "net.runelite.api.Client#getWidgetConfig",
+      "net.runelite.api.ScriptEvent#setSource",
+      "net.runelite.api.ScriptEvent#setTarget",
+      "net.runelite.api.hooks.Callbacks#drawLayer"
+    ],
+    "WidgetInfo": [
+      "net.runelite.api.Client#getWidget"
+    ],
+    "MenuEntry[]": [
+      "net.runelite.api.Client#setMenuEntries",
+      "net.runelite.api.Menu#setMenuEntries"
+    ],
+    "int[]": [
+      "net.runelite.api.Client#getVarbitValue",
+      "net.runelite.api.Client#setVarbitValue",
+      "net.runelite.api.Client#createSpritePixels",
+      "net.runelite.api.IndexedSprite#setPalette",
+      "net.runelite.api.Perspective#modelToCanvas",
+      "net.runelite.api.Perspective#modelToCanvas",
+      "net.runelite.api.Perspective#modelToCanvas",
+      "net.runelite.api.Perspective#modelToCanvas",
+      "net.runelite.api.Perspective#modelToCanvasProjection",
+      "net.runelite.api.Perspective#modelToCanvasProjection",
+      "net.runelite.api.Perspective#modelToCanvasGpu",
+      "net.runelite.api.Perspective#modelToCanvasGpu",
+      "net.runelite.api.Perspective#modelToCanvasCpu",
+      "net.runelite.api.Perspective#modelToCanvasCpu",
+      "net.runelite.api.geometry.SimplePolygon#copyTo",
+      "net.runelite.api.geometry.SimplePolygon#copyTo",
+      "net.runelite.api.model.Jarvis#convexHull",
+      "net.runelite.api.model.Jarvis#convexHull",
+      "net.runelite.api.model.Jarvis#findLeftMost",
+      "net.runelite.api.model.Jarvis#findLeftMost"
+    ],
+    "WidgetNode": [
+      "net.runelite.api.Client#closeInterface"
+    ],
+    "Prayer": [
+      "net.runelite.api.Client#isPrayerActive"
+    ],
+    "Object": [
+      "net.runelite.api.Client#getDBRowsByValue",
+      "net.runelite.api.Client#createScriptEvent",
+      "net.runelite.api.hooks.Callbacks#post",
+      "net.runelite.api.hooks.Callbacks#postDeferred"
+    ],
+    "IndexedSprite[]": [
+      "net.runelite.api.Client#setModIcons"
+    ],
+    "RuneLiteObjectController": [
+      "net.runelite.api.Client#registerRuneLiteObject",
+      "net.runelite.api.Client#removeRuneLiteObject",
+      "net.runelite.api.Client#isRuneLiteObjectRegistered"
+    ],
+    "ModelData[]": [
+      "net.runelite.api.Client#mergeModels"
+    ],
+    "ModelData": [
+      "net.runelite.api.Client#mergeModels"
+    ],
+    "Model[]": [
+      "net.runelite.api.Client#mergeModels",
+      "net.runelite.api.Client#mergeModels"
+    ],
+    "short[]": [
+      "net.runelite.api.Client#loadModel",
+      "net.runelite.api.Client#loadModel",
+      "net.runelite.api.Client#setGeSearchResultIds",
+      "net.runelite.api.ItemComposition#setColorToReplace",
+      "net.runelite.api.ItemComposition#setColorToReplaceWith",
+      "net.runelite.api.ItemComposition#setTextureToReplace",
+      "net.runelite.api.ItemComposition#setTextureToReplaceWith"
+    ],
+    "InventoryID": [
+      "net.runelite.api.Client#getItemContainer"
+    ],
+    "World": [
+      "net.runelite.api.Client#changeWorld",
+      "net.runelite.api.Client#hopToWorld"
+    ],
+    "Object[]": [
+      "net.runelite.api.Client#runScript"
+    ],
+    "WorldPoint": [
+      "net.runelite.api.Client#setHintArrow",
+      "net.runelite.api.Client#createProjectile",
+      "net.runelite.api.Client#createProjectile",
+      "net.runelite.api.Client#findWorldViewFromWorldPoint",
+      "net.runelite.api.WorldView#contains",
+      "net.runelite.api.coords.LocalPoint#fromWorld",
+      "net.runelite.api.coords.WorldArea#distanceTo",
+      "net.runelite.api.coords.WorldArea#distanceTo2D",
+      "net.runelite.api.coords.WorldArea#contains",
+      "net.runelite.api.coords.WorldArea#contains2D",
+      "net.runelite.api.coords.WorldArea#isInMeleeDistance",
+      "net.runelite.api.coords.WorldArea#hasLineOfSightTo",
+      "net.runelite.api.coords.WorldPoint#toLocalInstance",
+      "net.runelite.api.coords.WorldPoint#toLocalInstance",
+      "net.runelite.api.coords.WorldPoint#toLocalInstance",
+      "net.runelite.api.coords.WorldPoint#toLocalInstance",
+      "net.runelite.api.coords.WorldPoint#distanceTo",
+      "net.runelite.api.coords.WorldPoint#distanceTo2D",
+      "net.runelite.api.coords.WorldPoint#getMirrorPoint",
+      "net.runelite.api.geometry.Cuboid#contains",
+      "net.runelite.api.worldmap.WorldMap#setWorldMapPositionTarget"
+    ],
+    "LocalPoint": [
+      "net.runelite.api.Client#setHintArrow",
+      "net.runelite.api.Perspective#localToCanvas",
+      "net.runelite.api.Perspective#localToCanvas",
+      "net.runelite.api.Perspective#localToMinimap",
+      "net.runelite.api.Perspective#localToMinimap",
+      "net.runelite.api.Perspective#getTileHeight",
+      "net.runelite.api.Perspective#getFootprintTileHeight",
+      "net.runelite.api.Perspective#getCanvasTilePoly",
+      "net.runelite.api.Perspective#getCanvasTilePoly",
+      "net.runelite.api.Perspective#getCanvasTileAreaPoly",
+      "net.runelite.api.Perspective#getCanvasTileAreaPoly",
+      "net.runelite.api.Perspective#getCanvasTextLocation",
+      "net.runelite.api.Perspective#getCanvasImageLocation",
+      "net.runelite.api.Perspective#getMiniMapImageLocation",
+      "net.runelite.api.Perspective#getCanvasSpriteLocation",
+      "net.runelite.api.Perspective#getCanvasTextMiniMapLocation",
+      "net.runelite.api.RuneLiteObject#setLocation",
+      "net.runelite.api.RuneLiteObjectController#setLocation",
+      "net.runelite.api.WorldEntity#transformToMainWorld",
+      "net.runelite.api.WorldView#contains",
+      "net.runelite.api.coords.LocalPoint#distanceTo",
+      "net.runelite.api.coords.WorldPoint#fromLocal",
+      "net.runelite.api.coords.WorldPoint#fromLocalInstance",
+      "net.runelite.api.coords.WorldPoint#fromLocalInstance",
+      "net.runelite.api.coords.WorldPoint#fromLocalInstance",
+      "net.runelite.api.coords.WorldPoint#fromLocalInstance",
+      "net.runelite.api.events.ProjectileMoved#setPosition"
+    ],
+    "Player": [
+      "net.runelite.api.Client#setHintArrow"
+    ],
+    "NPC": [
+      "net.runelite.api.Client#setHintArrow"
+    ],
+    "IntPredicate": [
+      "net.runelite.api.Client#setAnimationInterpolationFilter"
+    ],
+    "Projection": [
+      "net.runelite.api.Client#checkClickbox",
+      "net.runelite.api.hooks.DrawCallbacks#drawPass",
+      "net.runelite.api.hooks.DrawCallbacks#drawZoneOpaque",
+      "net.runelite.api.hooks.DrawCallbacks#drawZoneAlpha",
+      "net.runelite.api.hooks.DrawCallbacks#drawDynamic",
+      "net.runelite.api.hooks.DrawCallbacks#drawDynamic",
+      "net.runelite.api.hooks.DrawCallbacks#drawTemp"
+    ],
+    "TileFunction": [
+      "net.runelite.api.Client#setMinimapTileDrawer"
+    ],
+    "MenuAction": [
+      "net.runelite.api.Client#menuAction",
+      "net.runelite.api.MenuEntry#setType"
+    ],
+    "Actor": [
+      "net.runelite.api.Client#createProjectile",
+      "net.runelite.api.Client#createProjectile",
+      "net.runelite.api.Client#createProjectile",
+      "net.runelite.api.WorldView#createProjectile"
+    ],
+    "GAME_FIXED_WIDTH": [
+      "net.runelite.api.Constants#Dimension"
+    ],
+    "GAME_FIXED_HEIGHT": [
+      "net.runelite.api.Constants#Dimension"
+    ],
+    "T": [
+      "net.runelite.api.Deque#addLast",
+      "net.runelite.api.IterableHashTable#put"
+    ],
+    "13": [
+      "net.runelite.api.EquipmentInventorySlot#AMMO"
+    ],
+    "level ": [
+      "net.runelite.api.Experience#if"
+    ],
+    "level + \" is not a valid": [
+      "net.runelite.api.Experience#IllegalArgumentException"
+    ],
+    "xp ": [
+      "net.runelite.api.Experience#if",
+      "net.runelite.api.Experience#if"
+    ],
+    "low ": [
+      "net.runelite.api.Experience#while"
+    ],
+    "xp >": [
+      "net.runelite.api.Experience#if"
+    ],
+    "127": [
+      "net.runelite.api.FriendsChatRank#JMOD"
+    ],
+    "45": [
+      "net.runelite.api.GameState#HOPPING"
+    ],
+    "state ==": [
+      "net.runelite.api.GameState#if"
+    ],
+    "hitsplatType": [
+      "net.runelite.api.Hitsplat#switch",
+      "net.runelite.api.Hitsplat#switch"
+    ],
+    "22": [
+      "net.runelite.api.IconID#LEAGUE"
+    ],
+    "byte[]": [
+      "net.runelite.api.IndexedSprite#setPixels"
+    ],
+    "3264": [
+      "net.runelite.api.InstanceTemplates#RAIDS_CRABS"
+    ],
+    "5344": [
+      "net.runelite.api.InstanceTemplates#RAIDS_CRABS"
+    ],
+    "2": [
+      "net.runelite.api.InstanceTemplates#RAIDS_CRABS"
+    ],
+    "96": [
+      "net.runelite.api.InstanceTemplates#RAIDS_CRABS"
+    ],
+    "32": [
+      "net.runelite.api.InstanceTemplates#RAIDS_CRABS"
+    ],
+    "843": [
+      "net.runelite.api.InventoryID#FORTIS_COLOSSEUM_REWARD_CHEST"
+    ],
+    "short": [
+      "net.runelite.api.JagexColor#unpackHue",
+      "net.runelite.api.JagexColor#unpackSaturation",
+      "net.runelite.api.JagexColor#unpackLuminance",
+      "net.runelite.api.JagexColor#formatHSL"
+    ],
+    "rgb ==": [
+      "net.runelite.api.JagexColor#if"
+    ],
+    "MenuEntry": [
+      "net.runelite.api.Menu#removeMenuEntry"
+    ],
+    "Consumer": [
+      "net.runelite.api.MenuEntry#onClick",
+      "net.runelite.api.geometry.Geometry#transformPath",
+      "net.runelite.api.geometry.Geometry#transformPath"
+    ],
+    "IterableHashTable": [
+      "net.runelite.api.ParamHolder#setParams"
+    ],
+    "int i = 0; i ": [
+      "net.runelite.api.Perspective#for",
+      "net.runelite.api.Perspective#for",
+      "net.runelite.api.Perspective#for",
+      "net.runelite.api.Perspective#for",
+      "net.runelite.api.coords.WorldPoint#for",
+      "net.runelite.api.geometry.Geometry#for",
+      "net.runelite.api.geometry.SimplePolygon#for",
+      "net.runelite.api.model.Jarvis#for"
+    ],
+    "Client": [
+      "net.runelite.api.Perspective#localToCanvas",
+      "net.runelite.api.Perspective#localToCanvas",
+      "net.runelite.api.Perspective#localToCanvas",
+      "net.runelite.api.Perspective#localToCanvas",
+      "net.runelite.api.Perspective#localToCanvasCpu",
+      "net.runelite.api.Perspective#localToCanvasGpu",
+      "net.runelite.api.Perspective#modelToCanvas",
+      "net.runelite.api.Perspective#modelToCanvas",
+      "net.runelite.api.Perspective#modelToCanvasProjection",
+      "net.runelite.api.Perspective#modelToCanvasGpu",
+      "net.runelite.api.Perspective#modelToCanvasCpu",
+      "net.runelite.api.Perspective#localToMinimap",
+      "net.runelite.api.Perspective#localToMinimap",
+      "net.runelite.api.Perspective#getTileHeight",
+      "net.runelite.api.Perspective#getFootprintTileHeight",
+      "net.runelite.api.Perspective#getCanvasTilePoly",
+      "net.runelite.api.Perspective#getCanvasTilePoly",
+      "net.runelite.api.Perspective#getCanvasTileAreaPoly",
+      "net.runelite.api.Perspective#getCanvasTileAreaPoly",
+      "net.runelite.api.Perspective#getCanvasTextLocation",
+      "net.runelite.api.Perspective#getCanvasImageLocation",
+      "net.runelite.api.Perspective#getMiniMapImageLocation",
+      "net.runelite.api.Perspective#getCanvasSpriteLocation",
+      "net.runelite.api.Perspective#getClickbox",
+      "net.runelite.api.Perspective#calculateAABB",
+      "net.runelite.api.Perspective#calculate2DBounds",
+      "net.runelite.api.Perspective#getCanvasTextMiniMapLocation",
+      "net.runelite.api.Quest#getState",
+      "net.runelite.api.coords.LocalPoint#fromWorld",
+      "net.runelite.api.coords.WorldPoint#isInScene",
+      "net.runelite.api.coords.WorldPoint#isInScene",
+      "net.runelite.api.coords.WorldPoint#fromLocal",
+      "net.runelite.api.coords.WorldPoint#fromLocal",
+      "net.runelite.api.coords.WorldPoint#fromLocalInstance",
+      "net.runelite.api.coords.WorldPoint#fromLocalInstance",
+      "net.runelite.api.coords.WorldPoint#toLocalInstance",
+      "net.runelite.api.coords.WorldPoint#fromScene"
+    ],
+    "client": [
+      "net.runelite.api.Perspective#localToCanvas",
+      "net.runelite.api.Perspective#modelToCanvasProjection",
+      "net.runelite.api.Perspective#modelToCanvasGpu",
+      "net.runelite.api.Perspective#modelToCanvasCpu",
+      "net.runelite.api.Perspective#getCanvasTileAreaPoly",
+      "net.runelite.api.Perspective#getCanvasTileAreaPoly",
+      "net.runelite.api.Perspective#getCanvasTileAreaPoly",
+      "net.runelite.api.Perspective#modelToCanvas"
+    ],
+    "point": [
+      "net.runelite.api.Perspective#localToCanvas"
+    ],
+    "plane": [
+      "net.runelite.api.Perspective#localToCanvas",
+      "net.runelite.api.coords.WorldArea#WorldPoint"
+    ],
+    "0": [
+      "net.runelite.api.Perspective#localToCanvas",
+      "net.runelite.api.Perspective#getCanvasTileAreaPoly",
+      "net.runelite.api.Perspective#modelToCanvas",
+      "net.runelite.api.coords.LocalPoint#plus",
+      "net.runelite.api.coords.LocalPoint#plus",
+      "net.runelite.api.geometry.SimplePolygon#this",
+      "net.runelite.api.model.Jarvis#SimplePolygon"
+    ],
+    "we ==": [
+      "net.runelite.api.Perspective#if",
+      "net.runelite.api.Perspective#if",
+      "net.runelite.api.Perspective#if"
+    ],
+    "projection ==": [
+      "net.runelite.api.Perspective#if",
+      "net.runelite.api.Perspective#if"
+    ],
+    "worldId >": [
+      "net.runelite.api.Perspective#if"
+    ],
+    "x >= -ESCENE_OFFSET ": [
+      "net.runelite.api.Perspective#if",
+      "net.runelite.api.Perspective#if"
+    ],
+    "z1 >=": [
+      "net.runelite.api.Perspective#if",
+      "net.runelite.api.Perspective#if"
+    ],
+    "float[]": [
+      "net.runelite.api.Perspective#modelToCanvas",
+      "net.runelite.api.Perspective#modelToCanvas",
+      "net.runelite.api.Perspective#modelToCanvas",
+      "net.runelite.api.Perspective#modelToCanvas",
+      "net.runelite.api.Perspective#modelToCanvas",
+      "net.runelite.api.Perspective#modelToCanvas",
+      "net.runelite.api.Perspective#modelToCanvasProjection",
+      "net.runelite.api.Perspective#modelToCanvasProjection",
+      "net.runelite.api.Perspective#modelToCanvasProjection",
+      "net.runelite.api.Perspective#modelToCanvasGpu",
+      "net.runelite.api.Perspective#modelToCanvasGpu",
+      "net.runelite.api.Perspective#modelToCanvasGpu",
+      "net.runelite.api.Perspective#modelToCanvasCpu",
+      "net.runelite.api.Perspective#modelToCanvasCpu",
+      "net.runelite.api.Perspective#modelToCanvasCpu",
+      "net.runelite.api.Projection#project",
+      "net.runelite.api.geometry.Shapes#currentSegment",
+      "net.runelite.api.geometry.SimplePolygon#currentSegment",
+      "net.runelite.api.geometry.SimplePolygon#currentSegment"
+    ],
+    "WorldView": [
+      "net.runelite.api.Perspective#modelToCanvas",
+      "net.runelite.api.Perspective#modelToCanvasProjection",
+      "net.runelite.api.Perspective#getClickbox",
+      "net.runelite.api.Perspective#calculateAABB",
+      "net.runelite.api.Perspective#calculate2DBounds",
+      "net.runelite.api.coords.LocalPoint#fromWorld",
+      "net.runelite.api.coords.LocalPoint#fromWorld",
+      "net.runelite.api.coords.LocalPoint#fromScene",
+      "net.runelite.api.coords.WorldArea#canTravelInDirection",
+      "net.runelite.api.coords.WorldArea#canTravelInDirection",
+      "net.runelite.api.coords.WorldArea#hasLineOfSightTo",
+      "net.runelite.api.coords.WorldArea#hasLineOfSightTo",
+      "net.runelite.api.coords.WorldArea#hasLineOfSightTo",
+      "net.runelite.api.coords.WorldPoint#isInScene",
+      "net.runelite.api.coords.WorldPoint#fromLocal",
+      "net.runelite.api.coords.WorldPoint#toLocalInstance",
+      "net.runelite.api.coords.WorldPoint#fromScene",
+      "net.runelite.api.hooks.DrawCallbacks#loadScene",
+      "net.runelite.api.hooks.DrawCallbacks#despawnWorldView"
+    ],
+    "wv": [
+      "net.runelite.api.Perspective#modelToCanvasProjection",
+      "net.runelite.api.Perspective#modelToCanvas",
+      "net.runelite.api.coords.LocalPoint#fromScene",
+      "net.runelite.api.coords.WorldArea#canTravelInDirection"
+    ],
+    "end": [
+      "net.runelite.api.Perspective#modelToCanvasProjection",
+      "net.runelite.api.Perspective#modelToCanvasGpu",
+      "net.runelite.api.Perspective#modelToCanvasCpu"
+    ],
+    "x3dCenter": [
+      "net.runelite.api.Perspective#modelToCanvasProjection",
+      "net.runelite.api.Perspective#modelToCanvasGpu",
+      "net.runelite.api.Perspective#modelToCanvasCpu"
+    ],
+    "y3dCenter": [
+      "net.runelite.api.Perspective#modelToCanvasProjection",
+      "net.runelite.api.Perspective#modelToCanvasGpu",
+      "net.runelite.api.Perspective#modelToCanvasCpu"
+    ],
+    "z3dCenter": [
+      "net.runelite.api.Perspective#modelToCanvasProjection",
+      "net.runelite.api.Perspective#modelToCanvasGpu",
+      "net.runelite.api.Perspective#modelToCanvasCpu"
+    ],
+    "rotate": [
+      "net.runelite.api.Perspective#modelToCanvasProjection",
+      "net.runelite.api.Perspective#modelToCanvasGpu",
+      "net.runelite.api.Perspective#modelToCanvasCpu"
+    ],
+    "x3d": [
+      "net.runelite.api.Perspective#modelToCanvasProjection",
+      "net.runelite.api.Perspective#modelToCanvasGpu",
+      "net.runelite.api.Perspective#modelToCanvasCpu"
+    ],
+    "y3d": [
+      "net.runelite.api.Perspective#modelToCanvasProjection",
+      "net.runelite.api.Perspective#modelToCanvasGpu",
+      "net.runelite.api.Perspective#modelToCanvasCpu"
+    ],
+    "z3d": [
+      "net.runelite.api.Perspective#modelToCanvasProjection",
+      "net.runelite.api.Perspective#modelToCanvasGpu",
+      "net.runelite.api.Perspective#modelToCanvasCpu"
+    ],
+    "x2d": [
+      "net.runelite.api.Perspective#modelToCanvasProjection",
+      "net.runelite.api.Perspective#modelToCanvasGpu",
+      "net.runelite.api.Perspective#modelToCanvasCpu",
+      "net.runelite.api.Perspective#modelToCanvas"
+    ],
+    "y2d": [
+      "net.runelite.api.Perspective#modelToCanvasProjection",
+      "net.runelite.api.Perspective#modelToCanvasGpu",
+      "net.runelite.api.Perspective#modelToCanvasCpu",
+      "net.runelite.api.Perspective#modelToCanvas"
+    ],
+    "proj ==": [
+      "net.runelite.api.Perspective#if"
+    ],
+    "rotate !=": [
+      "net.runelite.api.Perspective#if",
+      "net.runelite.api.Perspective#if",
+      "net.runelite.api.Perspective#if"
+    ],
+    "z1 ": [
+      "net.runelite.api.Perspective#if",
+      "net.runelite.api.Perspective#if",
+      "net.runelite.api.Perspective#if"
+    ],
+    "we !=": [
+      "net.runelite.api.Perspective#if"
+    ],
+    "dx * dx + dy * dy >= distance *": [
+      "net.runelite.api.Perspective#if"
+    ],
+    "miniMapX": [
+      "net.runelite.api.Perspective#Point"
+    ],
+    "miniMapY": [
+      "net.runelite.api.Perspective#Point"
+    ],
+    "int tx = lsx; tx ": [
+      "net.runelite.api.Perspective#for"
+    ],
+    "int tz = lsz; tz ": [
+      "net.runelite.api.Perspective#for"
+    ],
+    "localLocation": [
+      "net.runelite.api.Perspective#getCanvasTileAreaPoly",
+      "net.runelite.api.Perspective#getCanvasTileAreaPoly",
+      "net.runelite.api.Perspective#getCanvasTileAreaPoly"
+    ],
+    "1": [
+      "net.runelite.api.Perspective#getCanvasTileAreaPoly",
+      "net.runelite.api.Perspective#getCanvasTileAreaPoly",
+      "net.runelite.api.Perspective#getCanvasTileAreaPoly",
+      "net.runelite.api.coords.WorldPoint#WorldArea",
+      "net.runelite.api.coords.WorldPoint#WorldArea"
+    ],
+    "zOffset": [
+      "net.runelite.api.Perspective#getCanvasTileAreaPoly"
+    ],
+    "size": [
+      "net.runelite.api.Perspective#getCanvasTileAreaPoly",
+      "net.runelite.api.Perspective#getCanvasTileAreaPoly"
+    ],
+    "wv ==": [
+      "net.runelite.api.Perspective#if",
+      "net.runelite.api.Perspective#if",
+      "net.runelite.api.Perspective#if",
+      "net.runelite.api.Perspective#if"
+    ],
+    "level ==": [
+      "net.runelite.api.Perspective#if"
+    ],
+    "p1 == null || p2 == null || p3 == null || p4 ==": [
+      "net.runelite.api.Perspective#if"
+    ],
+    "text ==": [
+      "net.runelite.api.Perspective#if"
+    ],
+    "p ==": [
+      "net.runelite.api.Perspective#if",
+      "net.runelite.api.Perspective#if",
+      "net.runelite.api.Perspective#if",
+      "net.runelite.api.Perspective#if",
+      "net.runelite.api.Perspective#if"
+    ],
+    "xOffset": [
+      "net.runelite.api.Perspective#Point",
+      "net.runelite.api.Perspective#Point",
+      "net.runelite.api.Perspective#Point",
+      "net.runelite.api.Perspective#Point"
+    ],
+    "yOffset": [
+      "net.runelite.api.Perspective#Point",
+      "net.runelite.api.Perspective#Point",
+      "net.runelite.api.Perspective#Point",
+      "net.runelite.api.Perspective#Point"
+    ],
+    "model ==": [
+      "net.runelite.api.Perspective#if"
+    ],
+    "bounds ==": [
+      "net.runelite.api.Perspective#if"
+    ],
+    "bounds2d ==": [
+      "net.runelite.api.Perspective#if"
+    ],
+    "8": [
+      "net.runelite.api.Perspective#modelToCanvas"
+    ],
+    "x": [
+      "net.runelite.api.Perspective#modelToCanvas",
+      "net.runelite.api.RuneLiteObjectController#LocalPoint",
+      "net.runelite.api.coords.WorldArea#Point",
+      "net.runelite.api.coords.WorldArea#WorldPoint",
+      "net.runelite.api.coords.WorldPoint#getRegionOffset",
+      "net.runelite.api.geometry.SimplePolygon#this",
+      "net.runelite.api.geometry.SimplePolygon#copyTo",
+      "net.runelite.api.hooks.DrawCallbacks#drawDynamic"
+    ],
+    "y": [
+      "net.runelite.api.Perspective#modelToCanvas",
+      "net.runelite.api.RuneLiteObjectController#LocalPoint",
+      "net.runelite.api.coords.WorldArea#Point",
+      "net.runelite.api.coords.WorldArea#WorldPoint",
+      "net.runelite.api.coords.WorldPoint#getRegionOffset",
+      "net.runelite.api.geometry.SimplePolygon#this",
+      "net.runelite.api.geometry.SimplePolygon#copyTo",
+      "net.runelite.api.hooks.DrawCallbacks#drawDynamic"
+    ],
+    "z": [
+      "net.runelite.api.Perspective#modelToCanvas",
+      "net.runelite.api.hooks.DrawCallbacks#drawDynamic"
+    ],
+    "xa": [
+      "net.runelite.api.Perspective#modelToCanvas"
+    ],
+    "ya": [
+      "net.runelite.api.Perspective#modelToCanvas"
+    ],
+    "za": [
+      "net.runelite.api.Perspective#modelToCanvas"
+    ],
+    "int tri = 0; tri ": [
+      "net.runelite.api.Perspective#for"
+    ],
+    "faceColors3[tri] ==": [
+      "net.runelite.api.Perspective#if"
+    ],
+    "int[] vertex :": [
+      "net.runelite.api.Perspective#for"
+    ],
+    "MIN_VALUE || ys ==": [
+      "net.runelite.api.Perspective#if"
+    ],
+    "xs ": [
+      "net.runelite.api.Perspective#if",
+      "net.runelite.api.geometry.SimplePolygon#if"
+    ],
+    "xs >": [
+      "net.runelite.api.Perspective#if",
+      "net.runelite.api.geometry.SimplePolygon#if"
+    ],
+    "ys ": [
+      "net.runelite.api.Perspective#if",
+      "net.runelite.api.geometry.SimplePolygon#if"
+    ],
+    "ys >": [
+      "net.runelite.api.Perspective#if",
+      "net.runelite.api.geometry.SimplePolygon#if"
+    ],
+    "vpX1 > maxX || vpX2 ": [
+      "net.runelite.api.Perspective#if"
+    ],
+    "KitType": [
+      "net.runelite.api.PlayerComposition#getEquipmentId",
+      "net.runelite.api.PlayerComposition#getKitId"
+    ],
+    "Point": [
+      "net.runelite.api.Point#distanceTo",
+      "net.runelite.api.widgets.Widget#contains"
+    ],
+    "needReregister": [
+      "net.runelite.api.RuneLiteObject#if",
+      "net.runelite.api.RuneLiteObject#if"
+    ],
+    "false": [
+      "net.runelite.api.RuneLiteObject#setActive",
+      "net.runelite.api.RuneLiteObject#setActive"
+    ],
+    "true": [
+      "net.runelite.api.RuneLiteObject#setActive"
+    ],
+    "active": [
+      "net.runelite.api.RuneLiteObject#if"
+    ],
+    "animationController !=": [
+      "net.runelite.api.RuneLiteObject#if",
+      "net.runelite.api.RuneLiteObject#if",
+      "net.runelite.api.RuneLiteObject#if",
+      "net.runelite.api.RuneLiteObject#if",
+      "net.runelite.api.RuneLiteObject#if"
+    ],
+    "poseAnimationController !=": [
+      "net.runelite.api.RuneLiteObject#if",
+      "net.runelite.api.RuneLiteObject#if",
+      "net.runelite.api.RuneLiteObject#if"
+    ],
+    "finished": [
+      "net.runelite.api.RuneLiteObject#if"
+    ],
+    "shouldLoop": [
+      "net.runelite.api.RuneLiteObject#if"
+    ],
+    "level": [
+      "net.runelite.api.RuneLiteObjectController#setLevel"
+    ],
+    "worldView": [
+      "net.runelite.api.RuneLiteObjectController#LocalPoint"
+    ],
+    "Tile": [
+      "net.runelite.api.Scene#removeTile",
+      "net.runelite.api.TileFunction#drawTile",
+      "net.runelite.api.coords.WorldArea#hasLineOfSightTo",
+      "net.runelite.api.coords.WorldArea#hasLineOfSightTo"
+    ],
+    "GameObject": [
+      "net.runelite.api.Scene#removeGameObject",
+      "net.runelite.api.hooks.DrawCallbacks#drawTemp"
+    ],
+    "Color": [
+      "net.runelite.api.SpritePixels#toBufferedOutline"
+    ],
+    "GroundObject": [
+      "net.runelite.api.Tile#setGroundObject"
+    ],
+    "SceneTilePaint": [
+      "net.runelite.api.Tile#setSceneTilePaint"
+    ],
+    "SceneTileModel": [
+      "net.runelite.api.Tile#setSceneTileModel"
+    ],
+    "EnumSet": [
+      "net.runelite.api.World#setTypes",
+      "net.runelite.api.WorldType#toMask"
+    ],
+    "1 ": [
+      "net.runelite.api.WorldType#SEASONAL"
+    ],
+    "WorldType type :": [
+      "net.runelite.api.WorldType#for"
+    ],
+    "Collection": [
+      "net.runelite.api.WorldType#isPvpWorld",
+      "net.runelite.api.WorldType#isDeadmanWorld",
+      "net.runelite.api.WorldType#isHighRiskWorld",
+      "net.runelite.api.WorldType#isAllHighRiskWorld",
+      "net.runelite.api.WorldType#isAllPvpWorld",
+      "net.runelite.api.WorldType#isAllPKWorld"
+    ],
+    "ClanRank": [
+      "net.runelite.api.clan.ClanSettings#titleForRank"
+    ],
+    "up !=": [
+      "net.runelite.api.coords.Angle#if"
+    ],
+    "round &": [
+      "net.runelite.api.coords.Angle#switch"
+    ],
+    "x -": [
+      "net.runelite.api.coords.LocalPoint#fromScene",
+      "net.runelite.api.coords.LocalPoint#fromScene"
+    ],
+    "y -": [
+      "net.runelite.api.coords.LocalPoint#fromScene",
+      "net.runelite.api.coords.LocalPoint#fromScene"
+    ],
+    "Scene": [
+      "net.runelite.api.coords.LocalPoint#fromWorld",
+      "net.runelite.api.coords.LocalPoint#fromScene",
+      "net.runelite.api.coords.WorldPoint#isInScene",
+      "net.runelite.api.coords.WorldPoint#fromLocal",
+      "net.runelite.api.coords.WorldPoint#fromLocalInstance",
+      "net.runelite.api.coords.WorldPoint#toLocalInstance",
+      "net.runelite.api.coords.WorldPoint#fromScene",
+      "net.runelite.api.hooks.DrawCallbacks#loadScene",
+      "net.runelite.api.hooks.DrawCallbacks#swapScene",
+      "net.runelite.api.hooks.DrawCallbacks#tileInFrustum",
+      "net.runelite.api.hooks.DrawCallbacks#loadScene",
+      "net.runelite.api.hooks.DrawCallbacks#preSceneDraw",
+      "net.runelite.api.hooks.DrawCallbacks#postSceneDraw",
+      "net.runelite.api.hooks.DrawCallbacks#drawPass",
+      "net.runelite.api.hooks.DrawCallbacks#drawZoneOpaque",
+      "net.runelite.api.hooks.DrawCallbacks#drawZoneAlpha",
+      "net.runelite.api.hooks.DrawCallbacks#drawDynamic",
+      "net.runelite.api.hooks.DrawCallbacks#drawDynamic",
+      "net.runelite.api.hooks.DrawCallbacks#drawTemp",
+      "net.runelite.api.hooks.DrawCallbacks#invalidateZone"
+    ],
+    "scene": [
+      "net.runelite.api.coords.LocalPoint#fromScene",
+      "net.runelite.api.hooks.DrawCallbacks#drawDynamic"
+    ],
+    "worldView !=": [
+      "net.runelite.api.coords.LocalPoint#if"
+    ],
+    "dx": [
+      "net.runelite.api.coords.LocalPoint#plus",
+      "net.runelite.api.coords.WorldArea#canTravelInDirection"
+    ],
+    "dy": [
+      "net.runelite.api.coords.LocalPoint#plus",
+      "net.runelite.api.coords.WorldArea#canTravelInDirection"
+    ],
+    "WorldArea": [
+      "net.runelite.api.coords.WorldArea#distanceTo",
+      "net.runelite.api.coords.WorldArea#distanceTo2D",
+      "net.runelite.api.coords.WorldArea#isInMeleeDistance",
+      "net.runelite.api.coords.WorldArea#intersectsWith",
+      "net.runelite.api.coords.WorldArea#hasLineOfSightTo",
+      "net.runelite.api.coords.WorldArea#intersectsWith2D",
+      "net.runelite.api.coords.WorldPoint#distanceTo"
+    ],
+    "other": [
+      "net.runelite.api.coords.WorldArea#distanceTo2D",
+      "net.runelite.api.coords.WorldPoint#distanceTo2D"
+    ],
+    "x ->": [
+      "net.runelite.api.coords.WorldArea#canTravelInDirection"
+    ],
+    "Predicate": [
+      "net.runelite.api.coords.WorldArea#canTravelInDirection"
+    ],
+    "dx == 0 && dy ==": [
+      "net.runelite.api.coords.WorldArea#if"
+    ],
+    "dx ": [
+      "net.runelite.api.coords.WorldArea#if",
+      "net.runelite.api.coords.WorldArea#if",
+      "net.runelite.api.coords.WorldArea#if",
+      "net.runelite.api.coords.WorldArea#if",
+      "net.runelite.api.coords.WorldArea#if"
+    ],
+    "dx >": [
+      "net.runelite.api.coords.WorldArea#if"
+    ],
+    "dy ": [
+      "net.runelite.api.coords.WorldArea#if",
+      "net.runelite.api.coords.WorldArea#if",
+      "net.runelite.api.coords.WorldArea#if"
+    ],
+    "dy >": [
+      "net.runelite.api.coords.WorldArea#if"
+    ],
+    "dx > 0 && dy ": [
+      "net.runelite.api.coords.WorldArea#if"
+    ],
+    "dx > 0 && dy >": [
+      "net.runelite.api.coords.WorldArea#if"
+    ],
+    "collisionData ==": [
+      "net.runelite.api.coords.WorldArea#if",
+      "net.runelite.api.coords.WorldArea#if"
+    ],
+    "dx !=": [
+      "net.runelite.api.coords.WorldArea#if"
+    ],
+    "int y = startY; y ": [
+      "net.runelite.api.coords.WorldArea#for"
+    ],
+    "int y = startY + 1; y ": [
+      "net.runelite.api.coords.WorldArea#for"
+    ],
+    "int y = endY - 1; y >= startY;": [
+      "net.runelite.api.coords.WorldArea#for"
+    ],
+    "dy !=": [
+      "net.runelite.api.coords.WorldArea#if"
+    ],
+    "int x = startX; x ": [
+      "net.runelite.api.coords.WorldArea#for"
+    ],
+    "int x = startX + 1; x ": [
+      "net.runelite.api.coords.WorldArea#for"
+    ],
+    "int x = endX - 1; x >= startX;": [
+      "net.runelite.api.coords.WorldArea#for"
+    ],
+    "dx != 0 && dy !=": [
+      "net.runelite.api.coords.WorldArea#if"
+    ],
+    "width ==": [
+      "net.runelite.api.coords.WorldArea#if"
+    ],
+    "height ==": [
+      "net.runelite.api.coords.WorldArea#if"
+    ],
+    "x ": [
+      "net.runelite.api.coords.WorldArea#if"
+    ],
+    "width -": [
+      "net.runelite.api.coords.WorldArea#if"
+    ],
+    "y ": [
+      "net.runelite.api.coords.WorldArea#if"
+    ],
+    "height -": [
+      "net.runelite.api.coords.WorldArea#if"
+    ],
+    "WorldPoint fromPoint :": [
+      "net.runelite.api.coords.WorldArea#for"
+    ],
+    "WorldPoint toPoint :": [
+      "net.runelite.api.coords.WorldArea#for"
+    ],
+    "fromLp == null || toLp ==": [
+      "net.runelite.api.coords.WorldArea#if"
+    ],
+    "sourceTile == null || targetTile ==": [
+      "net.runelite.api.coords.WorldArea#if"
+    ],
+    "dxAbs >": [
+      "net.runelite.api.coords.WorldArea#if"
+    ],
+    "int x = 0; x ": [
+      "net.runelite.api.coords.WorldArea#for",
+      "net.runelite.api.coords.WorldPoint#for"
+    ],
+    "int y = 0; y ": [
+      "net.runelite.api.coords.WorldArea#for",
+      "net.runelite.api.coords.WorldPoint#for"
+    ],
+    "int[][][]": [
+      "net.runelite.api.coords.WorldPoint#fromLocalInstance",
+      "net.runelite.api.coords.WorldPoint#toLocalInstance"
+    ],
+    "int z = 0; z ": [
+      "net.runelite.api.coords.WorldPoint#for"
+    ],
+    "rotation": [
+      "net.runelite.api.coords.WorldPoint#switch"
+    ],
+    "plane !=": [
+      "net.runelite.api.coords.WorldPoint#if"
+    ],
+    "WorldArea[]": [
+      "net.runelite.api.coords.WorldPoint#isInArea",
+      "net.runelite.api.coords.WorldPoint#isInArea2D"
+    ],
+    "WorldArea area :": [
+      "net.runelite.api.coords.WorldPoint#for",
+      "net.runelite.api.coords.WorldPoint#for"
+    ],
+    "this": [
+      "net.runelite.api.coords.WorldPoint#WorldArea"
+    ],
+    "length >": [
+      "net.runelite.api.events.MenuOpened#if"
+    ],
+    "Projectile": [
+      "net.runelite.api.events.ProjectileMoved#setProjectile"
+    ],
+    "s >= 0 && s ": [
+      "net.runelite.api.geometry.Geometry#if"
+    ],
+    "Shape": [
+      "net.runelite.api.geometry.Geometry#intersectionPoints",
+      "net.runelite.api.geometry.Geometry#clipPath",
+      "net.runelite.api.geometry.Geometry#clipPath"
+    ],
+    "type ==": [
+      "net.runelite.api.geometry.Geometry#if",
+      "net.runelite.api.geometry.Geometry#if",
+      "net.runelite.api.geometry.Geometry#if",
+      "net.runelite.api.geometry.Geometry#if",
+      "net.runelite.api.geometry.Geometry#if",
+      "net.runelite.api.geometry.Geometry#if",
+      "net.runelite.api.geometry.Geometry#if",
+      "net.runelite.api.geometry.Geometry#if",
+      "net.runelite.api.geometry.Geometry#if",
+      "net.runelite.api.geometry.Geometry#if",
+      "net.runelite.api.geometry.Geometry#if",
+      "net.runelite.api.geometry.Geometry#if",
+      "net.runelite.api.geometry.Geometry#if",
+      "net.runelite.api.geometry.Geometry#if"
+    ],
+    "intersection !=": [
+      "net.runelite.api.geometry.Geometry#if",
+      "net.runelite.api.geometry.Geometry#if"
+    ],
+    "PathIterator": [
+      "net.runelite.api.geometry.Geometry#transformPath",
+      "net.runelite.api.geometry.Geometry#splitIntoSegments",
+      "net.runelite.api.geometry.Geometry#filterPath",
+      "net.runelite.api.geometry.Geometry#clipPath"
+    ],
+    "GeneralPath": [
+      "net.runelite.api.geometry.Geometry#transformPath",
+      "net.runelite.api.geometry.Geometry#splitIntoSegments",
+      "net.runelite.api.geometry.Geometry#filterPath",
+      "net.runelite.api.geometry.Geometry#clipPath"
+    ],
+    "newPath": [
+      "net.runelite.api.geometry.Geometry#appendSegmentLines",
+      "net.runelite.api.geometry.Geometry#appendSegmentLines"
+    ],
+    "segmentLength": [
+      "net.runelite.api.geometry.Geometry#appendSegmentLines",
+      "net.runelite.api.geometry.Geometry#appendSegmentLines"
+    ],
+    "prevCoords[0]": [
+      "net.runelite.api.geometry.Geometry#appendSegmentLines"
+    ],
+    "prevCoords[1]": [
+      "net.runelite.api.geometry.Geometry#appendSegmentLines"
+    ],
+    "coords[0]": [
+      "net.runelite.api.geometry.Geometry#appendSegmentLines",
+      "net.runelite.api.geometry.Geometry#appendSegmentLines"
+    ],
+    "coords[1]": [
+      "net.runelite.api.geometry.Geometry#appendSegmentLines",
+      "net.runelite.api.geometry.Geometry#appendSegmentLines"
+    ],
+    "startCoords[0]": [
+      "net.runelite.api.geometry.Geometry#appendSegmentLines"
+    ],
+    "startCoords[1]": [
+      "net.runelite.api.geometry.Geometry#appendSegmentLines"
+    ],
+    "BiPredicate": [
+      "net.runelite.api.geometry.Geometry#filterPath",
+      "net.runelite.api.geometry.Geometry#filterPath"
+    ],
+    "shouldMoveNext": [
+      "net.runelite.api.geometry.Geometry#if",
+      "net.runelite.api.geometry.Geometry#if"
+    ],
+    "wasInside": [
+      "net.runelite.api.geometry.Geometry#if",
+      "net.runelite.api.geometry.Geometry#if",
+      "net.runelite.api.geometry.Geometry#if"
+    ],
+    "SEG_LINETO || type ==": [
+      "net.runelite.api.geometry.Geometry#if"
+    ],
+    "diff ": [
+      "net.runelite.api.geometry.Geometry#if"
+    ],
+    "diff >": [
+      "net.runelite.api.geometry.Geometry#if"
+    ],
+    "Float intersection :": [
+      "net.runelite.api.geometry.Geometry#for"
+    ],
+    "shouldMove": [
+      "net.runelite.api.geometry.Geometry#if",
+      "net.runelite.api.geometry.Geometry#if"
+    ],
+    "List": [
+      "net.runelite.api.geometry.RectangleUnion#union",
+      "net.runelite.api.hooks.Callbacks#drawInterface",
+      "net.runelite.api.hooks.Callbacks#drawLayer",
+      "net.runelite.api.model.Jarvis#convexHull"
+    ],
+    "out": [
+      "net.runelite.api.geometry.RectangleUnion#ChangingState"
+    ],
+    "int l =": [
+      "net.runelite.api.geometry.RectangleUnion#for"
+    ],
+    "r = 0;": [
+      "net.runelite.api.geometry.RectangleUnion#for"
+    ],
+    "lr == null && rr ==": [
+      "net.runelite.api.geometry.RectangleUnion#if"
+    ],
+    "remove": [
+      "net.runelite.api.geometry.RectangleUnion#if"
+    ],
+    "trace": [
+      "net.runelite.api.geometry.RectangleUnion#if",
+      "net.runelite.api.geometry.RectangleUnion#if"
+    ],
+    "n ==": [
+      "net.runelite.api.geometry.RectangleUnion#if"
+    ],
+    "y !=": [
+      "net.runelite.api.geometry.RectangleUnion#if"
+    ],
+    ";": [
+      "net.runelite.api.geometry.RectangleUnion#for",
+      "net.runelite.api.geometry.RectangleUnion#for"
+    ],
+    "y >": [
+      "net.runelite.api.geometry.RectangleUnion#if",
+      "net.runelite.api.geometry.RectangleUnion#if",
+      "net.runelite.api.geometry.RectangleUnion#if"
+    ],
+    "y ==": [
+      "net.runelite.api.geometry.RectangleUnion#if",
+      "net.runelite.api.geometry.RectangleUnion#if"
+    ],
+    "first; s != null; s =": [
+      "net.runelite.api.geometry.RectangleUnion#for"
+    ],
+    "chunk !=": [
+      "net.runelite.api.geometry.RectangleUnion#if",
+      "net.runelite.api.geometry.RectangleUnion#if",
+      "net.runelite.api.geometry.RectangleUnion#if"
+    ],
+    "Segment": [
+      "net.runelite.api.geometry.RectangleUnion#touch",
+      "net.runelite.api.geometry.RectangleUnion#finish",
+      "net.runelite.api.geometry.RectangleUnion#move",
+      "net.runelite.api.geometry.RectangleUnion#move",
+      "net.runelite.api.geometry.RectangleUnion#push",
+      "net.runelite.api.geometry.RectangleUnion#insertAfter"
+    ],
+    "oldValue ": [
+      "net.runelite.api.geometry.RectangleUnion#if"
+    ],
+    "first ==": [
+      "net.runelite.api.geometry.RectangleUnion#if",
+      "net.runelite.api.geometry.RectangleUnion#if"
+    ],
+    "s": [
+      "net.runelite.api.geometry.RectangleUnion#finish",
+      "net.runelite.api.geometry.RectangleUnion#push",
+      "net.runelite.api.geometry.RectangleUnion#push",
+      "net.runelite.api.geometry.RectangleUnion#push",
+      "net.runelite.api.geometry.RectangleUnion#move",
+      "net.runelite.api.geometry.RectangleUnion#move",
+      "net.runelite.api.geometry.RectangleUnion#push"
+    ],
+    "first": [
+      "net.runelite.api.geometry.RectangleUnion#push",
+      "net.runelite.api.geometry.RectangleUnion#push",
+      "net.runelite.api.geometry.RectangleUnion#move",
+      "net.runelite.api.geometry.RectangleUnion#push",
+      "net.runelite.api.geometry.RectangleUnion#push",
+      "net.runelite.api.geometry.RectangleUnion#move"
+    ],
+    "chunk ==": [
+      "net.runelite.api.geometry.RectangleUnion#if",
+      "net.runelite.api.geometry.RectangleUnion#if",
+      "net.runelite.api.geometry.RectangleUnion#if"
+    ],
+    "left": [
+      "net.runelite.api.geometry.RectangleUnion#if",
+      "net.runelite.api.geometry.RectangleUnion#if",
+      "net.runelite.api.geometry.RectangleUnion#if",
+      "net.runelite.api.geometry.RectangleUnion#if"
+    ],
+    "left ==": [
+      "net.runelite.api.geometry.RectangleUnion#if"
+    ],
+    "before !=": [
+      "net.runelite.api.geometry.RectangleUnion#if"
+    ],
+    "next !=": [
+      "net.runelite.api.geometry.RectangleUnion#if"
+    ],
+    "first !=": [
+      "net.runelite.api.geometry.RectangleUnion#if"
+    ],
+    "Segment s = first; s != null; s =": [
+      "net.runelite.api.geometry.RectangleUnion#for"
+    ],
+    "Shape shape :": [
+      "net.runelite.api.geometry.Shapes#for",
+      "net.runelite.api.geometry.Shapes#for"
+    ],
+    "minX": [
+      "net.runelite.api.geometry.Shapes#Rectangle",
+      "net.runelite.api.geometry.SimplePolygon#Rectangle"
+    ],
+    "minY": [
+      "net.runelite.api.geometry.Shapes#Rectangle",
+      "net.runelite.api.geometry.SimplePolygon#Rectangle"
+    ],
+    "maxX -": [
+      "net.runelite.api.geometry.Shapes#Rectangle",
+      "net.runelite.api.geometry.SimplePolygon#Rectangle"
+    ],
+    "maxY -": [
+      "net.runelite.api.geometry.Shapes#Rectangle",
+      "net.runelite.api.geometry.SimplePolygon#Rectangle"
+    ],
+    "Point2D": [
+      "net.runelite.api.geometry.Shapes#contains",
+      "net.runelite.api.geometry.SimplePolygon#contains"
+    ],
+    "Rectangle2D": [
+      "net.runelite.api.geometry.Shapes#intersects",
+      "net.runelite.api.geometry.Shapes#contains",
+      "net.runelite.api.geometry.SimplePolygon#intersects",
+      "net.runelite.api.geometry.SimplePolygon#contains"
+    ],
+    "AffineTransform": [
+      "net.runelite.api.geometry.Shapes#getPathIterator",
+      "net.runelite.api.geometry.Shapes#getPathIterator",
+      "net.runelite.api.geometry.SimplePolygon#getPathIterator",
+      "net.runelite.api.geometry.SimplePolygon#getPathIterator",
+      "net.runelite.api.geometry.SimplePolygon#TransformIterator"
+    ],
+    "Iterator": [
+      "net.runelite.api.geometry.Shapes#ShapeIterator"
+    ],
+    "; current != null &&": [
+      "net.runelite.api.geometry.Shapes#for"
+    ],
+    "double[]": [
+      "net.runelite.api.geometry.Shapes#currentSegment",
+      "net.runelite.api.geometry.SimplePolygon#currentSegment",
+      "net.runelite.api.geometry.SimplePolygon#currentSegment"
+    ],
+    "new": [
+      "net.runelite.api.geometry.SimplePolygon#this",
+      "net.runelite.api.geometry.SimplePolygon#this",
+      "net.runelite.api.model.Jarvis#SimplePolygon",
+      "net.runelite.api.model.Jarvis#SimplePolygon"
+    ],
+    "16": [
+      "net.runelite.api.geometry.SimplePolygon#this"
+    ],
+    "15": [
+      "net.runelite.api.geometry.SimplePolygon#this"
+    ],
+    "length -": [
+      "net.runelite.api.geometry.SimplePolygon#this"
+    ],
+    "left ": [
+      "net.runelite.api.geometry.SimplePolygon#if"
+    ],
+    "GROW": [
+      "net.runelite.api.geometry.SimplePolygon#expandLeft",
+      "net.runelite.api.geometry.SimplePolygon#expandRight"
+    ],
+    "right >=": [
+      "net.runelite.api.geometry.SimplePolygon#if"
+    ],
+    "int i = left; i ": [
+      "net.runelite.api.geometry.SimplePolygon#for",
+      "net.runelite.api.geometry.SimplePolygon#for"
+    ],
+    "SimplePolygon": [
+      "net.runelite.api.geometry.SimplePolygon#appendTo",
+      "net.runelite.api.geometry.SimplePolygon#intersectWithConvex"
+    ],
+    "size ": [
+      "net.runelite.api.geometry.SimplePolygon#if"
+    ],
+    "right +": [
+      "net.runelite.api.geometry.SimplePolygon#copyTo"
+    ],
+    "left; ci ": [
+      "net.runelite.api.geometry.SimplePolygon#for"
+    ],
+    "int ti = tLeft; ti ": [
+      "net.runelite.api.geometry.SimplePolygon#for"
+    ],
+    "p1 ": [
+      "net.runelite.api.geometry.SimplePolygon#if"
+    ],
+    "tx2": [
+      "net.runelite.api.geometry.SimplePolygon#pushRight",
+      "net.runelite.api.geometry.SimplePolygon#pushRight"
+    ],
+    "ty2": [
+      "net.runelite.api.geometry.SimplePolygon#pushRight",
+      "net.runelite.api.geometry.SimplePolygon#pushRight"
+    ],
+    "p1 >= 0 != p2 >=": [
+      "net.runelite.api.geometry.SimplePolygon#if"
+    ],
+    "p1 >=": [
+      "net.runelite.api.geometry.SimplePolygon#if"
+    ],
+    "swap": [
+      "net.runelite.api.geometry.SimplePolygon#if"
+    ],
+    "int x0 =": [
+      "net.runelite.api.geometry.SimplePolygon#for"
+    ],
+    "y0 =": [
+      "net.runelite.api.geometry.SimplePolygon#for",
+      "net.runelite.api.geometry.SimplePolygon#for"
+    ],
+    "x1": [
+      "net.runelite.api.geometry.SimplePolygon#for"
+    ],
+    "y1": [
+      "net.runelite.api.geometry.SimplePolygon#for"
+    ],
+    "i = left; i ": [
+      "net.runelite.api.geometry.SimplePolygon#for"
+    ],
+    "x0 =": [
+      "net.runelite.api.geometry.SimplePolygon#for"
+    ],
+    "y0 ==": [
+      "net.runelite.api.geometry.SimplePolygon#if"
+    ],
+    "cy ": [
+      "net.runelite.api.geometry.SimplePolygon#if"
+    ],
+    "left == cx ": [
+      "net.runelite.api.geometry.SimplePolygon#if"
+    ],
+    "!left": [
+      "net.runelite.api.geometry.SimplePolygon#if"
+    ],
+    "at ==": [
+      "net.runelite.api.geometry.SimplePolygon#if"
+    ],
+    "at": [
+      "net.runelite.api.geometry.SimplePolygon#TransformIterator",
+      "net.runelite.api.geometry.SimplePolygon#getPathIterator"
+    ],
+    "i ==": [
+      "net.runelite.api.geometry.SimplePolygon#if",
+      "net.runelite.api.geometry.SimplePolygon#if",
+      "net.runelite.api.geometry.SimplePolygon#if"
+    ],
+    "MainBufferProvider": [
+      "net.runelite.api.hooks.Callbacks#draw"
+    ],
+    "Graphics": [
+      "net.runelite.api.hooks.Callbacks#draw"
+    ],
+    "MouseEvent": [
+      "net.runelite.api.hooks.Callbacks#mousePressed",
+      "net.runelite.api.hooks.Callbacks#mouseReleased",
+      "net.runelite.api.hooks.Callbacks#mouseClicked",
+      "net.runelite.api.hooks.Callbacks#mouseEntered",
+      "net.runelite.api.hooks.Callbacks#mouseExited",
+      "net.runelite.api.hooks.Callbacks#mouseDragged",
+      "net.runelite.api.hooks.Callbacks#mouseMoved"
+    ],
+    "MouseWheelEvent": [
+      "net.runelite.api.hooks.Callbacks#mouseWheelMoved"
+    ],
+    "KeyEvent": [
+      "net.runelite.api.hooks.Callbacks#keyPressed",
+      "net.runelite.api.hooks.Callbacks#keyReleased",
+      "net.runelite.api.hooks.Callbacks#keyTyped"
+    ],
+    "Renderable": [
+      "net.runelite.api.hooks.Callbacks#draw",
+      "net.runelite.api.hooks.DrawCallbacks#drawDynamic",
+      "net.runelite.api.hooks.DrawCallbacks#drawDynamic"
+    ],
+    "Throwable": [
+      "net.runelite.api.hooks.Callbacks#error"
+    ],
+    "Texture": [
+      "net.runelite.api.hooks.DrawCallbacks#animate"
+    ],
+    "Set": [
+      "net.runelite.api.hooks.DrawCallbacks#preSceneDraw"
+    ],
+    "TileObject": [
+      "net.runelite.api.hooks.DrawCallbacks#drawDynamic",
+      "net.runelite.api.hooks.DrawCallbacks#drawDynamic"
+    ],
+    "worldProjection": [
+      "net.runelite.api.hooks.DrawCallbacks#drawDynamic"
+    ],
+    "tileObject": [
+      "net.runelite.api.hooks.DrawCallbacks#drawDynamic"
+    ],
+    "r": [
+      "net.runelite.api.hooks.DrawCallbacks#drawDynamic"
+    ],
+    "m": [
+      "net.runelite.api.hooks.DrawCallbacks#drawDynamic"
+    ],
+    "orient": [
+      "net.runelite.api.hooks.DrawCallbacks#drawDynamic"
+    ],
+    "poly ==": [
+      "net.runelite.api.model.Jarvis#if"
+    ],
+    "; i ": [
+      "net.runelite.api.model.Jarvis#for",
+      "net.runelite.api.model.Jarvis#for"
+    ],
+    "xs[i] ==": [
+      "net.runelite.api.model.Jarvis#if",
+      "net.runelite.api.model.Jarvis#if"
+    ],
+    "length ": [
+      "net.runelite.api.model.Jarvis#if"
+    ],
+    "int i = 1; i ": [
+      "net.runelite.api.model.Jarvis#for",
+      "net.runelite.api.model.Jarvis#for"
+    ],
+    "current !=": [
+      "net.runelite.api.model.Jarvis#while"
+    ],
+    "ix ": [
+      "net.runelite.api.model.Jarvis#if"
+    ],
+    "InputStream indexStream =": [
+      "net.runelite.api.overlay.OverlayIndex#try"
+    ],
+    "IOException": [
+      "net.runelite.api.overlay.OverlayIndex#catch"
+    ],
+    "11": [
+      "net.runelite.api.vars.InputType#SEARCH"
+    ],
+    "ScriptEvent": [
+      "net.runelite.api.widgets.JavaScriptCallback#run"
+    ],
+    "Widget[]": [
+      "net.runelite.api.widgets.Widget#setChildren"
+    ],
+    "WorldMapData": [
+      "net.runelite.api.worldmap.WorldMap#initializeWorldMap"
+    ]
+  },
+  "extends_class": {
+    "Renderable, CameraFocusableEntity": [
+      "net.runelite.api.Actor"
+    ],
+    "Node": [
+      "net.runelite.api.ActorSpotAnim",
+      "net.runelite.api.IntegerNode",
+      "net.runelite.api.ItemContainer",
+      "net.runelite.api.MessageNode",
+      "net.runelite.api.Renderable",
+      "net.runelite.api.Script",
+      "net.runelite.api.Texture",
+      "net.runelite.api.WidgetNode",
+      "net.runelite.api.widgets.WidgetConfigNode"
+    ],
+    "Nameable": [
+      "net.runelite.api.ChatPlayer",
+      "net.runelite.api.Ignore"
+    ],
+    "OAuthApi, GameEngine": [
+      "net.runelite.api.Client"
+    ],
+    "TileObject": [
+      "net.runelite.api.DecorativeObject",
+      "net.runelite.api.GameObject",
+      "net.runelite.api.GroundObject",
+      "net.runelite.api.ItemLayer",
+      "net.runelite.api.WallObject"
+    ],
+    "Iterable": [
+      "net.runelite.api.Deque",
+      "net.runelite.api.HashTable",
+      "net.runelite.api.IndexedObjectSet",
+      "net.runelite.api.IterableHashTable"
+    ],
+    "Renderable": [
+      "net.runelite.api.DynamicObject",
+      "net.runelite.api.GraphicsObject",
+      "net.runelite.api.Projectile",
+      "net.runelite.api.Scene",
+      "net.runelite.api.TileItem"
+    ],
+    "Projection": [
+      "net.runelite.api.FloatProjection",
+      "net.runelite.api.IntProjection"
+    ],
+    "ChatPlayer": [
+      "net.runelite.api.Friend",
+      "net.runelite.api.FriendsChatMember",
+      "net.runelite.api.clan.ClanChannelMember"
+    ],
+    "NameableContainer": [
+      "net.runelite.api.FriendContainer",
+      "net.runelite.api.FriendsChatManager"
+    ],
+    "ParamHolder": [
+      "net.runelite.api.ItemComposition",
+      "net.runelite.api.NPCComposition",
+      "net.runelite.api.ObjectComposition",
+      "net.runelite.api.StructComposition"
+    ],
+    "BufferProvider": [
+      "net.runelite.api.MainBufferProvider"
+    ],
+    "Mesh": [
+      "net.runelite.api.Model",
+      "net.runelite.api.ModelData"
+    ],
+    "Actor": [
+      "net.runelite.api.NPC",
+      "net.runelite.api.Player"
+    ],
+    "Comparable": [
+      "net.runelite.api.Nameable"
+    ],
+    "WorldMap": [
+      "net.runelite.api.RenderOverview"
+    ],
+    "RuneLiteObjectController": [
+      "net.runelite.api.RuneLiteObject"
+    ],
+    "CameraFocusableEntity": [
+      "net.runelite.api.WorldEntity"
+    ],
+    "WorldMapData": [
+      "net.runelite.api.WorldMapData"
+    ],
+    "ObjectID1": [
+      "net.runelite.api.gameval.ObjectID"
+    ]
+  },
+  "implements_interface": {
+    "Shape": [
+      "net.runelite.api.geometry.Shapes",
+      "net.runelite.api.geometry.SimplePolygon"
+    ]
+  },
+  "related": {
+    "Angle": [
+      "net.runelite.api.Actor#getOrientation",
+      "net.runelite.api.Actor#getCurrentOrientation",
+      "net.runelite.api.GameObject#getOrientation",
+      "net.runelite.api.GameObject#getModelOrientation",
+      "net.runelite.api.ItemComposition#getXan2d",
+      "net.runelite.api.ItemComposition#getYan2d",
+      "net.runelite.api.ItemComposition#getZan2d",
+      "net.runelite.api.ItemComposition#setXan2d",
+      "net.runelite.api.ItemComposition#setYan2d",
+      "net.runelite.api.ItemComposition#setZan2d",
+      "net.runelite.api.RuneLiteObjectController#setLocation"
+    ],
+    "AnimationID": [
+      "net.runelite.api.Actor#getAnimation",
+      "net.runelite.api.Actor#getPoseAnimation",
+      "net.runelite.api.Actor#setPoseAnimation",
+      "net.runelite.api.Actor#getIdlePoseAnimation",
+      "net.runelite.api.Actor#getIdleRotateLeft",
+      "net.runelite.api.Actor#getIdleRotateRight",
+      "net.runelite.api.Actor#getWalkAnimation",
+      "net.runelite.api.Actor#getWalkRotateLeft",
+      "net.runelite.api.Actor#getWalkRotateRight",
+      "net.runelite.api.Actor#getWalkRotate180",
+      "net.runelite.api.Actor#getRunAnimation",
+      "net.runelite.api.Actor#setAnimation",
+      "net.runelite.api.Animation#getId",
+      "net.runelite.api.events.AnimationChanged",
+      "net.runelite.api.widgets.Widget#getAnimationId",
+      "net.runelite.api.widgets.Widget#setAnimationId"
+    ],
+    "createSpotAnim(int, int, int, int)": [
+      "net.runelite.api.Actor#getSpotAnims"
+    ],
+    "removeSpotAnim(int)": [
+      "net.runelite.api.Actor#getSpotAnims"
+    ],
+    "clearSpotAnims()": [
+      "net.runelite.api.Actor#getSpotAnims"
+    ],
+    "SpotanimID": [
+      "net.runelite.api.Actor#hasSpotAnim",
+      "net.runelite.api.Actor#getGraphic",
+      "net.runelite.api.Actor#setGraphic",
+      "net.runelite.api.ActorSpotAnim#getId",
+      "net.runelite.api.ActorSpotAnim#setId",
+      "net.runelite.api.Client#createProjectile",
+      "net.runelite.api.GraphicID",
+      "net.runelite.api.Projectile#getId",
+      "net.runelite.api.events.GraphicChanged"
+    ],
+    "Jarvis": [
+      "net.runelite.api.Actor#getConvexHull",
+      "net.runelite.api.DecorativeObject#getConvexHull",
+      "net.runelite.api.GameObject#getConvexHull",
+      "net.runelite.api.GroundObject#getConvexHull",
+      "net.runelite.api.WallObject#getConvexHull"
+    ],
+    "isDead()": [
+      "net.runelite.api.Actor#setDead"
+    ],
+    "SoundEffectID": [
+      "net.runelite.api.AmbientSoundEffect#getSoundEffectId",
+      "net.runelite.api.AmbientSoundEffect#getBackgroundSoundEffectIds"
+    ],
+    "getRestartMode()": [
+      "net.runelite.api.Animation#setRestartMode"
+    ],
+    "OAuthApi": [
+      "net.runelite.api.Client#getUsername"
+    ],
+    "getCameraX()": [
+      "net.runelite.api.Client#getCameraFpX"
+    ],
+    "getCameraY()": [
+      "net.runelite.api.Client#getCameraFpY"
+    ],
+    "getCameraZ()": [
+      "net.runelite.api.Client#getCameraFpZ"
+    ],
+    "getCameraPitch()": [
+      "net.runelite.api.Client#getCameraFpPitch"
+    ],
+    "getCameraYaw()": [
+      "net.runelite.api.Client#getCameraFpYaw"
+    ],
+    "ItemID": [
+      "net.runelite.api.Client#getItemDefinition",
+      "net.runelite.api.GrandExchangeOffer#getItemId",
+      "net.runelite.api.ItemComposition#getId",
+      "net.runelite.api.ItemContainer#contains",
+      "net.runelite.api.ItemContainer#count",
+      "net.runelite.api.MenuEntry#getItemId",
+      "net.runelite.api.TileItem#getId",
+      "net.runelite.api.events.MenuOptionClicked#getItemId",
+      "net.runelite.api.widgets.WidgetItem#getCanvasBounds"
+    ],
+    "getMenu()": [
+      "net.runelite.api.Client#createMenuEntry",
+      "net.runelite.api.Client#getMenuEntries",
+      "net.runelite.api.Client#setMenuEntries"
+    ],
+    "Menu": [
+      "net.runelite.api.Client#createMenuEntry",
+      "net.runelite.api.Client#getMenuEntries",
+      "net.runelite.api.Client#setMenuEntries",
+      "net.runelite.api.Client#getMenuX",
+      "net.runelite.api.Client#getMenuY",
+      "net.runelite.api.Client#getMenuHeight",
+      "net.runelite.api.Client#getMenuWidth"
+    ],
+    "getCameraYawTarget()": [
+      "net.runelite.api.Client#getMapAngle"
+    ],
+    "Client": [
+      "net.runelite.api.Client#getVar",
+      "net.runelite.api.Client#getDraw2DMask",
+      "net.runelite.api.EquipmentInventorySlot",
+      "net.runelite.api.ItemComposition#setInventoryModel",
+      "net.runelite.api.MenuAction#UNKNOWN",
+      "net.runelite.api.StructID",
+      "net.runelite.api.TileItem#getVisibleTime",
+      "net.runelite.api.TileItem#getDespawnTime",
+      "net.runelite.api.WorldType#isPvpWorld",
+      "net.runelite.api.events.WorldChanged"
+    ],
+    "VarbitID": [
+      "net.runelite.api.Client#getVarbitValue",
+      "net.runelite.api.Client#setVarbitValue"
+    ],
+    "WidgetNode": [
+      "net.runelite.api.Client#getComponentTable"
+    ],
+    "ObjectID": [
+      "net.runelite.api.Client#getObjectDefinition",
+      "net.runelite.api.ObjectComposition#getId",
+      "net.runelite.api.TileObject#getId"
+    ],
+    "NpcID": [
+      "net.runelite.api.Client#getNpcDefinition",
+      "net.runelite.api.NPC#getId",
+      "net.runelite.api.NPCComposition#getId"
+    ],
+    "StructID": [
+      "net.runelite.api.Client#getStructComposition"
+    ],
+    "ModelData": [
+      "net.runelite.api.Client#loadModelData"
+    ],
+    "Constants": [
+      "net.runelite.api.Client#getMouseIdleTicks",
+      "net.runelite.api.Client#getKeyboardIdleTicks",
+      "net.runelite.api.Client#getInstanceTemplateChunks",
+      "net.runelite.api.CollisionData#getFlags",
+      "net.runelite.api.ItemComposition#getPrice",
+      "net.runelite.api.Scene#getInstanceTemplateChunks",
+      "net.runelite.api.WorldView#getInstanceTemplateChunks"
+    ],
+    "InventoryID": [
+      "net.runelite.api.Client#getItemContainer",
+      "net.runelite.api.EquipmentInventorySlot",
+      "net.runelite.api.ItemContainer#getId"
+    ],
+    "getWorldMap()": [
+      "net.runelite.api.Client#getRenderOverview"
+    ],
+    "ScriptID": [
+      "net.runelite.api.Client#runScript",
+      "net.runelite.api.Client#createScriptEvent"
+    ],
+    "KeyCode": [
+      "net.runelite.api.Client#getCrossWorldMessageIds"
+    ],
+    "ClanID": [
+      "net.runelite.api.Client#getAmbientSoundEffects"
+    ],
+    "InstanceTemplates": [
+      "net.runelite.api.Client#getInstanceTemplateChunks",
+      "net.runelite.api.Scene#getInstanceTemplateChunks",
+      "net.runelite.api.WorldView#getInstanceTemplateChunks"
+    ],
+    "WorldView": [
+      "net.runelite.api.Client#getInstanceTemplateChunks",
+      "net.runelite.api.Client#isInInstancedRegion",
+      "net.runelite.api.Client#getScene",
+      "net.runelite.api.Client#getPlayers",
+      "net.runelite.api.Client#getNpcs",
+      "net.runelite.api.Client#getCollisionMaps",
+      "net.runelite.api.Client#getPlane",
+      "net.runelite.api.Client#getTileHeights",
+      "net.runelite.api.Client#getTileSettings",
+      "net.runelite.api.Client#getBaseX",
+      "net.runelite.api.Client#getBaseY",
+      "net.runelite.api.Client#getGraphicsObjects",
+      "net.runelite.api.Client#getSelectedSceneTile"
+    ],
+    "Tile": [
+      "net.runelite.api.Client#createSceneTilePaint"
+    ],
+    "ItemComposition": [
+      "net.runelite.api.ItemComposition#getPrice",
+      "net.runelite.api.ItemComposition#getColorToReplace",
+      "net.runelite.api.ItemComposition#setColorToReplace",
+      "net.runelite.api.ItemComposition#getColorToReplaceWith",
+      "net.runelite.api.ItemComposition#setColorToReplaceWith",
+      "net.runelite.api.ItemComposition#getTextureToReplace",
+      "net.runelite.api.ItemComposition#setTextureToReplace",
+      "net.runelite.api.ItemComposition#getTextureToReplaceWith",
+      "net.runelite.api.ItemComposition#setTextureToReplaceWith"
+    ],
+    "JagexColor": [
+      "net.runelite.api.ItemComposition#getColorToReplace",
+      "net.runelite.api.ItemComposition#setColorToReplace",
+      "net.runelite.api.ItemComposition#getColorToReplaceWith",
+      "net.runelite.api.ItemComposition#setColorToReplaceWith",
+      "net.runelite.api.ModelData#getFaceColors",
+      "net.runelite.api.NPCComposition#getColorToReplace",
+      "net.runelite.api.NPCComposition#getColorToReplaceWith",
+      "net.runelite.api.Rasterizer"
+    ],
+    "Item": [
+      "net.runelite.api.ItemContainer#getItem"
+    ],
+    "count()": [
+      "net.runelite.api.ItemContainer#size"
+    ],
+    "MenuEntry": [
+      "net.runelite.api.MenuAction#UNKNOWN"
+    ],
+    "createSubMenu()": [
+      "net.runelite.api.MenuEntry#getSubMenu"
+    ],
+    "getAABB(int)": [
+      "net.runelite.api.Model#calculateExtreme"
+    ],
+    "light(int, int, int, int, int)": [
+      "net.runelite.api.ModelData#light"
+    ],
+    "getOverheadSpriteIds()": [
+      "net.runelite.api.NPC#getOverheadArchiveIds"
+    ],
+    "getOverheadArchiveIds()": [
+      "net.runelite.api.NPC#getOverheadSpriteIds"
+    ],
+    "STAT_ATTACK": [
+      "net.runelite.api.NPCComposition#getStats"
+    ],
+    "STAT_DEFENCE": [
+      "net.runelite.api.NPCComposition#getStats"
+    ],
+    "STAT_STRENGTH": [
+      "net.runelite.api.NPCComposition#getStats"
+    ],
+    "STAT_HITPOINTS": [
+      "net.runelite.api.NPCComposition#getStats"
+    ],
+    "STAT_RANGED": [
+      "net.runelite.api.NPCComposition#getStats"
+    ],
+    "STAT_MAGIC": [
+      "net.runelite.api.NPCComposition#getStats"
+    ],
+    "getImpostor()": [
+      "net.runelite.api.ObjectComposition#getVarbitId",
+      "net.runelite.api.ObjectComposition#getVarPlayerId"
+    ],
+    "getImpostorIds()": [
+      "net.runelite.api.ObjectComposition#getVarbitId",
+      "net.runelite.api.ObjectComposition#getVarPlayerId"
+    ],
+    "ParamID": [
+      "net.runelite.api.ParamHolder",
+      "net.runelite.api.SettingID"
+    ],
+    "ParamHolder": [
+      "net.runelite.api.ParamID",
+      "net.runelite.api.StructComposition"
+    ],
+    "SkullIcon": [
+      "net.runelite.api.Player#getSkullIcon",
+      "net.runelite.api.Player#getFootprintSize"
+    ],
+    "PlayerComposition": [
+      "net.runelite.api.PlayerComposition#getTransformedNpcId",
+      "net.runelite.api.PlayerComposition#setTransformedNpcId"
+    ],
+    "WorldMap": [
+      "net.runelite.api.RenderOverview"
+    ],
+    "getInstanceTemplateChunks()": [
+      "net.runelite.api.Scene#isInstance",
+      "net.runelite.api.WorldView#isInstance"
+    ],
+    "Widget": [
+      "net.runelite.api.ScriptEvent#setSource",
+      "net.runelite.api.ScriptEvent#getTarget",
+      "net.runelite.api.ScriptEvent#setTarget",
+      "net.runelite.api.WidgetNode#getId",
+      "net.runelite.api.widgets.WidgetConfig"
+    ],
+    "MenuOptionClicked": [
+      "net.runelite.api.ScriptEvent#getOpbase"
+    ],
+    "StructComposition": [
+      "net.runelite.api.StructID"
+    ],
+    "LocalPoint": [
+      "net.runelite.api.TileObject#getX",
+      "net.runelite.api.TileObject#getY"
+    ],
+    "VarPlayerID": [
+      "net.runelite.api.Varbits"
+    ],
+    "WidgetModalMode": [
+      "net.runelite.api.WidgetNode#getModalMode"
+    ],
+    "getTargetLocation()": [
+      "net.runelite.api.WorldEntity#getTargetOrientation"
+    ],
+    "ClanRank": [
+      "net.runelite.api.clan.ClanChannelMember#getRank",
+      "net.runelite.api.clan.ClanSettings#titleForRank"
+    ],
+    "ClanSettings": [
+      "net.runelite.api.clan.ClanChannelMember#getRank"
+    ],
+    "JMOD": [
+      "net.runelite.api.clan.ClanRank"
+    ],
+    "OWNER": [
+      "net.runelite.api.clan.ClanRank"
+    ],
+    "DEPUTY_OWNER": [
+      "net.runelite.api.clan.ClanRank"
+    ],
+    "ADMINISTRATOR": [
+      "net.runelite.api.clan.ClanRank"
+    ],
+    "GUEST": [
+      "net.runelite.api.clan.ClanRank"
+    ],
+    "isInMeleeDistance(WorldArea)": [
+      "net.runelite.api.coords.WorldArea#isInMeleeDistance"
+    ],
+    "ClientTick": [
+      "net.runelite.api.events.PostClientTick"
+    ],
+    "VarClientID": [
+      "net.runelite.api.events.VarClientIntChanged",
+      "net.runelite.api.events.VarClientStrChanged"
+    ],
+    "WorldViewLoaded": [
+      "net.runelite.api.events.WorldEntitySpawned"
+    ],
+    "WidgetID": [
+      "net.runelite.api.widgets.Widget#getId"
+    ],
+    "WidgetType": [
+      "net.runelite.api.widgets.Widget#getType",
+      "net.runelite.api.widgets.Widget#getContentType"
+    ],
+    "WidgetConfig": [
+      "net.runelite.api.widgets.Widget#getClickMask",
+      "net.runelite.api.widgets.Widget#getParent"
+    ],
+    "Color": [
+      "net.runelite.api.widgets.Widget#getTextColor",
+      "net.runelite.api.widgets.Widget#setTextColor"
+    ],
+    "getModelType()": [
+      "net.runelite.api.widgets.Widget#getModelId"
+    ],
+    "WidgetModelType": [
+      "net.runelite.api.widgets.Widget#setModelId",
+      "net.runelite.api.widgets.Widget#getModelType",
+      "net.runelite.api.widgets.Widget#getAnimationId"
+    ],
+    "SpriteID": [
+      "net.runelite.api.widgets.Widget#getSpriteId",
+      "net.runelite.api.widgets.Widget#setSpriteId"
+    ]
+  }
+}

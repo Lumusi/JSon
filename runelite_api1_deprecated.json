@@ -11,7 +11,8 @@
       "replacement": "",
       "since": "",
       "forRemoval": false,
-      "reason": ""
+      "reason": "",
+      "seeAlso": []
     },
     {
       "type": "class",
@@ -19,7 +20,10 @@
       "replacement": "net.runelite.api.gameval.SpotanimID",
       "since": "",
       "forRemoval": false,
-      "reason": ""
+      "reason": "",
+      "seeAlso": [
+        "net.runelite.api.gameval.SpotanimID"
+      ]
     },
     {
       "type": "class",
@@ -27,7 +31,8 @@
       "replacement": "",
       "since": "",
       "forRemoval": false,
-      "reason": ""
+      "reason": "",
+      "seeAlso": []
     },
     {
       "type": "class",
@@ -35,7 +40,10 @@
       "replacement": "WorldMap",
       "since": "",
       "forRemoval": false,
-      "reason": ""
+      "reason": "",
+      "seeAlso": [
+        "WorldMap"
+      ]
     },
     {
       "type": "class",
@@ -43,7 +51,8 @@
       "replacement": "net.runelite.api.gameval.VarClientID",
       "since": "",
       "forRemoval": false,
-      "reason": ""
+      "reason": "",
+      "seeAlso": []
     },
     {
       "type": "class",
@@ -51,7 +60,8 @@
       "replacement": "net.runelite.api.gameval.VarClientID",
       "since": "",
       "forRemoval": false,
-      "reason": ""
+      "reason": "",
+      "seeAlso": []
     },
     {
       "type": "class",
@@ -59,7 +69,8 @@
       "replacement": "",
       "since": "",
       "forRemoval": false,
-      "reason": ""
+      "reason": "",
+      "seeAlso": []
     },
     {
       "type": "class",
@@ -67,7 +78,10 @@
       "replacement": "net.runelite.api.gameval.VarPlayerID",
       "since": "",
       "forRemoval": false,
-      "reason": ""
+      "reason": "",
+      "seeAlso": [
+        "net.runelite.api.gameval.VarPlayerID"
+      ]
     },
     {
       "type": "class",
@@ -75,7 +89,8 @@
       "replacement": "",
       "since": "",
       "forRemoval": false,
-      "reason": ""
+      "reason": "",
+      "seeAlso": []
     },
     {
       "type": "class",
@@ -83,7 +98,8 @@
       "replacement": "",
       "since": "",
       "forRemoval": false,
-      "reason": ""
+      "reason": "",
+      "seeAlso": []
     },
     {
       "type": "class",
@@ -91,7 +107,8 @@
       "replacement": "",
       "since": "",
       "forRemoval": false,
-      "reason": ""
+      "reason": "",
+      "seeAlso": []
     },
     {
       "type": "class",
@@ -99,7 +116,8 @@
       "replacement": "",
       "since": "",
       "forRemoval": false,
-      "reason": ""
+      "reason": "",
+      "seeAlso": []
     },
     {
       "type": "field",
@@ -107,7 +125,8 @@
       "replacement": "",
       "since": "",
       "forRemoval": false,
-      "reason": ""
+      "reason": "",
+      "seeAlso": []
     },
     {
       "type": "field",
@@ -115,7 +134,8 @@
       "replacement": "",
       "since": "",
       "forRemoval": false,
-      "reason": ""
+      "reason": "",
+      "seeAlso": []
     },
     {
       "type": "field",
@@ -123,7 +143,8 @@
       "replacement": "",
       "since": "",
       "forRemoval": false,
-      "reason": ""
+      "reason": "",
+      "seeAlso": []
     },
     {
       "type": "field",
@@ -131,7 +152,8 @@
       "replacement": "",
       "since": "",
       "forRemoval": false,
-      "reason": ""
+      "reason": "",
+      "seeAlso": []
     },
     {
       "type": "method",
@@ -139,7 +161,10 @@
       "replacement": "#hasSpotAnim(int)",
       "since": "",
       "forRemoval": false,
-      "reason": ""
+      "reason": "",
+      "seeAlso": [
+        "net.runelite.api.gameval.SpotanimID"
+      ]
     },
     {
       "type": "method",
@@ -147,7 +172,8 @@
       "replacement": "ActorSpotAnim#getHeight()",
       "since": "",
       "forRemoval": false,
-      "reason": ""
+      "reason": "",
+      "seeAlso": []
     },
     {
       "type": "method",
@@ -155,7 +181,8 @@
       "replacement": "ActorSpotAnim#getFrame()",
       "since": "",
       "forRemoval": false,
-      "reason": ""
+      "reason": "",
+      "seeAlso": []
     },
     {
       "type": "method",
@@ -163,7 +190,8 @@
       "replacement": "setAnimationFrame",
       "since": "",
       "forRemoval": false,
-      "reason": ""
+      "reason": "",
+      "seeAlso": []
     },
     {
       "type": "method",
@@ -171,7 +199,10 @@
       "replacement": "#createSpotAnim(int",
       "since": "",
       "forRemoval": false,
-      "reason": ""
+      "reason": "",
+      "seeAlso": [
+        "net.runelite.api.gameval.SpotanimID"
+      ]
     },
     {
       "type": "method",
@@ -179,7 +210,8 @@
       "replacement": "ActorSpotAnim#setHeight(int)",
       "since": "",
       "forRemoval": false,
-      "reason": ""
+      "reason": "",
+      "seeAlso": []
     },
     {
       "type": "method",
@@ -187,15 +219,20 @@
       "replacement": "ActorSpotAnim#setFrame(int)",
       "since": "",
       "forRemoval": false,
-      "reason": ""
+      "reason": "",
+      "seeAlso": []
     },
     {
       "type": "method",
       "name": "net.runelite.api.Client#createMenuEntry(int)",
-      "replacement": "#getMenu()",
+      "replacement": "getMenu()",
       "since": "",
       "forRemoval": false,
-      "reason": ""
+      "reason": "",
+      "seeAlso": [
+        "getMenu()",
+        "Menu#createMenuEntry(int)"
+      ]
     },
     {
       "type": "method",
@@ -203,7 +240,8 @@
       "replacement": "",
       "since": "",
       "forRemoval": false,
-      "reason": ""
+      "reason": "",
+      "seeAlso": []
     },
     {
       "type": "method",
@@ -211,7 +249,8 @@
       "replacement": "Varbits#ACCOUNT_TYPE",
       "since": "",
       "forRemoval": false,
-      "reason": ""
+      "reason": "",
+      "seeAlso": []
     },
     {
       "type": "method",
@@ -219,7 +258,10 @@
       "replacement": "net.runelite.api.clan.ClanID",
       "since": "",
       "forRemoval": false,
-      "reason": ""
+      "reason": "",
+      "seeAlso": [
+        "net.runelite.api.clan.ClanID"
+      ]
     },
     {
       "type": "method",
@@ -227,7 +269,10 @@
       "replacement": "WorldView#getBaseX()",
       "since": "",
       "forRemoval": false,
-      "reason": ""
+      "reason": "",
+      "seeAlso": [
+        "WorldView#getBaseX()"
+      ]
     },
     {
       "type": "method",
@@ -235,7 +280,10 @@
       "replacement": "WorldView#getBaseY()",
       "since": "",
       "forRemoval": false,
-      "reason": ""
+      "reason": "",
+      "seeAlso": [
+        "WorldView#getBaseY()"
+      ]
     },
     {
       "type": "method",
@@ -243,7 +291,10 @@
       "replacement": "WorldView#getCollisionMaps()",
       "since": "",
       "forRemoval": false,
-      "reason": ""
+      "reason": "",
+      "seeAlso": [
+        "WorldView#getCollisionMaps()"
+      ]
     },
     {
       "type": "method",
@@ -251,7 +302,10 @@
       "replacement": "WorldView#getGraphicsObjects()",
       "since": "",
       "forRemoval": false,
-      "reason": ""
+      "reason": "",
+      "seeAlso": [
+        "WorldView#getGraphicsObjects()"
+      ]
     },
     {
       "type": "method",
@@ -259,15 +313,23 @@
       "replacement": "Constants#CHUNK_SIZE",
       "since": "",
       "forRemoval": false,
-      "reason": ""
+      "reason": "",
+      "seeAlso": [
+        "Constants#CHUNK_SIZE",
+        "InstanceTemplates",
+        "WorldView#getInstanceTemplateChunks()"
+      ]
     },
     {
       "type": "method",
       "name": "net.runelite.api.Client#getMapAngle()",
-      "replacement": "#getCameraYawTarget()",
+      "replacement": "getCameraYawTarget()",
       "since": "",
       "forRemoval": false,
-      "reason": ""
+      "reason": "",
+      "seeAlso": [
+        "getCameraYawTarget()"
+      ]
     },
     {
       "type": "method",
@@ -275,15 +337,20 @@
       "replacement": "",
       "since": "",
       "forRemoval": false,
-      "reason": ""
+      "reason": "",
+      "seeAlso": []
     },
     {
       "type": "method",
       "name": "net.runelite.api.Client#getMenuEntries()",
-      "replacement": "#getMenu()",
+      "replacement": "getMenu()",
       "since": "",
       "forRemoval": false,
-      "reason": ""
+      "reason": "",
+      "seeAlso": [
+        "getMenu()",
+        "Menu#getMenuEntries()"
+      ]
     },
     {
       "type": "method",
@@ -291,7 +358,10 @@
       "replacement": "Menu#getMenuHeight()",
       "since": "",
       "forRemoval": false,
-      "reason": ""
+      "reason": "",
+      "seeAlso": [
+        "Menu#getMenuHeight()"
+      ]
     },
     {
       "type": "method",
@@ -299,7 +369,10 @@
       "replacement": "Menu#getMenuWidth()",
       "since": "",
       "forRemoval": false,
-      "reason": ""
+      "reason": "",
+      "seeAlso": [
+        "Menu#getMenuWidth()"
+      ]
     },
     {
       "type": "method",
@@ -307,7 +380,10 @@
       "replacement": "Menu#getMenuX()",
       "since": "",
       "forRemoval": false,
-      "reason": ""
+      "reason": "",
+      "seeAlso": [
+        "Menu#getMenuX()"
+      ]
     },
     {
       "type": "method",
@@ -315,7 +391,10 @@
       "replacement": "Menu#getMenuY()",
       "since": "",
       "forRemoval": false,
-      "reason": ""
+      "reason": "",
+      "seeAlso": [
+        "Menu#getMenuY()"
+      ]
     },
     {
       "type": "method",
@@ -323,7 +402,10 @@
       "replacement": "WorldView#npcs()",
       "since": "",
       "forRemoval": false,
-      "reason": ""
+      "reason": "",
+      "seeAlso": [
+        "WorldView#npcs()"
+      ]
     },
     {
       "type": "method",
@@ -331,7 +413,8 @@
       "replacement": "",
       "since": "",
       "forRemoval": false,
-      "reason": ""
+      "reason": "",
+      "seeAlso": []
     },
     {
       "type": "method",
@@ -339,7 +422,8 @@
       "replacement": "",
       "since": "",
       "forRemoval": false,
-      "reason": ""
+      "reason": "",
+      "seeAlso": []
     },
     {
       "type": "method",
@@ -347,7 +431,8 @@
       "replacement": "",
       "since": "",
       "forRemoval": false,
-      "reason": ""
+      "reason": "",
+      "seeAlso": []
     },
     {
       "type": "method",
@@ -355,7 +440,10 @@
       "replacement": "WorldView#getPlane()",
       "since": "",
       "forRemoval": false,
-      "reason": ""
+      "reason": "",
+      "seeAlso": [
+        "WorldView#getPlane()"
+      ]
     },
     {
       "type": "method",
@@ -363,15 +451,21 @@
       "replacement": "WorldView#players()",
       "since": "",
       "forRemoval": false,
-      "reason": ""
+      "reason": "",
+      "seeAlso": [
+        "WorldView#players()"
+      ]
     },
     {
       "type": "method",
       "name": "net.runelite.api.Client#getRenderOverview()",
-      "replacement": "#getWorldMap()",
+      "replacement": "getWorldMap()",
       "since": "",
       "forRemoval": false,
-      "reason": ""
+      "reason": "",
+      "seeAlso": [
+        "getWorldMap()"
+      ]
     },
     {
       "type": "method",
@@ -379,7 +473,10 @@
       "replacement": "WorldView#getScene()",
       "since": "",
       "forRemoval": false,
-      "reason": ""
+      "reason": "",
+      "seeAlso": [
+        "WorldView#getScene()"
+      ]
     },
     {
       "type": "method",
@@ -387,7 +484,10 @@
       "replacement": "WorldView#getSelectedSceneTile()",
       "since": "",
       "forRemoval": false,
-      "reason": ""
+      "reason": "",
+      "seeAlso": [
+        "WorldView#getSelectedSceneTile()"
+      ]
     },
     {
       "type": "method",
@@ -395,7 +495,10 @@
       "replacement": "WorldView#getTileHeights()",
       "since": "",
       "forRemoval": false,
-      "reason": ""
+      "reason": "",
+      "seeAlso": [
+        "WorldView#getTileHeights()"
+      ]
     },
     {
       "type": "method",
@@ -403,7 +506,10 @@
       "replacement": "WorldView#getTileSettings()",
       "since": "",
       "forRemoval": false,
-      "reason": ""
+      "reason": "",
+      "seeAlso": [
+        "WorldView#getTileSettings()"
+      ]
     },
     {
       "type": "method",
@@ -411,7 +517,10 @@
       "replacement": "OAuthApi#getAccountHash()",
       "since": "",
       "forRemoval": false,
-      "reason": ""
+      "reason": "",
+      "seeAlso": [
+        "OAuthApi#getAccountHash()"
+      ]
     },
     {
       "type": "method",
@@ -419,7 +528,10 @@
       "replacement": "Client#getVarbitValue(int)",
       "since": "",
       "forRemoval": false,
-      "reason": ""
+      "reason": "",
+      "seeAlso": [
+        "Client#getVarbitValue(int)"
+      ]
     },
     {
       "type": "method",
@@ -427,7 +539,8 @@
       "replacement": "",
       "since": "",
       "forRemoval": false,
-      "reason": ""
+      "reason": "",
+      "seeAlso": []
     },
     {
       "type": "method",
@@ -435,7 +548,8 @@
       "replacement": "",
       "since": "",
       "forRemoval": false,
-      "reason": ""
+      "reason": "",
+      "seeAlso": []
     },
     {
       "type": "method",
@@ -443,7 +557,10 @@
       "replacement": "WorldView#isInstance()",
       "since": "",
       "forRemoval": false,
-      "reason": ""
+      "reason": "",
+      "seeAlso": [
+        "WorldView#isInstance()"
+      ]
     },
     {
       "type": "method",
@@ -451,7 +568,8 @@
       "replacement": "",
       "since": "",
       "forRemoval": false,
-      "reason": "this method does not properly handle deadeye/eagle eye or mystic vigour/might"
+      "reason": "this method does not properly handle deadeye/eagle eye or mystic vigour/might",
+      "seeAlso": []
     },
     {
       "type": "method",
@@ -459,15 +577,20 @@
       "replacement": "",
       "since": "",
       "forRemoval": false,
-      "reason": ""
+      "reason": "",
+      "seeAlso": []
     },
     {
       "type": "method",
       "name": "net.runelite.api.Client#setMenuEntries(MenuEntry[])",
-      "replacement": "#getMenu()",
+      "replacement": "getMenu()",
       "since": "",
       "forRemoval": false,
-      "reason": ""
+      "reason": "",
+      "seeAlso": [
+        "getMenu()",
+        "Menu#setMenuEntries(MenuEntry[])"
+      ]
     },
     {
       "type": "method",
@@ -475,7 +598,8 @@
       "replacement": "",
       "since": "",
       "forRemoval": false,
-      "reason": ""
+      "reason": "",
+      "seeAlso": []
     },
     {
       "type": "method",
@@ -483,7 +607,8 @@
       "replacement": "",
       "since": "",
       "forRemoval": false,
-      "reason": ""
+      "reason": "",
+      "seeAlso": []
     },
     {
       "type": "method",
@@ -491,15 +616,22 @@
       "replacement": "Client#getSelectedWidget()",
       "since": "",
       "forRemoval": false,
-      "reason": ""
+      "reason": "",
+      "seeAlso": [
+        "Client#getSelectedWidget()",
+        "MenuEntry#getWidget()"
+      ]
     },
     {
       "type": "method",
       "name": "net.runelite.api.Model#calculateExtreme(int)",
-      "replacement": "#getAABB(int)",
+      "replacement": "getAABB(int)",
       "since": "",
       "forRemoval": false,
-      "reason": ""
+      "reason": "",
+      "seeAlso": [
+        "getAABB(int)"
+      ]
     },
     {
       "type": "method",
@@ -507,7 +639,8 @@
       "replacement": "",
       "since": "",
       "forRemoval": false,
-      "reason": ""
+      "reason": "",
+      "seeAlso": []
     },
     {
       "type": "method",
@@ -515,7 +648,8 @@
       "replacement": "getGender",
       "since": "",
       "forRemoval": false,
-      "reason": ""
+      "reason": "",
+      "seeAlso": []
     },
     {
       "type": "method",
@@ -523,7 +657,8 @@
       "replacement": "",
       "since": "",
       "forRemoval": false,
-      "reason": ""
+      "reason": "",
+      "seeAlso": []
     },
     {
       "type": "method",
@@ -531,7 +666,8 @@
       "replacement": "",
       "since": "",
       "forRemoval": false,
-      "reason": ""
+      "reason": "",
+      "seeAlso": []
     },
     {
       "type": "method",
@@ -539,7 +675,8 @@
       "replacement": "",
       "since": "",
       "forRemoval": false,
-      "reason": ""
+      "reason": "",
+      "seeAlso": []
     },
     {
       "type": "method",
@@ -547,7 +684,8 @@
       "replacement": "",
       "since": "",
       "forRemoval": false,
-      "reason": ""
+      "reason": "",
+      "seeAlso": []
     },
     {
       "type": "method",
@@ -555,7 +693,8 @@
       "replacement": "",
       "since": "",
       "forRemoval": false,
-      "reason": ""
+      "reason": "",
+      "seeAlso": []
     },
     {
       "type": "method",
@@ -563,7 +702,8 @@
       "replacement": "",
       "since": "",
       "forRemoval": false,
-      "reason": ""
+      "reason": "",
+      "seeAlso": []
     },
     {
       "type": "method",
@@ -571,7 +711,8 @@
       "replacement": "",
       "since": "",
       "forRemoval": false,
-      "reason": "Use a custom AnimationController instead."
+      "reason": "Use a custom AnimationController instead.",
+      "seeAlso": []
     },
     {
       "type": "method",
@@ -579,7 +720,8 @@
       "replacement": "#getAnimationController",
       "since": "",
       "forRemoval": false,
-      "reason": ""
+      "reason": "",
+      "seeAlso": []
     },
     {
       "type": "method",
@@ -587,7 +729,8 @@
       "replacement": "#getAnimationController",
       "since": "",
       "forRemoval": false,
-      "reason": ""
+      "reason": "",
+      "seeAlso": []
     },
     {
       "type": "method",
@@ -595,7 +738,8 @@
       "replacement": "",
       "since": "",
       "forRemoval": false,
-      "reason": "Use a custom AnimationController instead to despawn the object when it completes its animation."
+      "reason": "Use a custom AnimationController instead to despawn the object when it completes its animation.",
+      "seeAlso": []
     },
     {
       "type": "method",
@@ -603,7 +747,8 @@
       "replacement": "AnimationController#setOnFinished(Consumer)",
       "since": "",
       "forRemoval": false,
-      "reason": ""
+      "reason": "",
+      "seeAlso": []
     },
     {
       "type": "method",
@@ -611,7 +756,8 @@
       "replacement": "",
       "since": "",
       "forRemoval": false,
-      "reason": ""
+      "reason": "",
+      "seeAlso": []
     },
     {
       "type": "method",
@@ -619,7 +765,8 @@
       "replacement": "",
       "since": "",
       "forRemoval": false,
-      "reason": ""
+      "reason": "",
+      "seeAlso": []
     },
     {
       "type": "method",
@@ -627,7 +774,8 @@
       "replacement": "",
       "since": "",
       "forRemoval": false,
-      "reason": ""
+      "reason": "",
+      "seeAlso": []
     },
     {
       "type": "method",
@@ -635,7 +783,8 @@
       "replacement": "",
       "since": "",
       "forRemoval": false,
-      "reason": "public LocalPoint(int x, int y) { this(x, y, -1); } @Nullable public static LocalPoint fromWorld(Cli"
+      "reason": "public LocalPoint(int x, int y) { this(x, y, -1); } @Nullable public static LocalPoint fromWorld(Cli",
+      "seeAlso": []
     },
     {
       "type": "method",
@@ -643,7 +792,8 @@
       "replacement": "",
       "since": "",
       "forRemoval": false,
-      "reason": ""
+      "reason": "",
+      "seeAlso": []
     },
     {
       "type": "method",
@@ -651,7 +801,8 @@
       "replacement": "",
       "since": "",
       "forRemoval": false,
-      "reason": ""
+      "reason": "",
+      "seeAlso": []
     },
     {
       "type": "method",
@@ -659,7 +810,8 @@
       "replacement": "",
       "since": "",
       "forRemoval": false,
-      "reason": ""
+      "reason": "",
+      "seeAlso": []
     },
     {
       "type": "method",
@@ -667,7 +819,8 @@
       "replacement": "",
       "since": "",
       "forRemoval": false,
-      "reason": ""
+      "reason": "",
+      "seeAlso": []
     },
     {
       "type": "method",
@@ -675,7 +828,8 @@
       "replacement": "",
       "since": "",
       "forRemoval": false,
-      "reason": ""
+      "reason": "",
+      "seeAlso": []
     },
     {
       "type": "method",
@@ -683,7 +837,8 @@
       "replacement": "",
       "since": "",
       "forRemoval": false,
-      "reason": ""
+      "reason": "",
+      "seeAlso": []
     },
     {
       "type": "method",
@@ -691,7 +846,8 @@
       "replacement": "",
       "since": "",
       "forRemoval": false,
-      "reason": ""
+      "reason": "",
+      "seeAlso": []
     },
     {
       "type": "method",
@@ -699,7 +855,8 @@
       "replacement": "",
       "since": "",
       "forRemoval": false,
-      "reason": ""
+      "reason": "",
+      "seeAlso": []
     },
     {
       "type": "method",
@@ -707,7 +864,8 @@
       "replacement": "",
       "since": "",
       "forRemoval": false,
-      "reason": ""
+      "reason": "",
+      "seeAlso": []
     },
     {
       "type": "method",
@@ -715,7 +873,8 @@
       "replacement": "",
       "since": "",
       "forRemoval": false,
-      "reason": ""
+      "reason": "",
+      "seeAlso": []
     },
     {
       "type": "method",
@@ -723,7 +882,8 @@
       "replacement": "",
       "since": "",
       "forRemoval": false,
-      "reason": ""
+      "reason": "",
+      "seeAlso": []
     },
     {
       "type": "method",
@@ -731,7 +891,8 @@
       "replacement": "",
       "since": "",
       "forRemoval": false,
-      "reason": ""
+      "reason": "",
+      "seeAlso": []
     },
     {
       "type": "method",
@@ -739,7 +900,8 @@
       "replacement": "",
       "since": "",
       "forRemoval": false,
-      "reason": ""
+      "reason": "",
+      "seeAlso": []
     },
     {
       "type": "method",
@@ -747,7 +909,8 @@
       "replacement": "",
       "since": "",
       "forRemoval": false,
-      "reason": ""
+      "reason": "",
+      "seeAlso": []
     },
     {
       "type": "method",
@@ -755,7 +918,8 @@
       "replacement": "",
       "since": "",
       "forRemoval": false,
-      "reason": ""
+      "reason": "",
+      "seeAlso": []
     },
     {
       "type": "method",
@@ -763,7 +927,8 @@
       "replacement": "",
       "since": "",
       "forRemoval": false,
-      "reason": "public static final int USE_ITEM = 16 << 11; /** Can this widget be used on a widget with the WIDGET"
+      "reason": "public static final int USE_ITEM = 16 << 11; /** Can this widget be used on a widget with the WIDGET",
+      "seeAlso": []
     }
   ]
 }

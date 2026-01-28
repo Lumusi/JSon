@@ -11,7 +11,8 @@
       "replacement": "",
       "since": "2.1.0 - Use Rs2TileObjectQueryable instead",
       "forRemoval": true,
-      "reason": ""
+      "reason": "",
+      "seeAlso": []
     },
     {
       "type": "class",
@@ -19,7 +20,8 @@
       "replacement": "",
       "since": "2.1.0 - Use Rs2TileItemCache/Rs2TileItemQuery instead",
       "forRemoval": true,
-      "reason": ""
+      "reason": "",
+      "seeAlso": []
     },
     {
       "type": "class",
@@ -27,7 +29,8 @@
       "replacement": "",
       "since": "use inventory.rs2item",
       "forRemoval": false,
-      "reason": ""
+      "reason": "",
+      "seeAlso": []
     },
     {
       "type": "class",
@@ -35,7 +38,8 @@
       "replacement": "",
       "since": "2.1.0 - Use Rs2NpcCache/Rs2NpcQuery instead",
       "forRemoval": true,
-      "reason": ""
+      "reason": "",
+      "seeAlso": []
     },
     {
       "type": "class",
@@ -43,7 +47,8 @@
       "replacement": "",
       "since": "",
       "forRemoval": false,
-      "reason": ""
+      "reason": "",
+      "seeAlso": []
     },
     {
       "type": "method",
@@ -51,7 +56,8 @@
       "replacement": "Microbot#getRs2NpcCache().getStream()",
       "since": "2.1.8",
       "forRemoval": true,
-      "reason": ""
+      "reason": "",
+      "seeAlso": []
     },
     {
       "type": "method",
@@ -59,7 +65,8 @@
       "replacement": "Microbot#getRs2PlayerCache().getStream()",
       "since": "2.1.8",
       "forRemoval": true,
-      "reason": ""
+      "reason": "",
+      "seeAlso": []
     },
     {
       "type": "method",
@@ -67,7 +74,8 @@
       "replacement": "Microbot#getRs2TileItemCache().getStream()",
       "since": "2.1.8",
       "forRemoval": true,
-      "reason": ""
+      "reason": "",
+      "seeAlso": []
     },
     {
       "type": "method",
@@ -75,7 +83,8 @@
       "replacement": "Microbot#getRs2TileObjectCache().getStream()",
       "since": "2.1.8",
       "forRemoval": true,
-      "reason": ""
+      "reason": "",
+      "seeAlso": []
     },
     {
       "type": "method",
@@ -83,7 +92,8 @@
       "replacement": "",
       "since": "1.6.2 - Add Restrictions to restrictions.tsv",
       "forRemoval": true,
-      "reason": ""
+      "reason": "",
+      "seeAlso": []
     },
     {
       "type": "method",
@@ -91,7 +101,8 @@
       "replacement": "getBankItems()",
       "since": "",
       "forRemoval": false,
-      "reason": ""
+      "reason": "",
+      "seeAlso": []
     },
     {
       "type": "method",
@@ -99,7 +110,8 @@
       "replacement": "",
       "since": "use setAutoRetaliate",
       "forRemoval": false,
-      "reason": ""
+      "reason": "",
+      "seeAlso": []
     },
     {
       "type": "method",
@@ -107,7 +119,8 @@
       "replacement": "",
       "since": "",
       "forRemoval": false,
-      "reason": ""
+      "reason": "",
+      "seeAlso": []
     },
     {
       "type": "method",
@@ -115,7 +128,8 @@
       "replacement": "",
       "since": "",
       "forRemoval": false,
-      "reason": ""
+      "reason": "",
+      "seeAlso": []
     },
     {
       "type": "method",
@@ -123,7 +137,13 @@
       "replacement": "Tile#getGameObjects()",
       "since": "",
       "forRemoval": false,
-      "reason": ""
+      "reason": "",
+      "seeAlso": [
+        "Tile#getGameObjects()",
+        "Tile#getGroundObject()",
+        "Tile#getDecorativeObject()",
+        "Tile#getWallObject()"
+      ]
     },
     {
       "type": "method",
@@ -131,7 +151,8 @@
       "replacement": "",
       "since": "",
       "forRemoval": false,
-      "reason": ""
+      "reason": "",
+      "seeAlso": []
     },
     {
       "type": "method",
@@ -139,7 +160,8 @@
       "replacement": "",
       "since": "",
       "forRemoval": false,
-      "reason": ""
+      "reason": "",
+      "seeAlso": []
     },
     {
       "type": "method",
@@ -147,7 +169,8 @@
       "replacement": "",
       "since": "",
       "forRemoval": false,
-      "reason": ""
+      "reason": "",
+      "seeAlso": []
     },
     {
       "type": "method",
@@ -155,7 +178,8 @@
       "replacement": "",
       "since": "",
       "forRemoval": false,
-      "reason": ""
+      "reason": "",
+      "seeAlso": []
     },
     {
       "type": "method",
@@ -163,7 +187,8 @@
       "replacement": "",
       "since": "",
       "forRemoval": false,
-      "reason": ""
+      "reason": "",
+      "seeAlso": []
     },
     {
       "type": "method",
@@ -171,7 +196,8 @@
       "replacement": "",
       "since": "",
       "forRemoval": false,
-      "reason": ""
+      "reason": "",
+      "seeAlso": []
     },
     {
       "type": "method",
@@ -179,7 +205,8 @@
       "replacement": "",
       "since": "",
       "forRemoval": false,
-      "reason": ""
+      "reason": "",
+      "seeAlso": []
     },
     {
       "type": "method",
@@ -187,7 +214,8 @@
       "replacement": "",
       "since": "",
       "forRemoval": false,
-      "reason": ""
+      "reason": "",
+      "seeAlso": []
     },
     {
       "type": "method",
@@ -195,7 +223,8 @@
       "replacement": "",
       "since": "",
       "forRemoval": false,
-      "reason": ""
+      "reason": "",
+      "seeAlso": []
     },
     {
       "type": "method",
@@ -203,7 +232,8 @@
       "replacement": "",
       "since": "",
       "forRemoval": false,
-      "reason": ""
+      "reason": "",
+      "seeAlso": []
     },
     {
       "type": "method",
@@ -211,7 +241,8 @@
       "replacement": "",
       "since": "",
       "forRemoval": false,
-      "reason": ""
+      "reason": "",
+      "seeAlso": []
     },
     {
       "type": "method",
@@ -219,7 +250,8 @@
       "replacement": "",
       "since": "",
       "forRemoval": false,
-      "reason": ""
+      "reason": "",
+      "seeAlso": []
     },
     {
       "type": "method",
@@ -227,7 +259,8 @@
       "replacement": "",
       "since": "",
       "forRemoval": false,
-      "reason": ""
+      "reason": "",
+      "seeAlso": []
     },
     {
       "type": "method",
@@ -235,7 +268,8 @@
       "replacement": "",
       "since": "Use dropAll",
       "forRemoval": false,
-      "reason": ""
+      "reason": "",
+      "seeAlso": []
     },
     {
       "type": "method",
@@ -243,7 +277,8 @@
       "replacement": "",
       "since": "Use wield",
       "forRemoval": false,
-      "reason": ""
+      "reason": "",
+      "seeAlso": []
     },
     {
       "type": "method",
@@ -251,7 +286,8 @@
       "replacement": "",
       "since": "Use emptySlotCount",
       "forRemoval": false,
-      "reason": ""
+      "reason": "",
+      "seeAlso": []
     },
     {
       "type": "method",
@@ -259,7 +295,8 @@
       "replacement": "",
       "since": "1.8.6",
       "forRemoval": true,
-      "reason": "since 1.8.6, forRemoval = true #useItemOnNpc(int, Rs2NpcModel)"
+      "reason": "since 1.8.6, forRemoval = true #useItemOnNpc(int, Rs2NpcModel)",
+      "seeAlso": []
     },
     {
       "type": "method",
@@ -267,7 +304,8 @@
       "replacement": "",
       "since": "Use getMissingRunes",
       "forRemoval": false,
-      "reason": ""
+      "reason": "",
+      "seeAlso": []
     },
     {
       "type": "method",
@@ -275,7 +313,8 @@
       "replacement": "#attack(Rs2NpcModel)",
       "since": "1.7.2",
       "forRemoval": true,
-      "reason": ""
+      "reason": "",
+      "seeAlso": []
     },
     {
       "type": "method",
@@ -283,7 +322,8 @@
       "replacement": "#canWalkTo(Rs2NpcModel",
       "since": "1.7.2",
       "forRemoval": true,
-      "reason": ""
+      "reason": "",
+      "seeAlso": []
     },
     {
       "type": "method",
@@ -291,7 +331,8 @@
       "replacement": "#getNpcsForPlayer(Predicate)",
       "since": "1.7.2",
       "forRemoval": true,
-      "reason": ""
+      "reason": "",
+      "seeAlso": []
     },
     {
       "type": "method",
@@ -299,7 +340,8 @@
       "replacement": "Rs2NpcModel#getWorldLocation()",
       "since": "1.7.2",
       "forRemoval": true,
-      "reason": ""
+      "reason": "",
+      "seeAlso": []
     },
     {
       "type": "method",
@@ -307,7 +349,8 @@
       "replacement": "Rs2NpcModel#getWorldLocation()",
       "since": "1.7.2",
       "forRemoval": true,
-      "reason": ""
+      "reason": "",
+      "seeAlso": []
     },
     {
       "type": "method",
@@ -315,7 +358,8 @@
       "replacement": "#hasLineOfSight(Rs2NpcModel)",
       "since": "1.7.2",
       "forRemoval": true,
-      "reason": ""
+      "reason": "",
+      "seeAlso": []
     },
     {
       "type": "method",
@@ -323,7 +367,8 @@
       "replacement": "#interact(Rs2NpcModel)",
       "since": "1.7.2",
       "forRemoval": true,
-      "reason": ""
+      "reason": "",
+      "seeAlso": []
     },
     {
       "type": "method",
@@ -331,7 +376,8 @@
       "replacement": "#interact(Rs2NpcModel",
       "since": "1.7.2",
       "forRemoval": true,
-      "reason": ""
+      "reason": "",
+      "seeAlso": []
     },
     {
       "type": "method",
@@ -339,7 +385,8 @@
       "replacement": "#validateInteractable(Rs2NpcModel)",
       "since": "1.7.2",
       "forRemoval": true,
-      "reason": ""
+      "reason": "",
+      "seeAlso": []
     },
     {
       "type": "method",
@@ -347,7 +394,8 @@
       "replacement": "",
       "since": "2.1.0 - Use Rs2PlayerCache/Rs2PlayerQueryable",
       "forRemoval": true,
-      "reason": ""
+      "reason": "",
+      "seeAlso": []
     },
     {
       "type": "method",
@@ -355,7 +403,8 @@
       "replacement": "",
       "since": "2.1.0 - Use Rs2PlayerCache/Rs2PlayerQueryable",
       "forRemoval": true,
-      "reason": ""
+      "reason": "",
+      "seeAlso": []
     },
     {
       "type": "method",
@@ -363,7 +412,8 @@
       "replacement": "",
       "since": "2.1.0 - Use Rs2PlayerCache/Rs2PlayerQueryable",
       "forRemoval": true,
-      "reason": ""
+      "reason": "",
+      "seeAlso": []
     },
     {
       "type": "method",
@@ -371,7 +421,8 @@
       "replacement": "",
       "since": "2.1.0 - Use Rs2PlayerCache/Rs2PlayerQueryable",
       "forRemoval": true,
-      "reason": ""
+      "reason": "",
+      "seeAlso": []
     },
     {
       "type": "method",
@@ -379,7 +430,8 @@
       "replacement": "",
       "since": "2.1.0 - Use Rs2PlayerCache/Rs2PlayerQueryable",
       "forRemoval": true,
-      "reason": ""
+      "reason": "",
+      "seeAlso": []
     },
     {
       "type": "method",
@@ -387,7 +439,8 @@
       "replacement": "",
       "since": "Use switchTo",
       "forRemoval": false,
-      "reason": ""
+      "reason": "",
+      "seeAlso": []
     },
     {
       "type": "method",
@@ -395,7 +448,8 @@
       "replacement": "",
       "since": "Use switchTo",
       "forRemoval": false,
-      "reason": ""
+      "reason": "",
+      "seeAlso": []
     },
     {
       "type": "method",
@@ -403,7 +457,8 @@
       "replacement": "",
       "since": "Use switchTo",
       "forRemoval": false,
-      "reason": ""
+      "reason": "",
+      "seeAlso": []
     },
     {
       "type": "method",
@@ -411,7 +466,8 @@
       "replacement": "",
       "since": "Use switchTo",
       "forRemoval": false,
-      "reason": ""
+      "reason": "",
+      "seeAlso": []
     },
     {
       "type": "method",
@@ -419,7 +475,8 @@
       "replacement": "",
       "since": "Use switchTo",
       "forRemoval": false,
-      "reason": ""
+      "reason": "",
+      "seeAlso": []
     },
     {
       "type": "method",
@@ -427,7 +484,8 @@
       "replacement": "",
       "since": "Use switchTo",
       "forRemoval": false,
-      "reason": ""
+      "reason": "",
+      "seeAlso": []
     },
     {
       "type": "method",
@@ -435,7 +493,8 @@
       "replacement": "",
       "since": "Use switchTo",
       "forRemoval": false,
-      "reason": ""
+      "reason": "",
+      "seeAlso": []
     },
     {
       "type": "method",
@@ -443,7 +502,8 @@
       "replacement": "",
       "since": "Use switchTo",
       "forRemoval": false,
-      "reason": ""
+      "reason": "",
+      "seeAlso": []
     },
     {
       "type": "method",
@@ -451,7 +511,8 @@
       "replacement": "",
       "since": "Use switchTo",
       "forRemoval": false,
-      "reason": ""
+      "reason": "",
+      "seeAlso": []
     },
     {
       "type": "method",
@@ -459,7 +520,8 @@
       "replacement": "",
       "since": "Use switchTo",
       "forRemoval": false,
-      "reason": ""
+      "reason": "",
+      "seeAlso": []
     },
     {
       "type": "method",
@@ -467,7 +529,8 @@
       "replacement": "",
       "since": "Use switchTo",
       "forRemoval": false,
-      "reason": ""
+      "reason": "",
+      "seeAlso": []
     },
     {
       "type": "method",
@@ -475,7 +538,8 @@
       "replacement": "",
       "since": "Use switchTo",
       "forRemoval": false,
-      "reason": ""
+      "reason": "",
+      "seeAlso": []
     },
     {
       "type": "method",
@@ -483,7 +547,8 @@
       "replacement": "",
       "since": "Use switchTo",
       "forRemoval": false,
-      "reason": ""
+      "reason": "",
+      "seeAlso": []
     },
     {
       "type": "method",
@@ -491,7 +556,8 @@
       "replacement": "",
       "since": "Use switchTo",
       "forRemoval": false,
-      "reason": ""
+      "reason": "",
+      "seeAlso": []
     }
   ]
 }
